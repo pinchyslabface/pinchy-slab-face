@@ -1,6 +1,8 @@
 .DS_Store
 .env
 .env.*
+.pbo.pid
+.pbo.port
 node_modules/
 dist/
 build/
@@ -8,3 +10,5 @@ coverage/
 .cache/
 .idea/
 .vscode/
+logs/
+venv-pbo/
