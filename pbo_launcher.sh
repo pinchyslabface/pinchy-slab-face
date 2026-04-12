@@ -33,7 +33,11 @@ while nc -z 127.0.0.1 "$PORT" 2>/dev/null; do
 done
 
 mkdir -p logs
-nohup "$PWD/venv-pbo/bin/python3" "$PWD/pbo_app/app.py" --port "$PORT" > "$PWD/logs/pbo.log" 2>&1 < /dev/null &
+if command -v setsid >/dev/null 2>&1; then
+  setsid "$PWD/venv-pbo/bin/python3" "$PWD/pbo_app/app.py" --port "$PORT" > "$PWD/logs/pbo.log" 2>&1 < /dev/null &
+else
+  nohup "$PWD/venv-pbo/bin/python3" "$PWD/pbo_app/app.py" --port "$PORT" > "$PWD/logs/pbo.log" 2>&1 < /dev/null &
+fi
 SERVER_PID=$!
 echo "$SERVER_PID" > "$PID_FILE"
 echo "$PORT" > "$PORT_FILE"

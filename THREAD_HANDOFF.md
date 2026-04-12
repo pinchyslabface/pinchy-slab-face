@@ -39,6 +39,7 @@ For project management, the current working model is:
 - the PSF PM layer should keep the same core TBO-style views: dashboard, board, backlog, initiatives, milestones, project status, and WBS
 - the runnable local skills now exist as `psf-pbo`, `psf-pbo-promoter`, and `psf-pbo-launch-deck`
 - the current dashboard scaffold lives under `psf-dashboard/`
+- the runnable local PSF planning app now lives under `pbo_app/` and launches from `./run_pbo`
 - the PBO metadata should be plain-English and non-technical
 - initiative-level ingest prompts should be used when a fresh Codex chat needs to continue work
 - the handoff packet should be a short copy/paste block that links the repo docs and the open questions

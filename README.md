@@ -54,3 +54,37 @@ The original planning notes are preserved as `.txt` files in [`source_notes/`](.
 List first.
 Platform second.
 Products later.
+## PSF PBO App
+
+The local planning app for PSF now launches from this repo in the same general style as the local TBO flow.
+
+Use:
+
+```bash
+./run_pbo
+```
+
+That launcher:
+
+- creates or reuses `venv-pbo`
+- installs the light Python dependencies
+- starts the local PBO server
+- opens the browser to the local app URL
+
+Stop it with:
+
+```bash
+./stop_pbo
+```
+
+The app reads the current repo docs directly and gives you these views:
+
+- dashboard
+- board
+- backlog
+- initiatives
+- milestones
+- project status
+- WBS
+
+The repo docs are still the source of truth. The app is the readable local surface on top.

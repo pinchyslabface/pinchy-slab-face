@@ -6,6 +6,8 @@ This page is the quick map for the PSF repo.
 
 - [`MASTER_PLAN.md`](./MASTER_PLAN.md) - top-level PSF direction and decision log
 - [`PBO_PLAN.md`](./PBO_PLAN.md) - project management and orchestration
+- [`run_pbo`](./run_pbo) - local launcher for the PSF planning app
+- [`stop_pbo`](./stop_pbo) - stop the local PSF planning app
 
 ## Boundary / Framework Docs
 
@@ -14,6 +16,7 @@ This page is the quick map for the PSF repo.
 - [`TBO_ADAPTATION.md`](./TBO_ADAPTATION.md) - framework adaptation notes
 - [`PBO_DASHBOARD.md`](./PBO_DASHBOARD.md) - PSF project view and reading order
 - [`PBO_APP_SPEC.md`](./PBO_APP_SPEC.md) - app-shaped dashboard scaffold and tab structure
+- [`pbo_app/`](./pbo_app) - local browser app that reads the PSF planning docs directly
 - [`PBO_SKILLS.md`](./PBO_SKILLS.md) - PSF-local equivalents of the TBO skill behavior
 - [`PBO_INITIAL_INGEST.md`](./PBO_INITIAL_INGEST.md) - first seeded PBO plan and queue
 - [`initiative_handoffs/`](./initiative_handoffs) - copy/paste packets for picking up real initiatives in a fresh chat

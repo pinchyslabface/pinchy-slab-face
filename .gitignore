@@ -3,6 +3,7 @@
 .env.*
 .pbo.pid
 .pbo.port
+.pbo-test.pid
 node_modules/
 dist/
 build/
