@@ -1,0 +1,88 @@
+# Indoor Climbing Events Platform – Production-Ready Spec (v2)
+
+---
+
+## 1. Project Overview
+
+A centralized platform for discovering indoor climbing gym events across Australia.
+
+**Mission:**  
+Make it effortless for climbers to **discover relevant events in their city** and for gyms to **increase event participation**.
+
+**Core Insight:**  
+Event information is fragmented across gym websites and social media (primarily Instagram). There is no single, reliable source of truth.
+
+**Approach:**  
+Start as a **lean aggregation + distribution engine** (social + email), build an audience, then evolve into a structured platform.
+
+---
+
+## 2. Core Product vs Supporting Features
+
+### 🟢 Core Product (Non-Negotiable)
+
+**Value Proposition:**  
+> “Never miss a climbing event in your city.”
+
+**Core Functions:**
+- Aggregate events from all gyms
+- Normalize and structure event data
+- Distribute via:
+  - Instagram (discovery)
+  - Email (retention, segmentation)
+
+**Primary Users:**
+- Climbers (end users)
+- Gyms (event providers)
+
+---
+
+### 🟡 Supporting Features (Growth & Engagement)
+
+These accelerate growth but are not the product itself:
+
+- Monthly giveaways
+- User-generated content (UGC)
+- Event recaps / highlights
+- Influencer / climber amplification
+- Hashtag strategy
+- Gym spotlights
+- Community reposts
+
+---
+
+## 3. MVP Scope (Phase 1)
+
+### Goal
+
+Validate:
+- Demand for centralized event discovery
+- Ability to grow audience
+- Gym willingness to participate
+
+---
+
+### Included
+
+- Instagram account (primary channel)
+- Landing page (email capture)
+- Email newsletter (state segmented)
+- Google Form (event submission)
+- Google Sheets (event database)
+- Manual + semi-automated aggregation
+
+---
+
+### Excluded
+
+- Full website
+- User accounts
+- Advanced filtering/search
+- Mobile app
+- Monetization features
+
+---
+
+## 4. System Architecture (MVP)
+
+### High-Level Flow

@@ -1,0 +1,44 @@
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+nav {
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+  flex-wrap: wrap;
+}
+
+main {
+  padding: 16px;
+}
+
+section {
+  margin: 16px 0;
+}
+
+button {
+  border: 1px solid #111;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+}
+
+pre {
+  white-space: pre-wrap;
+  background: #f4f4f4;
+  padding: 16px;
+  border-radius: 12px;
+  overflow: auto;
+}

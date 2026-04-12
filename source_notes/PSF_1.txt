@@ -1,0 +1,36 @@
+# Project: Pinchy Slab Face (Global Climbing Hub)
+**Date:** April 2026
+**Status:** Discovery / Strategy Phase
+
+---
+
+## 1. Executive Summary
+A global-first climbing directory and "Discovery Pass" system. The project solves fragmentation in the climbing community by centralizing events and gym data, monetized through a seasonal pass model and a private-label gear brand (liquid chalk/tape).
+
+## 2. Core Product Pillars
+* **The Global Directory:** Multi-site architecture (`/uk`, `/us`, `/au`) using a rigid hierarchy: Continent > Country > State > City.
+* **The Discovery Pass:** A time-bound pass (e.g., "The London Summer Pass") where users visit 10 gyms for a set fee.
+* **The Prize Pool:** Sponsor-funded rewards. A "Cash Flow" model where revenue is collected upfront and prizes are distributed at the end of the season.
+* **Private Label Flywheel:** Using the prize pool to seed a physical brand (Scented Liquid Chalk, Boar’s Hair Brushes). Winners get samples -> QR codes drive recurring full-price sales.
+
+## 3. Competitive Landscape (UK/US Focus)
+* **The Gap:** Most competitors are either broad "activity finders" or localized blogs. 
+* **Our Edge:** Hyper-focus on "What's On" (events/comps) rather than just static gym addresses. Using AI scraping to maintain real-time accuracy.
+
+## 4. Technical Architecture (The "Codex" Blueprint)
+* **Framework:** Headless CMS (WordPress/Bricks) or Next.js for SEO performance.
+* **Data Scrapers:** Automated monitoring of gym Instagram/Websites via tools like Browse.ai or custom Python scripts.
+* **User Flow:** 1. Purchase Pass -> 2. Digital Logbook (Check-in via Geo-fencing or QR) -> 3. Milestone Rewards (3, 5, 10 gyms) -> 4. Physical Product Fulfillment.
+* **Database Schema:**
+    - `Gym_Profile`: Location, Wall Height, Bouldering/Lead, Pricing, Event_Feed.
+    - `User_Pass`: Activation_Date, Gyms_Visited_Array, Reward_Tier_Status.
+
+## 5. Monetization & Growth
+* **Breakage Revenue:** Profit generated from users who buy the pass but don't visit all 10 gyms.
+* **Sponsorship:** Charging brands for "Volume of Exposure" (e.g., "This milestone brought to you by [Brand]").
+* **Growth Hack:** "Squad Packs" for University clubs and dual-sided referral entries for the Grand Prize.
+
+## 6. Immediate Action Items
+1.  **Alpha Launch:** Select one high-density climbing city (e.g., London or Melbourne).
+2.  **Web-Scraper Setup:** Begin aggregating the "What's On" data for the pilot city.
+3.  **Pitch Deck:** Formalize the "Discovery Pass" logic for gym owners (demonstrating new foot traffic).

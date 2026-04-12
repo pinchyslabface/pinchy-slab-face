@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="summary">
+  <div class="card"><div class="eyebrow">Top Priorities</div><div class="metric">{{ weekly.top_priorities|length }}</div><div class="small">Current weekly focus items</div></div>
+  <div class="card"><div class="eyebrow">Now Queue</div><div class="metric">{{ queue.get('now', [])|length }}</div><div class="small">Items currently in motion</div></div>
+  <div class="card"><div class="eyebrow">Milestone 1 Steps</div><div class="metric">{{ delivery_order|length }}</div><div class="small">Simple launch path</div></div>
+  <div class="card"><div class="eyebrow">Handoff Packets</div><div class="metric">{{ handoff_files|length }}</div><div class="small">Reusable pickup packets</div></div>
+</section>
+
+<div class="grid-2">
+  <section class="panel">
+    <div class="panel-header"><strong>This Week</strong></div>
+    <div class="panel-body">
+      <h3>Top Priorities</h3>
+      <ul class="list">
+        {% for item in weekly.top_priorities %}<li>{{ item }}</li>{% endfor %}
+      </ul>
+      <h3>Lane Next Actions</h3>
+      <ul class="list">
+        {% for lane, action in weekly.lane_actions.items() %}<li><strong>{{ lane }}:</strong> {{ action }}</li>{% endfor %}
+      </ul>
+    </div>
+  </section>
+  <section class="panel">
+    <div class="panel-header"><strong>Pick Up Work</strong></div>
+    <div class="panel-body stack">
+      {% for handoff in handoff_files %}
+      <div class="packet-box">
+        <pre>{{ handoff.packet }}</pre>
+        <div class="packet-actions">
+          <button type="button" onclick='copyPacket({{ handoff.packet|tojson }})'>Copy handoff packet</button>
+          {% if handoff.lane %}<span class="pill">{{ handoff.lane }}</span>{% endif %}
+          <a class="btn secondary" href="/handoffs/{{ handoff.file_name }}" target="_blank">Open file</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
+<div class="grid-2" style="margin-top:18px;">
+  <section class="panel">
+    <div class="panel-header"><strong>Suggested Next Chats</strong></div>
+    <div class="panel-body">
+      <ul class="list">
+        {% for item in suggested_next_chats %}<li>{{ item }}</li>{% endfor %}
+      </ul>
+    </div>
+  </section>
+  <section class="panel">
+    <div class="panel-header"><strong>Likely Gaps To Watch</strong></div>
+    <div class="panel-body">
+      <ul class="list">
+        {% for item in likely_gaps %}<li>{{ item }}</li>{% endfor %}
+      </ul>
+    </div>
+  </section>
+</div>
+{% endblock %}

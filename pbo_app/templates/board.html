@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="panel">
+  <div class="panel-header"><strong>Queue Board</strong></div>
+  <div class="panel-body">
+    <div class="board">
+      {% for status in ["now", "next", "later"] %}
+      <div class="column">
+        <h2>{{ status }}</h2>
+        <div class="stack">
+          {% for item in queue.get(status, []) %}
+          <div class="queue-card">
+            <h3>{{ item.title }}</h3>
+            <div class="queue-meta">
+              <span class="pill">{{ item.owner }}</span>
+              <span class="pill">{{ item.status }}</span>
+            </div>
+            <div><strong>Why:</strong> {{ item.why }}</div>
+            <div style="margin-top:8px;"><strong>Next:</strong> {{ item.next_action }}</div>
+            <div style="margin-top:8px;" class="muted"><strong>Depends on:</strong> {{ item.dependencies }}</div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

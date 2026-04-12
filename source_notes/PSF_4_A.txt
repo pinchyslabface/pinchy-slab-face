@@ -1,0 +1,126 @@
+# Indoor Climbing Events Platform – MVP Project Document
+
+---
+
+## 🧭 Project Overview
+
+Build a **centralised discovery platform for indoor climbing events** (comps, socials, training nights), starting with a **content-first MVP (email newsletter + landing page)** before expanding into a full website.
+
+### Core Hypothesis
+Climbers want a **single, reliable source** to discover local climbing events, and gyms are willing to **contribute and promote** that platform.
+
+---
+
+## 🎯 Core Product vs Secondary Features
+
+### ✅ Core Product (Primary Value Driver)
+- Weekly **“What’s On” email newsletter**
+- Curated list of **climbing events by city/state**
+- Simple **event discovery**
+- Email list with **rich user segmentation (state, skill, etc.)**
+- **Audience monetisation via sponsors**
+
+👉 This is the product. Everything else supports it.
+
+---
+
+### ⚙️ Supporting Features (Growth / Engagement)
+- Landing page with email capture
+- Instagram/social presence
+- Event submission form
+- Climber/gym spotlights
+- Training tips / community content
+- Giveaways
+- Website event archive (later)
+
+---
+
+## 🚀 MVP Scope (Phase 1)
+
+### 🎯 Goal
+Validate demand before building a full platform.
+
+### Components
+
+#### 1. Weekly Email Newsletter
+- Main distribution channel
+- Format:
+  - Featured events (top 3–5)
+  - Events by **day of week**
+  - Grouped by **city/state**
+  - Links to original event pages
+- Optional sections:
+  - Featured gym/event
+  - Climber spotlight
+  - Quick community update
+
+---
+
+#### 2. Landing Page
+- Purpose: **capture emails**
+- Content:
+  - Clear value prop
+  - Signup form (with segmentation)
+  - Social proof (gyms/events included)
+- Tools:
+  - Carrd or WordPress
+
+---
+
+#### 3. Email Capture + Segmentation
+- Fields:
+  - Email
+  - State / City
+  - Optional: skill level, experience, etc.
+- Enables:
+  - Region-specific emails
+  - Future targeting for sponsors
+
+---
+
+#### 4. Social Presence (Instagram-first)
+- Promote events
+- Tag gyms/climbers
+- Drive email signups
+- Encourage sharing
+
+---
+
+#### 5. Event Collection (Manual)
+- Sources:
+  - Gym Instagram pages
+  - Gym websites
+  - Direct outreach
+  - Submission form
+- No automation initially
+
+---
+
+## 🌐 Phase 2: MVP Website (Post-Traction)
+
+Only build once email shows traction.
+
+### Features
+- Event listing (by state/city)
+- “This week” / “This month” filters
+- Event submission form
+- SEO pages (e.g. “Climbing events Melbourne”)
+
+---
+
+## 🧱 Data Model (Simplified)
+
+### Event
+```json
+{
+  "name": "string",
+  "gym": "string",
+  "city": "string",
+  "state": "string",
+  "date_start": "datetime",
+  "date_end": "datetime",
+  "event_type": "comp | social | training | kids",
+  "skill_level": "beginner | intermediate | advanced | open",
+  "link": "url",
+  "instagram_handle": "string"
+}

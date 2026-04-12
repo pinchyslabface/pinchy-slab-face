@@ -1,0 +1,79 @@
+# Project Specification: "CRAG & CANVAS" Streetwear Collection
+
+## 1. Project Overview
+**Objective:** Launch a premium, independent streetwear brand specifically targeting the bouldering and sport climbing subcultures. 
+**Core Value Proposition:** Bridging the gap between technical climbing lingo and quirky, vintage-inspired streetwear aesthetics. The brand avoids "earnest" outdoor tropes in favor of irony, randomness, and "insider" subculture humor.
+
+---
+
+## 2. Product Strategy: Signal vs. Noise
+
+### Core Product (The Value)
+* **The "Vintage Ad" Series:** High-concept graphic tees mimicking 1950s–1980s print advertisements for fictional climbing products.
+* **Subculture Lingo Integration:** Creative use of "Send," "Beta," "Dyno," "Crimp," and "Projecting" without being derivative.
+* **Premium Streetwear Fit:** Heavyweight cotton, boxy/oversized cuts (standard for modern streetwear) rather than slim-fit technical "activewear."
+
+### Supporting Features (Growth & Engagement)
+* **Sticker Packs:** High-margin accessories using the same quirky motifs (e.g., the "Monocled Hand" or "Climbing Yeti").
+* **Community "Beta" Cards:** Small postcards included in orders with nonsensical/funny "beta" for famous world landmarks.
+* **Limited "Drops":** Scarcity-based release model to build brand hype and minimize unsold inventory.
+
+---
+
+## 3. MVP Scope (The "First Ascent" Collection)
+To minimize initial overhead, the launch will focus on five "Hero" designs:
+
+1.  **Grip-Rite Chalk:** Vintage anatomical hand illustration with a monocle.
+2.  **Boulder-Buster Yeti:** 1950s-style "tough-guy" ad featuring a bewildered Yeti.
+3.  **The "Send-It" Unicorn:** A surrealist, high-energy graphic for the "randomness" factor.
+4.  **Crimper Cream:** A parody product label design focused on "Fingers of Steel."
+5.  **Beta Biscuits:** A retro tin-can design playing on the "feeding beta" trope.
+
+---
+
+## 4. Production & Tech Stack Options
+
+### Option A: Print-on-Demand (Low Risk)
+* **Platform:** Printful or Printify integrated with **Shopify**.
+* **Pros:** Zero inventory cost; automated fulfillment.
+* **Cons:** Lower margins; less control over garment quality and custom labeling.
+
+### Option B: Small Batch Local Production (High Quality - Recommended)
+* **Platform:** **Shopify** (Front-end) + **Klaviyo** (Email Marketing).
+* **Production:** Local screen-printing on high-quality blanks (e.g., LA Apparel, Rue Porter).
+* **Pros:** Superior print quality (essential for vintage aesthetics); custom neck labels; higher brand "clout."
+
+---
+
+## 5. Data Model (Product Catalog Structure)
+
+| Entity | Attributes |
+| :--- | :--- |
+| **Product** | ID, Title, Design_Series (e.g., Vintage Ad), Base_Color, Price |
+| **Variant** | SKU, Size (S-XXL), Stock_Level |
+| **Graphic Asset** | Filename, Ink_Colors (Pantone), Placement (Chest/Back/Sleeve) |
+| **Lingo_Tag** | Keyword (e.g., "Dyno", "Pumped") for SEO and Filtering |
+
+---
+
+## 6. Operations & Workflow
+
+1.  **Design Phase:** Finalize vector art -> Apply "Aged/Distressed" textures -> Select Pantone colors.
+2.  **Sampling:** Order test prints to ensure fine lines on "Vintage Ad" text remain legible.
+3.  **Content Capture:** "Street/Crag" lookbook shoot (blurry, lo-fi aesthetic to match the brand).
+4.  **Launch:** Email blast to "Early Access" list -> Social media drop.
+5.  **Fulfillment:** Orders synced from Shopify to shipping station (ShipStation).
+
+---
+
+## 7. Risks & Constraints
+
+* **Niche Saturation:** The climbing apparel market is growing; the "quirky" angle must remain authentic to avoid being "cringe."
+* **Technical Legibility:** Vintage fonts can be thin. Must ensure screen-printing mesh is high enough to capture detail.
+* **Sizing Expectations:** Streetwear buyers prefer specific fits. Clear size charts comparing "Street Fit" vs. "Climbing Fit" are mandatory.
+
+---
+
+## 8. Recommended Approach
+
+**Start with Option B (Small Batch).** Streetwear thrives on the *feel* and weight of the garment. For an independent designer brand, a standard POD tee will lack the premium edge required for high-ticket pricing. Produce **30–50 units per design** on premium heavyweight blanks. Focus marketing heavily on **Instagram and TikTok**, using "Wait for the Drop" countdowns to build a sense of exclusivity and community.

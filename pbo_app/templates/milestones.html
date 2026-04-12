@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="grid-2">
+  <section class="panel">
+    <div class="panel-header"><strong>Milestones</strong></div>
+    <div class="panel-body stack">
+      {% for item in milestones %}
+      <div class="milestone-card">
+        <h3>{{ item.title }}</h3>
+        <div><strong>What this means:</strong> {{ item.meaning }}</div>
+        <div style="margin-top:8px;"><strong>Why it matters:</strong> {{ item.why }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  <section class="panel">
+    <div class="panel-header"><strong>Milestone 1 Delivery Order</strong></div>
+    <div class="panel-body">
+      <ol class="list">
+        {% for item in delivery_order %}<li>{{ item }}</li>{% endfor %}
+      </ol>
+    </div>
+  </section>
+</div>
+{% endblock %}

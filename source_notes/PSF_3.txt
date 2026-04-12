@@ -1,0 +1,153 @@
+
+---
+
+## User Flows
+
+### 1. Signup Flow
+
+1. User lands on page
+2. Enters email
+3. Confirmation page:
+   - “You’re in”
+   - Prompt:
+     - Enter giveaway
+     - Refer friends
+
+---
+
+### 2. Giveaway Flow
+
+1. User signs up
+2. Gets:
+   - Base entry
+3. Encouraged to:
+   - Refer friends → +entries
+   - Follow socials → +entries
+4. Leaderboard / progress (optional)
+
+---
+
+### 3. Referral Loop
+
+1. User receives referral link
+2. Shares link
+3. New user signs up
+4. Referrer gets bonus entries
+
+---
+
+### 4. Newsletter Flow
+
+1. Admin curates weekly events
+2. Sends email
+3. Users:
+   - Read
+   - Click events
+   - Stay engaged
+
+---
+
+## Business Model
+
+### Phase 1 (Growth)
+
+- No direct monetisation
+- All sponsor value → giveaways + offers
+
+---
+
+### Phase 2 (Monetisation)
+
+1. Sponsored placements in newsletter
+2. Featured events
+3. Gym promotions
+4. Affiliate offers
+
+---
+
+### Long-Term
+
+- Paid promotion listings
+- Job board (climbing gyms)
+- Event ticketing integrations
+
+---
+
+## Costs
+
+### Monthly (Approx)
+
+- Email platform: $0–$50 (early)
+- Giveaway tool: $30–$100
+- Landing page hosting: $0–$30
+- Ads (optional): $200–$1000+
+
+---
+
+## Risks
+
+### 1. Cold Start Problem
+- No audience initially
+- Mitigation:
+  - Physical posters in gyms
+  - Direct outreach
+  - Giveaways
+
+---
+
+### 2. Supply of Events
+- Need consistent event data
+- Mitigation:
+  - Manual curation early
+  - Gym partnerships
+
+---
+
+### 3. Low Engagement
+- Emails ignored
+- Mitigation:
+  - Keep it short
+  - Make it genuinely useful
+
+---
+
+### 4. Overcomplication Early
+- Too many features
+- Mitigation:
+  - Focus on:
+    - Newsletter
+    - Giveaway
+
+---
+
+## Recommended Approach
+
+### Step 1 (Week 1–2)
+- Build landing page (simple)
+- Set up email tool
+- Set up Gleam giveaway
+
+### Step 2 (Week 2–4)
+- Launch giveaway
+- Print posters + distribute in gyms
+- Start collecting emails
+
+### Step 3 (Month 2)
+- Send weekly newsletter
+- Refine messaging
+- Add referral optimisation
+
+---
+
+## Key Insight
+
+This is NOT a media business first.
+
+It is:
+> **A distribution engine (email list) powered by convenience + FOMO, grown via incentives and referrals.**
+
+If executed well:
+- The list becomes the asset
+- Monetisation becomes easy later
+
+---

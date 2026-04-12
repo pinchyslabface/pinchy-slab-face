@@ -1,0 +1,14 @@
+#!/bin/bash
+cd "$(dirname "$0")"
+if [ -f ".pbo.pid" ]; then
+  PID=$(cat .pbo.pid 2>/dev/null || true)
+  if [ -n "${PID:-}" ] && ps -p "$PID" >/dev/null 2>&1; then
+    kill "$PID"
+    echo "Stopped PBO server ($PID)"
+  else
+    echo "PBO server is not running"
+  fi
+  rm -f .pbo.pid
+else
+  echo "No PBO pid file found"
+fi

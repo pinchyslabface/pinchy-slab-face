@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="grid-2">
+  <section class="panel">
+    <div class="panel-header"><strong>Ordered Work Breakdown</strong></div>
+    <div class="panel-body">
+      <ol class="list">
+        {% for item in delivery_order %}<li>{{ item }}</li>{% endfor %}
+      </ol>
+    </div>
+  </section>
+  <section class="panel">
+    <div class="panel-header"><strong>Review Checklist</strong></div>
+    <div class="panel-body">
+      {% for heading, items in review_checklist.items() %}
+      <h3>{{ heading }}</h3>
+      <ul class="list">{% for item in items %}<li>{{ item }}</li>{% endfor %}</ul>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}

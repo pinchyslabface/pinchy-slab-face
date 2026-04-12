@@ -1,0 +1,375 @@
+# STRATEGY.md — Indoor Climbing Events Platform
+
+---
+
+## 🧭 Strategic Overview
+
+This project is a **niche media + marketplace foundation**, not just a product.
+
+The goal is to build:
+> A **highly targeted, deeply segmented audience of indoor climbers**, monetised through sponsorships, partnerships, and eventually marketplace dynamics.
+
+---
+
+## 🎯 Core Strategic Insight
+
+> **The email list is the asset. Not the website.**
+
+Everything else (site, socials, tools) exists to:
+- Grow the list
+- Improve segmentation
+- Increase engagement
+- Increase monetisation potential
+
+---
+
+## 💰 Monetisation Strategy (Deep Dive)
+
+### Primary Revenue: Newsletter Sponsorships
+
+#### 📊 CPM Benchmarks
+
+| Audience Type | CPM Range |
+|--------------|----------|
+| General | $10–$30 |
+| Niche (climbing) | $30–$75 |
+| Highly targeted (segmented) | $75–$150+ |
+
+---
+
+### 💵 Revenue Scenarios
+
+#### 10,000 Subscribers
+- $30 CPM → $300 per email
+- $50 CPM → $500 per email
+- Monthly (4 sends): $1,200–$2,000
+
+#### 20,000 Subscribers
+- $600–$1,500 per email
+- Monthly: $2,400–$6,000
+
+#### 30,000 Subscribers
+- $900–$2,250 per email
+- Monthly: $3,600–$9,000+
+
+---
+
+### 🧩 Sponsorship Structure
+
+#### Recommended Model
+
+**Phase 1 (0–10k subs)**
+- 1 sponsor per email
+- Flat fee or early CPM
+
+**Phase 2 (10k–30k)**
+- 1 Primary sponsor
+- 1 Secondary sponsor
+
+**Phase 3 (30k+)**
+- Still max 2 sponsors
+- Increase pricing via segmentation
+
+---
+
+### 📍 Placement Hierarchy
+
+1. **Header / Hero Sponsor**
+   - Highest value
+   - Premium pricing
+
+2. **Native Mid-Content**
+   - High engagement
+   - Feels organic
+
+3. **Footer**
+   - Lower value
+   - Secondary sponsors only
+
+---
+
+### 📦 Packaging Strategy
+
+Instead of selling single placements:
+
+#### Monthly Packages
+- 4 emails (weekly)
+- Instagram mentions
+- Optional website placement
+
+Example:
+- Bronze: Footer placements
+- Silver: Mid-email + social
+- Gold: Exclusive + top placement
+
+---
+
+### 🔒 Premium Levers (Increase CPM)
+
+You can charge more when you offer:
+
+- Geo targeting (e.g. Melbourne climbers only)
+- Skill segmentation (beginner vs advanced)
+- Event-specific targeting
+- Category exclusivity (only 1 shoe brand)
+
+---
+
+## 📈 Growth Strategy
+
+### Phase 1: Scrappy Growth (0–1k subs)
+
+#### Channels
+- Instagram (primary)
+- Gym partnerships
+- Direct outreach
+- Local climbing groups
+
+#### Tactics
+- DM gyms: “We’ll promote your events for free”
+- Tag gyms in every post
+- Encourage resharing
+
+---
+
+### Phase 2: Momentum (1k–10k subs)
+
+- Monthly giveaways
+- Collaborations with gyms
+- Feature climbers with social following
+- Referral loops (share to friends)
+
+---
+
+### Phase 3: Scale (10k+ subs)
+
+- Paid ads (Instagram)
+- SEO via website
+- Partnerships with brands
+- Expansion to other cities
+
+---
+
+## 🧠 Content Strategy
+
+### 🎯 Core Principle
+> Content should make people feel like they’re **“in the loop” locally**
+
+---
+
+### Weekly Email Structure (Optimised)
+
+1. **Hero Section**
+   - Sponsor (or featured event)
+
+2. **🔥 Featured Events**
+   - 2–3 standout events
+
+3. **📅 This Week (By Day)**
+   - Mon–Sun breakdown
+   - Clean + scannable
+
+4. **📍 By Area (Optional)**
+   - If density increases
+
+5. **🧩 Engagement Block (rotate weekly)**
+   - Climber spotlight
+   - Gym spotlight
+   - Training tip
+   - Community update
+
+---
+
+### 🧲 High-Engagement Content Ideas
+
+#### 1. Climber Spotlights
+- Feature local climbers
+- Prefer those with social following
+- Drives sharing + growth
+
+---
+
+#### 2. Gym / Route Setter Spotlights
+- Builds relationships
+- Encourages gyms to promote you
+
+---
+
+#### 3. “What’s New” at Gyms
+- New routes
+- New facilities
+- Changes
+
+---
+
+#### 4. Competitions & Results
+- Who won comps
+- Rankings
+- Photos
+
+---
+
+#### 5. Training Tips
+- Short, actionable
+- Builds habit
+
+---
+
+#### 6. Community Content
+- Photo of the week
+- User submissions
+- Stories
+
+---
+
+#### 7. Giveaways
+- Gear, passes
+- Drives viral growth
+
+---
+
+## 📬 Second Weekly Email Strategy
+
+Only introduce after traction.
+
+### Option A: Mid-Week Reminder
+- “This weekend in climbing”
+- Boost attendance
+
+### Option B: Feature Email
+- Deep dive:
+  - Gym
+  - Climber
+  - Event
+
+### Option C: Last-Minute Events
+- Late additions
+- Urgency-driven opens
+
+---
+
+## 🔁 Growth Loops
+
+### Loop 1: Gym Amplification
+1. You feature gym
+2. Gym shares post/email
+3. Their audience subscribes
+4. More events → more value
+
+---
+
+### Loop 2: Climber Spotlight
+1. Feature climber
+2. Climber shares
+3. Followers join
+4. Repeat
+
+---
+
+### Loop 3: Giveaways
+1. Offer prize
+2. Require share/follow
+3. Grow list + socials
+
+---
+
+## 🧠 Segmentation Strategy (Key Asset)
+
+### Data You Want Over Time
+- Location (state/city)
+- Skill level
+- Experience (years climbing)
+- Age bracket
+- Individual vs family
+
+---
+
+### Why This Matters
+- Higher CPMs
+- Better sponsor targeting
+- More relevant content
+- Higher engagement
+
+---
+
+## ⚠️ Strategic Risks
+
+### 1. Supply Risk
+- Not enough events to sustain weekly emails
+
+**Mitigation:**
+- Include broader content (news, tips, features)
+
+---
+
+### 2. Engagement Risk
+- Emails become repetitive
+
+**Mitigation:**
+- Rotate content blocks
+- Add human stories
+
+---
+
+### 3. Gym Dependency
+- Relying on gyms for data
+
+**Mitigation:**
+- Build direct audience relationship
+
+---
+
+### 4. Overbuilding Too Early
+- Building website before validation
+
+**Mitigation:**
+- Stay email-first
+
+---
+
+## 🚀 Expansion Opportunities
+
+### Geographic
+- Sydney
+- Brisbane
+- Adelaide
+- International later
+
+---
+
+### Product
+- Website directory
+- Event submission platform
+- Mobile app (long-term)
+
+---
+
+### Revenue
+- Featured listings
+- Job boards
+- Affiliate gear sales
+- Coaching / courses
+
+---
+
+## 🧠 Final Strategic Take
+
+This is a **media-first business disguised as a product**.
+
+If you succeed:
+- You own a niche audience
+- You control discovery in the space
+- You become valuable to:
+  - Gyms
+  - Brands
+  - Event organisers
+
+---
+
+## 🔑 Key Principle
+
+> Start as a **newsletter**  
+> Become a **platform**  
+> Monetise like a **media company**
+
+---

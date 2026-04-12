@@ -1,0 +1,245 @@
+# 🧗 Climbing Directory Project (Australia → Global)
+
+## 1. Project Overview
+
+A centralized platform for **indoor climbing gyms and events**, starting in Australia and expanding globally.
+
+### Core Goals:
+- Discover gyms (where / what)
+- Discover events (when)
+- Replace fragmented Instagram discovery
+- Build scalable directory business
+
+---
+
+## 2. Product Breakdown
+
+## 2.1 Core Product (Primary Business)
+
+> ⚠️ This is the monetisable layer
+
+### Gym Directory
+Structured, filterable database of gyms.
+
+#### Fields:
+- Name
+- Location (lat/lng)
+- Facilities (tags)
+- Pricing
+- Opening hours
+- Images
+- Links (site, Instagram)
+
+#### Features:
+- Filtering (location, facilities, price)
+- Map-based discovery
+- SEO landing pages
+
+---
+
+## 2.2 Events Layer (Engagement Engine)
+
+> ⚠️ This drives usage, not revenue (initially)
+
+### Includes:
+- Social nights
+- Competitions
+- League nights
+
+### Purpose:
+- Weekly engagement
+- Email newsletter
+- Habit formation
+
+### Features:
+- Calendar view
+- “What’s on this week”
+- Filters (city, type, date)
+- Add to calendar
+
+---
+
+## 3. MVP Strategy
+
+### Phase 1:
+- Melbourne
+- Sydney
+- Brisbane
+- Adelaide
+
+### Data Collection:
+- Manual entry
+- Instagram monitoring
+- Gym outreach
+
+### Distribution:
+- Instagram reposting
+- Weekly email
+- Simple landing page
+
+---
+
+## 4. Tech Stack Options
+
+## Option A — Smart WordPress (MVP)
+
+### Stack:
+- WordPress
+- Bricks Builder
+- ACF Pro
+
+### Plugins:
+- Events Calendar Pro
+- FacetWP / WP Grid Builder
+- Gravity Forms
+- Google Maps API
+
+### Pros:
+- Fast to launch
+- Low-code
+- Cheap (~$80–$100/mo)
+
+### Cons:
+- Plugin reliance
+- Less scalable
+
+---
+
+## Option B — Headless (Strapi + Next.js)
+
+### Stack:
+- Strapi (CMS)
+- Next.js (frontend)
+- Vercel (hosting)
+
+### Features:
+- Content types for gyms/events
+- Mapbox / Google Maps
+- Algolia filtering
+- React forms
+- SEO via next-seo
+
+### Pros:
+- Scalable
+- Flexible
+- No plugin lock-in
+
+### Cons:
+- Requires dev work
+- Slower MVP
+
+---
+
+## Option C — Hybrid (Recommended)
+
+Start WordPress → migrate later if needed
+
+---
+
+## 5. Data Model
+
+### Gym
+- name
+- location
+- facilities
+- pricing
+- hours
+
+### Event
+- title
+- gym (relation)
+- date
+- recurrence
+- type
+
+---
+
+## 6. User Contributions
+
+### MVP:
+- Form submission
+- Admin approval
+
+### Later:
+- Gym accounts
+
+---
+
+## 7. Key Risks
+
+### ❗ Data Freshness
+- Events going stale kills product
+
+### Solution:
+- Weekly VA (2–3 hrs)
+- Instagram tracking
+
+---
+
+### ❗ Overbuilding
+- Avoid complex tech early
+
+---
+
+### ❗ API Costs
+- Google Maps scaling costs
+
+### Mitigation:
+- Switch to Mapbox later
+
+---
+
+## 8. Costs
+
+### MVP:
+~$80–$100 AUD/month
+
+### With VA:
+~$250–$400 AUD/month
+
+---
+
+## 9. Core Insight
+
+This is NOT a static directory.
+
+This IS:
+→ A **live network of climbing activity**
+
+---
+
+### Model:
+- Directory = SEO
+- Events = engagement
+- Email = retention
+
+---
+
+## 10. Recommended Path
+
+1. Launch WordPress MVP
+2. Focus on Melbourne
+3. Build email list
+4. Validate engagement
+5. THEN scale tech
+
+---
+
+## 11. Expansion
+
+- New Zealand
+- Singapore
+- UK
+- Canada
+- USA
+
+---
+
+## Final Thought
+
+This is not a tech problem.
+
+This is a:
+→ **data consistency + habit problem**
+
+Winner = freshest + most used

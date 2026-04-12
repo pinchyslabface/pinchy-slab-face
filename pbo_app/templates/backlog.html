@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="grid-2">
+  <section class="panel">
+    <div class="panel-header"><strong>Someday Maybe</strong></div>
+    <div class="panel-body">
+      <ul class="list">
+        {% for item in someday_maybe %}<li>{{ item }}</li>{% endfor %}
+      </ul>
+    </div>
+  </section>
+  <section class="panel">
+    <div class="panel-header"><strong>Why It Is Parked</strong></div>
+    <div class="panel-body">
+      <p class="muted">These ideas stay visible, but they are not part of the first launch path. The rule is simple: if it does not help launch, grow signups, or get the first newsletter out, it should stay parked.</p>
+    </div>
+  </section>
+</div>
+{% endblock %}

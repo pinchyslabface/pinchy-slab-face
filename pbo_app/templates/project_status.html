@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="grid-2">
+  <section class="panel">
+    <div class="panel-header"><strong>Weekly Check-In</strong></div>
+    <div class="panel-body">
+      <h3>Top Priorities</h3>
+      <ul class="list">{% for item in weekly.top_priorities %}<li>{{ item }}</li>{% endfor %}</ul>
+      <h3>Blocked</h3>
+      <ul class="list">{% for item in weekly.blocked %}<li>{{ item }}</li>{% endfor %}</ul>
+      <h3>Waiting On</h3>
+      <ul class="list">{% for item in weekly.waiting_on %}<li>{{ item }}</li>{% endfor %}</ul>
+    </div>
+  </section>
+  <section class="panel">
+    <div class="panel-header"><strong>Decisions And Handoff</strong></div>
+    <div class="panel-body">
+      <h3>Decisions Made</h3>
+      <ul class="list">{% for item in weekly.decisions_made %}<li>{{ item }}</li>{% endfor %}</ul>
+      <h3>Handoff Notes</h3>
+      <ul class="list">{% for item in weekly.handoff_notes %}<li>{{ item }}</li>{% endfor %}</ul>
+    </div>
+  </section>
+</div>
+{% endblock %}

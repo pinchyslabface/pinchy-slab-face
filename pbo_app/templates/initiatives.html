@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="grid-3">
+  {% for item in initiatives %}
+  <section class="initiative-card">
+    <h3>{{ item.title }}</h3>
+    <div class="queue-meta">
+      <span class="pill">{{ item.lane }}</span>
+      {% if item.depends_on %}<span class="pill">Depends on: {{ item.depends_on }}</span>{% endif %}
+    </div>
+    <div><strong>Why:</strong> {{ item.why }}</div>
+    <div style="margin-top:8px;"><strong>Outcome:</strong> {{ item.outcome }}</div>
+    <div style="margin-top:8px;"><strong>Done looks like:</strong> {{ item.done }}</div>
+    <div style="margin-top:8px;"><strong>First step:</strong> {{ item.first_step }}</div>
+    <div style="margin-top:8px;" class="muted"><strong>Unlocks:</strong> {{ item.unlocks }}</div>
+  </section>
+  {% endfor %}
+  {% if supporting_initiative %}
+  <section class="initiative-card">
+    <h3>{{ supporting_initiative.title }}</h3>
+    <div class="queue-meta">
+      <span class="pill">{{ supporting_initiative.lane }}</span>
+      <span class="pill">Supporting</span>
+    </div>
+    <div><strong>Why:</strong> {{ supporting_initiative.why }}</div>
+    <div style="margin-top:8px;"><strong>Outcome:</strong> {{ supporting_initiative.outcome }}</div>
+    <div style="margin-top:8px;"><strong>Done looks like:</strong> {{ supporting_initiative.done }}</div>
+    <div style="margin-top:8px;"><strong>First step:</strong> {{ supporting_initiative.first_step }}</div>
+  </section>
+  {% endif %}
+</div>
+{% endblock %}

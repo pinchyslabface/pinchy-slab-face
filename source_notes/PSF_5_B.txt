@@ -1,0 +1,60 @@
+
+---
+
+### Components
+
+#### 1. Data Input
+
+- Google Form (gym submissions)
+- Manual entry (admin)
+- Optional: Instagram scraping (Python)
+
+---
+
+#### 2. Data Storage
+
+- Google Sheets (single source of truth)
+
+Tabs:
+- Events
+- Gyms
+- Subscribers (optional mirror)
+
+---
+
+#### 3. Processing Layer (Manual + Light Automation)
+
+- Review submissions
+- Clean/standardize data
+- Tag by state/city
+- Queue for publishing
+
+---
+
+#### 4. Distribution
+
+- Instagram posts
+- Instagram stories
+- Email newsletters (segmented)
+
+---
+
+## 5. Data Model
+
+### Event
+
+```json
+{
+  "id": "string",
+  "title": "string",
+  "gym_name": "string",
+  "city": "string",
+  "state": "VIC | NSW | QLD | SA | WA | TAS | ACT",
+  "date": "datetime",
+  "description": "string",
+  "event_type": "competition | social | workshop | other",
+  "source": "submission | instagram | manual",
+  "source_link": "string",
+  "image_url": "string",
+  "created_at": "datetime"
+}

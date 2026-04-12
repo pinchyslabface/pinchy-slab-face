@@ -1,0 +1,307 @@
+# 3D-Printed Climbing Products Business – Project Document (v1)
+
+---
+
+## Project Overview
+
+Build a small-scale, high-margin product business using 3D printing to serve the indoor climbing community.
+
+Initial focus:
+- Lightweight, functional accessories
+- Non-safety-critical items (low liability)
+- Products that are easy to iterate and customise
+
+Primary sales channels:
+- Direct-to-consumer (Shopify / Etsy)
+- Local climbing gyms (B2B light wholesale)
+- Community-driven marketing (Instagram, climber network)
+
+---
+
+## Core Product vs Secondary Features
+
+### 🟢 Core Product (Revenue Drivers)
+
+These are the **main products to focus on first**:
+
+1. **Portable Grip Trainers**
+   - Micro hangboards (8–20mm edges)
+   - Crimp blocks / pinch blocks
+   - Clip-on / carabiner compatible
+   - High perceived value, low material cost
+
+2. **Brush Holders & Bag Organisation**
+   - Clip-on brush holders (fits chalk bags / backpacks)
+   - Modular organisers (brush + tape + nail clippers)
+   - Universal fit for different brush sizes
+
+3. **Shoe Deodoriser Inserts**
+   - Ventilated cages / capsules
+   - Refillable (charcoal, silica, baking soda)
+   - Twist-lock or snap-fit designs
+
+👉 These products:
+- Solve real problems
+- Are easy to prototype
+- Have proven demand
+- Are safe to sell (non load-bearing)
+
+---
+
+### 🟡 Secondary Products (Expansion / Engagement)
+
+Nice-to-have or later-stage products:
+
+- Gear organisers (carabiner racks, home storage)
+- Hangboard accessories (phone mounts, spacers)
+- Gym tools (T-nut tools, hold spacers)
+- Climbing-themed gifts (keychains, mini holds)
+- Travel accessories (shoe inserts, compact kits)
+
+👉 These help:
+- Increase AOV (average order value)
+- Build brand identity
+- Expand catalogue
+
+---
+
+## MVP Scope
+
+### Goal
+Launch **3–5 core products** and validate demand quickly.
+
+### Initial Product Set
+
+1. **Micro Hangboard (v1)**
+   - 2–3 edge sizes
+   - Carabiner hole
+   - Optional custom text
+
+2. **Universal Brush Holder (v1)**
+   - Fits 5–15mm handles
+   - Clip or strap mount
+   - Lightweight + durable
+
+3. **Shoe Deodoriser Capsule (v1)**
+   - Twist-open design
+   - Ventilated shell
+   - Refillable
+
+4. *(Optional)* Small organiser clip
+   - Holds brush + tape
+
+---
+
+## Product Design Requirements
+
+### Materials
+- PLA (prototype)
+- PETG (preferred for durability)
+- TPU (optional for flexible elements)
+
+### Print Constraints
+- FDM-friendly
+- Minimal supports
+- Strong layer orientation (critical for grip tools)
+
+### Design Principles
+- Lightweight but strong
+- Simple assembly (ideally no screws)
+- Modular where possible
+- Customisable (names, logos)
+
+---
+
+## Business Model
+
+### Revenue Streams
+
+1. **Direct Sales**
+   - Shopify store
+   - Etsy marketplace
+
+2. **Gym Partnerships**
+   - Wholesale pricing
+   - Custom branded items
+
+3. **Customisation Upsells**
+   - Name engraving
+   - Custom colours
+   - Club / team branding
+
+---
+
+### Pricing Strategy (Indicative)
+
+| Product | Cost (AUD) | Sell Price | Margin |
+|--------|------------|-----------|--------|
+| Micro hangboard | ~$1–2 | $15–30 | High |
+| Brush holder | ~$0.50–1 | $10–20 | Very high |
+| Shoe deodoriser | ~$1 | $10–25 | High |
+
+---
+
+## Tech Stack Options
+
+### Option 1: No-Code / Fast Launch (Recommended for MVP)
+
+- **Shopify** – storefront
+- **Canva** – branding/assets
+- **Google Forms + Sheets** – custom order intake
+- **Instagram / TikTok** – marketing
+
+Pros:
+- Fast to launch
+- Low technical overhead
+
+Cons:
+- Limited flexibility
+
+---
+
+### Option 2: Custom Stack (Later Stage)
+
+- Frontend: React / Next.js
+- Backend: Node.js or headless CMS (e.g. Strapi)
+- Database: PostgreSQL
+
+Use case:
+- Scaling customisation
+- Managing product variants
+- Automating workflows
+
+---
+
+## Data Model (Basic)
+
+### Product
+- id
+- name
+- category (trainer / organiser / deodoriser)
+- material
+- price
+- customisable (boolean)
+
+### Order
+- id
+- customer_name
+- product_id
+- quantity
+- custom_text (optional)
+- status (pending / printing / shipped)
+
+### Inventory (optional early)
+- product_id
+- stock_level
+
+---
+
+## User Flows / Operations
+
+### 1. Customer Purchase Flow
+1. User visits store
+2. Selects product
+3. Adds customisation (optional)
+4. Purchases
+5. Order stored
+
+---
+
+### 2. Production Flow
+1. Review daily orders
+2. Batch prints by product type
+3. Post-process (clean, assemble)
+4. Package
+5. Ship
+
+---
+
+### 3. Gym Sales Flow (Manual MVP)
+1. Approach gym
+2. Show samples
+3. Offer wholesale pricing
+4. Take bulk order
+5. Print + deliver
+
+---
+
+## Costs
+
+### Startup Costs
+- 3D printer (existing or ~$1k–2k)
+- Filament ($30–50 per spool)
+- Packaging (bags, boxes, labels)
+- Shopify subscription (~$40/month)
+
+### Ongoing Costs
+- Filament
+- Shipping
+- Payment fees
+- Marketing (optional ads)
+
+---
+
+## Risks & Constraints
+
+### ⚠️ Product Risks
+- Weak prints (layer failure)
+- Poor ergonomics
+- Competition from existing products
+
+### ⚠️ Business Risks
+- Low demand without brand
+- Copycat products
+- Pricing pressure
+
+### ⚠️ Legal / Safety
+DO NOT SELL:
+- Load-bearing gear (carabiners, anchors)
+- Safety-critical climbing equipment
+
+---
+
+## Key Insights
+
+- Climbers value **small, useful, well-designed tools**
+- Portability and aesthetics matter
+- Customisation is a strong differentiator
+- Community trust is important → leverage local gyms
+
+---
+
+## Recommended Approach
+
+### Phase 1: Validate Fast
+- Design 2–3 products
+- Print prototypes
+- Test with local climbers
+- Iterate quickly
+
+### Phase 2: Soft Launch
+- Launch Etsy or Shopify
+- Post in climbing communities
+- Partner with 1–2 gyms
+
+### Phase 3: Expand
+- Add product variations
+- Introduce bundles
+- Build brand identity
+
+---
+
+## Next Actions
+
+1. Choose **first 2 products** to design
+2. Create **v1 CAD models**
+3. Print + test (strength + usability)
+4. Get feedback from climbers
+5. Refine and launch
+
+---
+
+## Guiding Principle
+
+Start simple:
+> Small, useful, well-designed products → fast iteration → community feedback → scale what works
+
+---
