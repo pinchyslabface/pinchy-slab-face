@@ -4,6 +4,79 @@ This file is for Josiah to open in ChatGPT and use as a guided setup checklist f
 
 The goal is to get him into the correct account, into Codex, and synced with the repo even if he is not a developer.
 
+## Mike's Current Working Setup
+
+Based on the verified setup on Mike's Mac as of April 14, 2026, these are the main tools currently in use.
+
+Use this as the default target setup for Josiah unless there is a good reason to simplify further.
+
+### Core Apps To Match
+
+- Codex app
+  - This appears to be the main active terminal-style AI workspace Mike is using right now.
+- Visual Studio Code
+  - This is installed and is the default app for Markdown and plain-text files on Mike's Mac.
+- Apple Terminal
+  - Mike has Terminal support files and a Bash login shell. Even when Codex is the main work surface, Terminal is still part of the setup.
+- Claude
+  - Installed and active on Mike's Mac. Useful as a secondary AI workspace, but not essential for the first-pass Josiah setup.
+
+### Command-Line Tools And Package Setup
+
+- Bash as the login shell
+  - Mike's configured login shell is `/bin/bash`.
+- Homebrew
+  - Installed at `/opt/homebrew/bin/brew`.
+- Git
+  - Available from the Apple developer tools path.
+- Vim
+  - Mike's shell history shows regular direct editing with `/usr/bin/vim`, including Markdown files.
+- Python 3
+  - Available from `/usr/bin/python3`.
+- pyenv
+  - Installed via Homebrew.
+- pipx
+  - Installed via Homebrew.
+
+### Extra Brew Packages Seen On Mike's Machine
+
+- `cmux`
+- `duti`
+- `claude-code`
+
+These are present on Mike's machine, but they are probably not all required for Josiah on day one.
+
+### What This Suggests For Josiah
+
+For the easiest like-for-like setup, prefer this stack:
+
+- Codex
+- Visual Studio Code
+- Apple Terminal
+- Homebrew
+- Git / Apple Command Line Tools
+
+Optional second wave:
+
+- Claude
+- pyenv
+- pipx
+- `cmux`
+
+### Important Practical Note
+
+Mike's machine shows both VS Code and Vim in real use:
+
+- VS Code looks like the default app for opening `.md` files.
+- Vim is being used directly from the terminal for quick edits.
+
+For Josiah, the simplest matching setup is:
+
+- use VS Code to open and read Markdown files
+- use Codex as the main working environment
+- keep Terminal available for commands
+- only use Vim if he becomes comfortable with it later
+
 ## What This Is
 
 You are helping Josiah Wilson get set up to work on the Pinchy Slab Face project on his Mac laptop.
