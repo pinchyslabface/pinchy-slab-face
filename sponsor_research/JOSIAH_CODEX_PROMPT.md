@@ -3,12 +3,12 @@
 Copy and paste the prompt below into Codex from the repo root.
 
 ```text
-Please continue the sponsor research system in `/Users/Mike/dev/Pinchy Slab Face/sponsor_research`.
+Please continue the sponsor research system in `sponsor_research/`.
 
 Start by reading:
-- `/Users/Mike/dev/Pinchy Slab Face/sponsor_research/JOSIAH_HANDOFF_SPONSOR_RESEARCH.md`
-- `/Users/Mike/dev/Pinchy Slab Face/sponsor_research/COMP_RESEARCH_SYSTEM.md`
-- `/Users/Mike/dev/Pinchy Slab Face/sponsor_research/COMP_DATA_DICTIONARY.md`
+- `sponsor_research/JOSIAH_HANDOFF_SPONSOR_RESEARCH.md`
+- `sponsor_research/COMP_RESEARCH_SYSTEM.md`
+- `sponsor_research/COMP_DATA_DICTIONARY.md`
 
 Then continue the work with this priority:
 1. Expand `hosts.csv` so that multi-location operators have all locations represented where relevant.

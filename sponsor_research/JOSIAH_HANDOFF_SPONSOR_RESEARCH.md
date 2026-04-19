@@ -16,9 +16,9 @@ That file should later map into the dedicated gym CRM through:
 
 ## Current folder
 
-Work from:
+Work from the repo root, then use:
 
-- `/Users/Mike/dev/Pinchy Slab Face/sponsor_research`
+- `sponsor_research/`
 
 Key files:
 
