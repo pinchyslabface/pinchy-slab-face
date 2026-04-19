@@ -1,0 +1,2 @@
+event_sponsor_id,event_id,sponsor_name_raw,sponsor_name_normalized,sponsor_entity_id,sponsor_role,sponsor_category,source_type,source_url,source_excerpt_or_context,brand_or_distributor,confidence,notes
+example_event_sponsor_001,example_event_001,Black Diamond,Black Diamond,sponsor_black_diamond,prize_partner,climbing_gear,host_social,https://example.com/boulderlab-round-2,Logo appears in sponsor tile,brand,medium,Example row only; replace with real researched sponsor appearances

@@ -1,0 +1,2 @@
+sponsor_entity_id,normalized_name,parent_company,local_distributor_or_rep,company_type,sponsor_category,geography_scope,climbing_adjacency,website,contact_email,contact_url,states_seen,event_count,last_seen_date,priority_tier,outreach_status,notes
+sponsor_black_diamond,Black Diamond,,Australian distributor needed,brand,climbing_gear,Global,High,https://blackdiamondequipment.com.au/,,,none,0,,A,not_started,Example normalized sponsor row

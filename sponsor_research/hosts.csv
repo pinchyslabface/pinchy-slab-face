@@ -1,0 +1,52 @@
+host_id,crm_entity_id,host_name,host_type,host_level,state_scope,city_or_region,website,event_page_url,news_or_blog_url,instagram_handle,facebook_url,ticketing_hint,priority_tier,comp_likelihood,gym_crm_overlap,status,notes
+host_sca,,Sport Climbing Australia,association,association,National,Australia,https://sportclimbingaustralia.com.au/,,,sportclimbingaustralia,,Humanitix/Event pages,A,High,No,seeded,National body; likely source for national titles and sanctioned events
+host_scq,,Sport Climbing Queensland,association,association,QLD,Queensland,https://sportclimbingqueensland.com/,,,sportclimbingqueensland,,Humanitix/Event pages,A,High,No,seeded,State body; strong event and partner signal source
+host_scwa,,Sport Climbing WA,association,association,WA,Western Australia,https://www.sportclimbingwa.com.au/,,,sportclimbingwa,,Humanitix/Event pages,A,High,No,seeded,State body; event and sponsor source
+host_scv,,Sport Climbing Victoria,association,association,VIC,Victoria,https://sportclimbingvictoria.org.au/,,,sportclimbingvictoria,,Humanitix/Event pages,A,High,No,seeded,State body; likely state titles and grassroots comps
+host_scnsw,,Sport Climbing NSW,association,association,NSW,New South Wales,https://www.sportclimbingnsw.org.au/,,,sportclimbingnsw,,Humanitix/Event pages,A,High,No,seeded,State body for NSW event discovery
+host_scsa,,Sport Climbing South Australia,association,association,SA,South Australia,https://sportclimbingsa.org.au/,,,sportclimbingsa,,Humanitix/Event pages,A,High,No,seeded,State body for SA event discovery
+host_scact,,Sport Climbing ACT,association,association,ACT,Canberra,https://sportclimbingact.org/,,,sportclimbingact,,Event pages,A,Medium,No,seeded,ACT association and venue reference
+host_climbingqts,,ClimbingQTs,community_org,association,QLD,Queensland,https://climbingqts.com.au/,,,climbingqts,,Community pages,B,Medium,No,seeded,Community org with supporter network and event adjacency
+host_urban_climb,,Urban Climb,gym_operator,operator,Multi-state,Melbourne/Brisbane/Adelaide/Townsville,https://urbanclimb.com.au/,https://urbanclimb.com.au/events/,https://urbanclimb.com.au/blog/,urbanclimbau,,Eventbrite/Humanitix,A,High,Yes,seeded,Major chain with recurring events and member comps
+host_9_degrees,,9 Degrees,gym_operator,operator,NSW|QLD,Sydney/Brisbane,https://www.9degrees.com.au/,https://www.9degrees.com.au/brisbaneevents,,9degreesbouldering,,Website event pages,A,High,Yes,seeded,Known comp/event host
+host_beyond_bouldering,,Beyond Bouldering,gym_operator,operator,SA,Adelaide,https://beyondbouldering.com.au/,,,beyondbouldering,,Website and socials,A,High,Yes,seeded,Frequent local comp host candidate
+host_boulder_lab,,Boulder Lab,gym_operator,operator,VIC,Melbourne,https://boulderlab.com.au/,,,boulderlabclimbing,,Instagram/Eventbrite,A,High,Yes,seeded,User-highlighted; likely multiple venue comps and series
+host_northside_boulders,,Northside Boulders,gym_operator,operator,VIC,Melbourne,https://northsideboulders.com/,,,northsideboulders,,Instagram/Eventbrite,A,High,Yes,seeded,High Melbourne relevance
+host_rocket_climbing,,Rocket Climbing,gym_operator,venue,VIC,Melbourne,https://rocketclimbing.com.au/,,,rocketclimbing,,Instagram/Facebook,A,High,Yes,seeded,User-highlighted; likely comp and social event host
+host_1up_bouldering,,1UP Bouldering,gym_operator,venue,NSW,Sydney,https://www.oneupbouldering.com.au/,,,1upbouldering,,Instagram/Facebook,A,High,Yes,seeded,User-highlighted as Up/1UP comp source
+host_stax_climbing,,Stax Climbing,industry_partner,brand,Australia,Australia,https://staxclimbing.com.au/,,,staxclimbing,,Instagram/Facebook,B,Medium,No,seeded,May appear as comp host partner or routesetting/hold supplier or event co-promoter
+host_blochaus,,BlocHaus,gym_operator,operator,NSW|ACT,Sydney/Canberra,https://www.blochaus.com.au/,,,blochausbouldering,,Instagram/Facebook,B,High,Yes,seeded,Multi-venue bouldering operator
+host_nomad,,NOMAD Bouldering,gym_operator,operator,NSW,Sydney,https://www.nomadbouldering.com.au/,,,nomadbouldering,,Instagram/Facebook,B,High,Yes,seeded,Sydney comp/event host candidate
+host_climb_fit,,Climb Fit,gym_operator,operator,NSW,Sydney,https://www.climbfit.com.au/,,,climbfit,,Website/Facebook,B,High,Yes,seeded,Sydney operator with competition/event potential
+host_pulse_climbing,,Pulse Climbing,gym_operator,operator,NSW,Newcastle/Central Coast,https://pulseclimbing.com.au/,,,pulseclimbing,,Instagram/Facebook,B,Medium,Yes,seeded,Regional NSW operator
+host_hardrock,,Hardrock Climbing,gym_operator,operator,VIC,Melbourne,https://hardrock.com.au/,,,hardrockclimbing,,Instagram/Facebook,B,Medium,Yes,seeded,Melbourne legacy operator
+host_the_crux,,The Crux,gym_operator,venue,VIC,Melbourne,https://www.thecruxclimbing.com.au/,,,thecruxclimbing,,Instagram/Facebook,B,Medium,Yes,seeded,Comp-capable venue
+host_the_lactic_factory,,The Lactic Factory,gym_operator,venue,VIC,Melbourne,https://thelacticfactory.com.au/,,,thelacticfactory,,Instagram/Facebook,B,Medium,Yes,seeded,Melbourne bouldering venue
+host_gravity_worx,,Gravity Worx,gym_operator,venue,VIC,Melbourne,https://gravityworx.com.au/,,,gravityworx,,Instagram/Facebook,B,Medium,Yes,seeded,Melbourne comp-capable venue
+host_flow_climbing,,Flow Climbing,gym_operator,venue,VIC,Melbourne,https://flowclimbing.com.au/,,,flowclimbingmelbourne,,Instagram/Facebook,B,Medium,Yes,seeded,Melbourne venue with possible comp activity
+host_la_roca,,La Roca Boulders,gym_operator,venue,VIC,Melbourne,https://laroca.com.au/,,,larocaboulders,,Instagram/Facebook,B,Medium,Yes,seeded,Melbourne venue
+host_beta_blvd,,Beta Blvd,gym_operator,venue,QLD,Brisbane,https://betablvd.com.au/,,,betablvd,,Instagram/Facebook,B,High,Yes,seeded,Brisbane bouldering venue
+host_crank,,Crank Indoor Climbing,gym_operator,venue,QLD,Brisbane,https://www.crankclimbing.com/,,,crankclimbing,,Instagram/Facebook,B,High,Yes,seeded,Brisbane ropes/mixed venue with comp potential
+host_paramount,,Paramount Adventure Centre,gym_operator,venue,QLD,Brisbane,https://www.paramountsports.com.au/,,,paramountadventurecentre,,Instagram/Facebook,B,Medium,Yes,seeded,Family/youth angle
+host_flow_bouldering_sc,,Flow Bouldering,gym_operator,venue,QLD,Sunshine Coast,https://flowbouldering.com/,,,flowbouldering,,Instagram/Facebook,B,Medium,Yes,seeded,Sunshine Coast venue
+host_rockit_climbing,,Rockit Climbing Gym,gym_operator,venue,QLD,Sunshine Coast,https://www.rockitclimbinggym.com.au/,,,rockitclimbinggym,,Instagram/Facebook,B,Medium,Yes,seeded,Regional venue
+host_urban_xtreme,,Urban Xtreme,venue_operator,venue,QLD,Brisbane,https://www.urban-xtreme.com.au/,,,urbanxtremebrisbane,,Website/Facebook,C,Medium,Yes,seeded,Cross-sport venue with climbing wall/events
+host_alpine_indoor,,Alpine Indoor Climbing,gym_operator,venue,QLD,Toowoomba,https://www.alpineindoorclimbing.com.au/,,,alpineindoorclimbing,,Facebook,C,Medium,Yes,seeded,Regional QLD venue
+host_core_climbing,,Core Climbing,gym_operator,venue,QLD,Brisbane,https://coreclimbing.com.au/,,,coreclimbing,,Instagram/Facebook,B,Medium,Yes,seeded,Brisbane venue
+host_rocksports,,Rocksports,gym_operator,venue,QLD,Townsville,https://www.rocksports.com.au/,,,rocksportstownsville,,Facebook,C,Low,Yes,seeded,Regional venue
+host_wall_walkers,,Wall Walkers,gym_operator,venue,QLD,Hervey Bay,https://www.wallwalkers.com.au/,,,wallwalkersbouldering,,Facebook,C,Low,Yes,seeded,Regional venue
+host_adrenaline_vault,,Adrenaline Vault,gym_operator,operator,WA,Perth,https://www.adrenalinevault.com.au/,,,adrenalinevault,,Instagram/Facebook,B,Medium,Yes,seeded,WA multi-site operator
+host_portside_boulders,,Portside Boulders,gym_operator,operator,WA,Perth,https://www.portsideboulders.com.au/,,,portsideboulders,,Instagram/Facebook,B,High,Yes,seeded,WA bouldering operator
+host_rockface,,Rockface,gym_operator,venue,WA,Perth,https://www.rockface.com.au/,,,rockfaceclimbing,,Facebook,C,Medium,Yes,seeded,WA legacy venue
+host_oasis_climbing,,Oasis Climbing,gym_operator,venue,WA,Perth,https://www.oasisclimbing.com.au/,,,oasisclimbingcentre,,Facebook,C,Medium,Yes,seeded,WA venue
+host_boulder_hub,,The Boulder Hub,gym_operator,venue,WA,Perth,https://www.theboulderhub.com.au/,,,theboulderhub,,Instagram/Facebook,C,Medium,Yes,seeded,WA bouldering venue
+host_urban_jungle,,Urban Jungle IRC,gym_operator,venue,WA,Perth,https://www.urbanjungleirc.com.au/,,,urbanjungleirc,,Facebook,C,Low,Yes,seeded,WA venue
+host_laneway_boulders,,Laneway Boulders,gym_operator,venue,SA,Adelaide,https://lanewayboulders.com.au/,,,lanewayboulders,,Instagram/Facebook,B,High,Yes,seeded,Adelaide bouldering venue
+host_adelaides_bouldering_club,,Adelaide's Bouldering Club,gym_operator,venue,SA,Adelaide,https://www.aboulderclub.com/,,,aboulderclub,,Instagram/Facebook,B,Medium,Yes,seeded,Adelaide venue
+host_mountain_strong,,Mountain Strong,gym_operator,venue,ACT,Canberra,https://www.mountainstrong.com.au/,,,mountainstrong,,Instagram/Facebook,C,Medium,Yes,seeded,Canberra venue
+host_canberra_indoor,,Canberra Indoor Rock Climbing,gym_operator,venue,ACT,Canberra,https://www.canberraclimbing.com.au/,,,canberraindoorrockclimbing,,Facebook,C,Medium,Yes,seeded,Canberra venue
+host_gecko_climb,,Gecko Climb,gym_operator,venue,NT,Darwin,https://geckoclimb.com.au/,,,geckoclimb,,Facebook,C,Low,Yes,seeded,NT venue
+host_rock_it_hobart,,Rock It Climbing Centre,gym_operator,operator,TAS,Hobart,https://www.rockitclimbing.com.au/,,,rockitclimbingcentre,,Facebook,C,Low,Yes,seeded,Tasmanian venue/operator
+host_beta_park,,Beta Park Bouldering,gym_operator,venue,TAS,Hobart,https://betapark.com.au/,,,betaparkbouldering,,Instagram/Facebook,C,Low,Yes,seeded,Tasmanian bouldering venue
+host_vertical_life,,Vertical Life,media,event_brand,Australia,Australia,https://verticallifemag.com.au/,,,verticallifemag,,Editorial and recap pages,B,Medium,No,seeded,May surface comps and sponsors and event recaps
+host_the_crag,,theCrag,platform,event_brand,Australia,Australia,https://www.thecrag.com/,,,thecrag,,Event listings,C,Low,No,seeded,Useful discovery source rather than primary host

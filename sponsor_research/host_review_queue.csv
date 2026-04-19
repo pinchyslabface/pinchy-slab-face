@@ -1,0 +1,13 @@
+queue_order,host_id,host_name,why_now,expected_yield,research_focus,status
+1,host_sca,Sport Climbing Australia,National titles and sanctioned event history,Very high,National comps and official results,queued
+2,host_scv,Sport Climbing Victoria,State comps and Melbourne event density,Very high,Victorian state titles and sanctioned local events,queued
+3,host_scq,Sport Climbing Queensland,Strong comp ecosystem and sponsor overlap potential,Very high,State titles and QLD partner pages,queued
+4,host_scnsw,Sport Climbing NSW,Sydney and statewide coverage gap,High,State titles and sanctioned local events,queued
+5,host_boulder_lab,Boulder Lab,User-highlighted and likely recurring venue comps,High,Website socials and ticketing pages,queued
+6,host_rocket_climbing,Rocket Climbing,User-highlighted Melbourne comp host,High,Instagram and Facebook event history,queued
+7,host_1up_bouldering,1UP Bouldering,User-highlighted Sydney comp host,High,Website socials and ticketing history,queued
+8,host_urban_climb,Urban Climb,Large operator with many event surfaces,High,Events blog venue pages and social recaps,queued
+9,host_9_degrees,9 Degrees,Known comp host with sponsor pages,High,Brisbane and Sydney event pages,queued
+10,host_beyond_bouldering,Beyond Bouldering,Adelaide local comp density,High,Venue socials and blog/event pages,queued
+11,host_northside_boulders,Northside Boulders,Melbourne event density and community relevance,Medium,Social recaps and ticketing links,queued
+12,host_stax_climbing,Stax Climbing,Potential event partner overlap with sponsor extraction,Medium,Sponsor appearances and co-hosted events,queued
