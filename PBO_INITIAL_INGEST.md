@@ -120,7 +120,7 @@ The project is still centered on:
 - status: now
 - owner: Mike
 - why this matters: the project needs a clear path from today into first signups, first issue, and first learnings
-- next action: turn Ballina, the active-market assumption, and the list-growth mechanics into a simple sequence of work
+- next action: turn Ballina, the active-market assumption, and the launch-era promotion system into a simple sequence of work, with the comp and core referral mechanic in place before launch, optional ambassador and sponsor-interest capture live early, and paid testing held back
 - blockers: none
 - dependencies: roadmap, launch, and strategy docs
 
@@ -149,7 +149,7 @@ The project is still centered on:
 - status: next
 - owner: Mike
 - why this matters: the project needs a real-world path to list growth, not just a product concept
-- next action: make the QR flow, comp mechanic, and launch messaging simple enough to execute
+- next action: make the QR flow, comp mechanic, referral prompt, optional second-step profile capture, gym re-share pack, and launch messaging simple enough to execute
 - blockers: none
 - dependencies: launch plan, first-market sequence, and first-send path
 
@@ -158,7 +158,7 @@ The project is still centered on:
 - status: next
 - owner: Mike
 - why this matters: ownership, email, and branding decisions need to stay simple and recoverable
-- next action: keep the completed IP setup recorded, then finish the remaining brand-protection items that improve launch trust and operational clarity
+- next action: use `SOCIAL_HANDLE_PLAN.md` to claim and enrich the Tier 1 public brand handles and the first research accounts, then record the real claimed state in `DOMAIN_AND_EMAIL_SETUP.md`
 - blockers: none
 - dependencies: the boundary docs and current setup decisions
 - done so far:
@@ -167,8 +167,14 @@ The project is still centered on:
   - `founder@pinchyslabface.com` is the main mailbox
   - `hello@`, `ops@`, `gyms@`, and `newsletter@` are set up as aliases
   - Beehiiv is created for the publication
+  - Instagram public account is claimed as `pinchyslabface`
+  - Instagram research account is claimed as `psf_climb`
+  - YouTube public channel is claimed as `@PinchySlabFace`
+  - Bluesky public account is claimed as `pinchyslabface.bsky.social`
 - still to do:
   - reserve or confirm matching social handles where practical
+  - separate public brand handles from research-only handles so event discovery does not depend on personal accounts
+  - enrich the Instagram, YouTube, and Bluesky public profiles plus the Instagram research profile with bios, links, imagery, 2FA, and clear operating roles before scaling further setup
   - finish Beehiiv custom domain wiring when the newsletter is ready for it
   - decide when to claim `pinchyslabface.com.au` through the PSF entity
   - consider the shorter `pinchysf` assets later as a future brand reserve
@@ -261,9 +267,9 @@ The plan should stay this simple unless a real dependency forces more detail.
 
 - best lane: marketing chat
 - why this exists: the project needs a simple way to turn Ballina attention into real subscribers
-- outcome: the QR flow, comp mechanic, sponsor support, and launch messaging are clear enough to run in the real world
-- done looks like: the launch plan is clear enough to run without more back-and-forth
-- first step: turn the Ballina plan into a short execution list with the QR, comp, and sponsor actions
+- outcome: the QR flow, comp mechanic, sponsor support, referral basics, optional ambassador and sponsor-interest capture, organic support, and gym re-share asks are clear enough to run in the real world
+- done looks like: the launch plan is clear enough to run without more back-and-forth, and the team knows which promotion lanes matter now versus later
+- first step: turn the Ballina plan into a short execution list with the QR, comp, referral, organic, optional interest-capture, and gym-support actions
 - depends on: first market and signup flow
 - unlocks: real-world launch execution and signup collection
 
@@ -305,7 +311,7 @@ The plan should stay this simple unless a real dependency forces more detail.
 - why this exists: sender trust and recoverability matter, but they should not become the main project
 - outcome: domains, email, and brand setup that stays simple and recoverable
 - done looks like: the minimum setup needed for launch is settled and clearly documented, including what is done already and what is intentionally still open
-- first step: finish only the setup items that help sender trust and launch clarity
+- first step: finish only the setup items that help sender trust and launch clarity, starting with profile enrichment and the next handle claims
 - depends on: none
 - unlocks: MVP workflow and stack lock
 

@@ -2,26 +2,15 @@
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from flask import Flask, abort, render_template, send_from_directory
+from flask import Flask, Response, abort, jsonify, render_template, send_from_directory
 
-from pbo_app.parser import (
-    parse_delivery_order,
-    parse_handoff_files,
-    parse_initiatives,
-    parse_likely_gaps,
-    parse_milestones,
-    parse_queue,
-    parse_review_checklist,
-    parse_someday_maybe,
-    parse_suggested_next_chats,
-    parse_supporting_initiative,
-    parse_weekly_check_in,
-)
+from pbo_app.state import build_state
 
 ROOT = Path(__file__).resolve().parents[1]
 app = Flask(
@@ -32,22 +21,8 @@ app = Flask(
 
 
 def build_context() -> dict:
-    ingest = ROOT / "PBO_INITIAL_INGEST.md"
-    handoff_dir = ROOT / "initiative_handoffs"
-    return {
-        "project_name": "PSF PBO",
-        "weekly": parse_weekly_check_in(ingest),
-        "queue": parse_queue(ingest),
-        "milestones": parse_milestones(ingest),
-        "delivery_order": parse_delivery_order(ingest),
-        "initiatives": parse_initiatives(ingest),
-        "supporting_initiative": parse_supporting_initiative(ingest),
-        "review_checklist": parse_review_checklist(ingest),
-        "likely_gaps": parse_likely_gaps(ingest),
-        "someday_maybe": parse_someday_maybe(ingest),
-        "suggested_next_chats": parse_suggested_next_chats(ingest),
-        "handoff_files": parse_handoff_files(handoff_dir),
-    }
+    state = build_state(ROOT)
+    return state.to_dict()
 
 
 @app.route("/")
@@ -83,6 +58,31 @@ def project_status():
 @app.route("/wbs")
 def wbs():
     return render_template("wbs.html", active="wbs", **build_context())
+
+
+@app.route("/health")
+def health():
+    state = build_state(ROOT)
+    status = "ok" if not state.errors else "error"
+    return jsonify(
+        {
+            "status": status,
+            "errors": state.errors,
+            "generated_at": state.generated_at,
+            "source_files": state.source_files,
+        }
+    )
+
+
+@app.route("/api/state")
+def api_state():
+    state = build_state(ROOT)
+    status_code = 200 if not state.errors else 500
+    return Response(
+        json.dumps(state.to_dict(), indent=2),
+        status=status_code,
+        mimetype="application/json",
+    )
 
 
 @app.route("/handoffs/<path:name>")

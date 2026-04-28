@@ -48,7 +48,7 @@ for i in $(seq 1 50); do
     echo "ERROR: PBO server exited during startup. Check logs/pbo.log"
     exit 1
   fi
-  if curl -s "http://localhost:$PORT" > /dev/null 2>&1; then
+  if curl -s "http://localhost:$PORT/health" > /dev/null 2>&1; then
     STARTED=true
     break
   fi

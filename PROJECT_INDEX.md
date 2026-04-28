@@ -21,6 +21,7 @@ This page is the quick map for the PSF repo.
 - [`PBO_INITIAL_INGEST.md`](./PBO_INITIAL_INGEST.md) - first seeded PBO plan and queue
 - [`initiative_handoffs/`](./initiative_handoffs) - copy/paste packets for picking up real initiatives in a fresh chat
 - [`initiative_handoffs/basic-tech-setup-working.md`](./initiative_handoffs/basic-tech-setup-working.md) - pickup packet for the tech stack / workflow chat
+- [`initiative_handoffs/launch-promotion-system.md`](./initiative_handoffs/launch-promotion-system.md) - pickup packet for turning launch promotion into executable work
 - [`PSF_CHAT_GUIDE.md`](./PSF_CHAT_GUIDE.md) - which chat handles which lane
 - [`CHAT_PROMPTS.md`](./CHAT_PROMPTS.md) - starter prompts for each chat lane
 
@@ -39,6 +40,8 @@ This page is the quick map for the PSF repo.
 - [`TECH_ROUTE.md`](./TECH_ROUTE.md) - stack direction and workflow shape
 - [`STACK_DECISION.md`](./STACK_DECISION.md) - Beehiiv vs Wix vs BYO recommendation
 - [`psf-dashboard/`](./psf-dashboard) - current dashboard scaffold folder
+- [`sponsor_research/COMP_RESEARCH_SYSTEM.md`](./sponsor_research/COMP_RESEARCH_SYSTEM.md) - AI-assisted host, event, and sponsor discovery workflow
+- [`sponsor_research/COMP_DATA_DICTIONARY.md`](./sponsor_research/COMP_DATA_DICTIONARY.md) - labels and field rules for the research datasets
 
 ## Working / Reference Docs
 
@@ -46,6 +49,7 @@ This page is the quick map for the PSF repo.
 - [`CLEANUP.md`](./CLEANUP.md) - recap of the cleanup pass
 - [`DOMAIN_REGISTRATION.md`](./DOMAIN_REGISTRATION.md) - domain and WHOIS record
 - [`DOMAIN_AND_EMAIL_SETUP.md`](./DOMAIN_AND_EMAIL_SETUP.md) - current PSF domain, email, handle, and brand-protection setup
+- [`SOCIAL_HANDLE_PLAN.md`](./SOCIAL_HANDLE_PLAN.md) - handle registration tracker for public brand and research accounts
 - [`WORKFLOW.md`](./WORKFLOW.md) - how chat decisions get written into the repo
 
 ## Archived Source Notes

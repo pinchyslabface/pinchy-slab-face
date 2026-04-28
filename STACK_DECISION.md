@@ -52,6 +52,7 @@ Useful capabilities for PSF:
 - API access for publications and subscriptions
 - read and update subscriber data
 - tags and custom fields on subscriptions
+- website-builder signup flows and subscribe surveys for optional second-step profile capture
 - segment lookups
 - webhooks for real-time events
 - rate-limited API requests with queue-friendly usage
@@ -63,11 +64,24 @@ Important plan constraints:
 - webhooks are available on paid Scale and above
 - the Send API is Enterprise-only
 
+Current PSF operating assumption:
+
+- plan for Beehiiv Scale at launch, not Launch
+- use one main publication with one sending domain
+- use segments, tags, custom fields, and preference data for city, country, and interest targeting
+- do not assume separate Beehiiv publications for each city unless a later editorial or commercial reason makes that worthwhile
+- keep the data model and content workflow compatible with more sophisticated segmentation later
+
 Practical implication:
 
-- do not make Beehiiv webhook automation a launch blocker
+- Scale is the practical launch tier because PSF expects to use Beehiiv's built-in referral program, automations, and webhooks early
+- keep the main signup and referral loop simple even if some profile questions are deferred to a welcome sequence
+- use one publication as the audience container and treat segmentation as the default path for multi-city and later international expansion
+- architect the subscriber model from day one around stable fields such as city, country, state or region, interests, and preference-center choices
+- keep Postgres as the operational source of truth for richer profile and workflow data even if Beehiiv is the sending layer
+- do not depend on the Send API for launch because Beehiiv reserves that for Enterprise
+- treat webhook-triggered sync, segment updates, and send logging as scale-up features that should be designed cleanly even if some parts begin manually
 - use Beehiiv signup forms and API-supported subscriber sync if it helps, but manual or CSV-based updates are still fine for the first send
-- add webhook or Send API tasks only if the chosen Beehiiv plan supports the workflow we actually want
 
 ## When Wix makes sense
 
@@ -112,6 +126,13 @@ For this project, use:
 - a thin custom layer only when a real gap appears
 - PBO docs and dashboard views for queueing, dependencies, blockers, and handoffs
 
+That recommendation assumes:
+
+- one Beehiiv publication as the main sending surface
+- one branded sending domain for the publication
+- audience segmentation inside that publication for local, national, and later international targeting
+- content assembly that can mix universal blocks, country blocks, and city-specific blocks without requiring a separate product per market
+
 ## Launch-Ready Default
 
 For the first launch cycle, keep the setup deliberately small:
@@ -121,6 +142,8 @@ For the first launch cycle, keep the setup deliberately small:
 - the review surface can be minimal as long as it supports correction and approval
 - manual entry and email intake are the first reliable ingestion paths
 - Instagram, web, and WhatsApp helpers can be added once the basic loop is stable
+- Beehiiv Scale is the expected launch plan so referral, automation, and webhook options are available when we are ready to use them
+- domain authentication and sender setup are treated as launch-critical infrastructure, not later cleanup
 
 If a tool does not help us complete the intake -> review -> send loop before first send, it can wait.
 

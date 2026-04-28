@@ -40,6 +40,7 @@ For project management, the current working model is:
 - the runnable local skills now exist as `psf-pbo`, `psf-pbo-promoter`, and `psf-pbo-launch-deck`
 - the current dashboard scaffold lives under `psf-dashboard/`
 - the runnable local PSF planning app now lives under `pbo_app/` and launches from `./run_pbo`
+- the local planning app now exposes `/health` and `/api/state` so the read surface has a cleaner internal contract
 - the PBO metadata should be plain-English and non-technical
 - initiative-level ingest prompts should be used when a fresh Codex chat needs to continue work
 - the handoff packet should be a short copy/paste block that links the repo docs and the open questions
@@ -64,8 +65,10 @@ The email list is the main asset. The website and richer database are supporting
 
 1. Pressure-test Milestone 1: get ready to launch and send the first newsletter
 2. Use the Milestone 1 review checklist in `PBO_INITIAL_INGEST.md` to spot gaps in launch, promo, signup, send, and review readiness
-3. Use `initiative_handoffs/basic-tech-setup-working.md` to pick up the tech lane, or `initiative_handoffs/first-market-and-signup-flow.md` to pick up the market and signup lane
-4. Refine from real use instead of adding more planning layers
+3. Use `SOCIAL_HANDLE_PLAN.md` to secure the Tier 1 public handles and the first research handles so brand protection and event discovery accounts are no longer loose ends
+4. Use `initiative_handoffs/basic-tech-setup-working.md` to pick up the tech lane, with its split between parked step-by-step tasks and clarify-first initiatives
+5. Use `initiative_handoffs/first-market-and-signup-flow.md` to pick up the market and signup lane, or `initiative_handoffs/launch-promotion-system.md` to turn the launch promotion system into execution work
+6. Refine from real use instead of adding more planning layers
 
 ## Assumptions
 
@@ -80,13 +83,17 @@ The email list is the main asset. The website and richer database are supporting
 - What rule should decide whether Melbourne stays the first newsletter market or another city moves ahead?
 - Which content mix will best drive opens and retention?
 - Which brand name will we use publicly: Pinchy Slab Face, a newsletter name, or both?
+- How much paid social should happen before the organic, referral, and gym loops are proven?
 - Which parts of PBO should stay as docs first versus be turned into tooling later?
+- What is the right subscriber schema and Beehiiv field mapping for segmented sending without overcomplicating launch?
+- How should Beehiiv segmentation, webhooks, and content assembly integrate with the Postgres operating model?
 
 ## Risks
 
 - If event data goes stale, trust drops quickly
 - If the scope expands too early, the project may stall
 - If the first niche is too broad, the messaging may lose clarity
+- If promotion is treated like too many equal-priority channels at once, the team may spread effort too thin before the core signup loop works
 - If PBO becomes heavy or duplicated, the team will spend more time managing the system than moving the project forward
 
 ## Recommended Next Thread Prompt

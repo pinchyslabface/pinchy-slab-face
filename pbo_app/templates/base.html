@@ -45,6 +45,8 @@
     button, .btn { border: 0; border-radius: 999px; background: #203552; color: white; padding: 9px 14px; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block; }
     .btn.secondary { background: #e7dccd; color: #1a2430; }
     .help-note { padding: 12px 14px; border-radius: 12px; background: rgba(255,255,255,0.12); margin-top: 14px; max-width: 860px; }
+    .status-note { margin-top: 12px; font-size: 12px; opacity: 0.88; }
+    .error-banner { margin-bottom: 18px; padding: 12px 14px; border-radius: 12px; background: #fee2e2; color: #7f1d1d; border: 1px solid #fca5a5; }
     @media (max-width: 1100px) { .summary, .grid-3, .grid-4, .board { grid-template-columns: 1fr 1fr; } }
     @media (max-width: 760px) { main { padding: 16px; } .summary, .grid-2, .grid-3, .grid-4, .board { grid-template-columns: 1fr; } }
   </style>
@@ -54,6 +56,7 @@
     <h1 style="margin:0 0 6px;">PSF PBO</h1>
     <div class="hero-note">Local planning tool for Pinchy Slab Face. It reads the repo docs directly, keeps the familiar TBO-style views, and gives you copyable initiative handoffs for new chats.</div>
     <div class="help-note">Working model: use the repo as the source of truth, use this app as the readable project surface, and use handoff packets to move work into the right chat.</div>
+    <div class="status-note">Generated from repo docs at {{ generated_at }}. Health endpoint: <code>/health</code>. Structured state endpoint: <code>/api/state</code>.</div>
     <nav>
       <a href="/" class="{% if active == 'dashboard' %}active{% endif %}">Dashboard</a>
       <a href="/board" class="{% if active == 'board' %}active{% endif %}">Board</a>
@@ -65,6 +68,14 @@
     </nav>
   </header>
   <main>
+    {% if errors %}
+    <div class="error-banner">
+      <strong>PBO parse warning:</strong>
+      <ul class="list">
+        {% for item in errors %}<li>{{ item }}</li>{% endfor %}
+      </ul>
+    </div>
+    {% endif %}
     {% block content %}{% endblock %}
   </main>
   <script>

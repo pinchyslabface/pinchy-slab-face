@@ -1,0 +1,6 @@
+host_person_id,host_id,person_name,role,bio_or_context,instagram_handle,linkedin_url,profile_url,email,source_url,status,notes
+person_rise_daniel_taskis,host_rise_climbing_albury,Daniel Taskis,co_owner,Local co-owner named on the official site and launch coverage.,,,,https://riseclimbing.com.au/,https://riseclimbing.com.au/,verified,Publicly named on the official site.
+person_rise_nicole_taskis,host_rise_climbing_albury,Nicole Taskis,co_owner,Co-owner named on the official site and launch coverage.,,,,https://riseclimbing.com.au/,https://riseclimbing.com.au/,verified,Publicly named on the official site.
+person_hangdog_brett_baker,host_hangdog,Brett Baker,owner,Publicly listed as owner on the official Hangdog team page.,,,,https://hangdog.com.au/about,https://hangdog.com.au/about,verified,Useful independent-gym owner contact lead.
+person_hangdog_matt_mellor,host_hangdog,Matt Mellor,operations_manager,Publicly listed as Operations Manager on the official Hangdog team page.,,,,https://hangdog.com.au/about,https://hangdog.com.au/about,verified,Likely useful operational or events contact lead.
+person_hangdog_jesse_windle,host_hangdog,Jesse Windle,head_setter,Publicly listed as Head Setter on the official Hangdog team page.,,,,https://hangdog.com.au/about,https://hangdog.com.au/about,verified,Useful for comp and route-setting context.

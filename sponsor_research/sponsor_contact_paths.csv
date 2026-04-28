@@ -1,0 +1,31 @@
+sponsor_entity_id,normalized_name,best_au_contact_path,contact_path_owner,contact_path_type,contact_email,confidence,next_best_path,notes
+sponsor_la_sportiva_australia,La Sportiva Australia,Local brand team or AU distributor,La Sportiva Australia,brand_or_distributor_route,,medium,Key retailer path via K2 Base Camp,Best route still needs confirmation from direct AU market pages or event materials.
+sponsor_scarpa_australia,Scarpa Australia,Local brand team or AU rep,Scarpa Australia,brand_or_local_rep,,medium,Retail and service path via Climbing Anchors or Sticky Rubber,Strong activation signal but direct AU commercial contact still needs confirmation.
+sponsor_black_diamond,Black Diamond,Australian distributor or local market rep,Black Diamond,brand_or_distributor_route,,low,Retail validation through Climbing Anchors or Mountain Equipment,Strong brand priority but AU route remains unresolved in current dataset.
+sponsor_sticky_rubber_resoles,Sticky Rubber Resoles,Direct service contact,Sticky Rubber Resoles,direct_service,info@stickyrubberresoles.com,high,Store partner path via Summit Gear or K2 Base Camp,Direct operator route is already clear.
+sponsor_climbing_resoles,Climbing Resoles,Direct service contact,Climbing Resoles,direct_service,climbingresolesaustralia@gmail.com,high,Retail partner path via Mountain Equipment,Direct operator route is already clear.
+sponsor_climbit_physio,Climbit Physio,Direct business contact,Climbit Physio,direct_service,,medium,Practitioner or founder lookup,Strong fit but named contact still needs confirmation.
+sponsor_awesome_woodys,Awesome Woodys,Direct brand contact,Awesome Woodys,direct_brand,info@awesomewoodys.com,high,Retail validation through Climbing Anchors or Wild Earth,Clear direct route.
+sponsor_climbskin,Climbskin,Australian retail route,Wild Earth,retail_route,,medium,Direct brand lookup,Current best visible AU path is retailer-led.
+sponsor_unparallel,Unparallel,Australian distributor,Friction Addiction,distributor,sales@frictionaddiction.com.au,high,Direct brand lookup,Best practical AU route appears to be the regional distributor.
+sponsor_ocun,Ocun,Australian distributor,ALS Trade,distributor,info@alstrade.com.au,high,Direct brand lookup,Best practical AU route appears to be the distributor.
+sponsor_evolv,Evolv,Australian retail route,Wild Earth,retail_route,,medium,Direct brand lookup or other retailer path,In-market path is visible but importer or rep remains unresolved.
+sponsor_tenaya,Tenaya,Australian retail route,Wild Earth or Wall Toys,retail_route,,medium,Direct brand lookup,In-market route is visible but importer or rep remains unresolved.
+sponsor_beastmaker,Beastmaker,Australian retail route,Mountain Equipment or Wall Toys,retail_route,,medium,Direct brand lookup,Best current AU route is retailer-led.
+sponsor_crux_gear,Crux Gear,Direct brand contact,Crux Gear,direct_brand,,medium,Wild Earth retail path,Direct founder route likely available but not yet captured.
+sponsor_redpoint_climbing,Redpoint Climbing,Direct brand contact,Redpoint Climbing,direct_brand,support@redpointclimbing.com.au,high,Stockist-network validation,Clear direct route.
+sponsor_paddy_pallin,Paddy Pallin,Direct retailer contact,Paddy Pallin,direct_retailer,,medium,Store-level or category-buyer lookup,Strong retailer-led sponsor route.
+sponsor_climbing_anchors,Climbing Anchors,Direct retailer or wholesale contact,Climbing Anchors,direct_retailer_or_wholesale,sales@climbinganchors.com,high,Brand-intro route for stocked labels,One of the clearest local commercial paths in the market.
+sponsor_happy_biner,Happy Biner,Direct retailer contact,Happy Biner,direct_retailer,,medium,Category buyer lookup,Clear retailer prospect but named contact still missing.
+sponsor_k2_base_camp,K2 Base Camp,Direct retailer contact,K2 Base Camp,direct_retailer,info@k2.com.au,high,Brand-intro route via stocked categories,Clear retailer route.
+sponsor_the_climbing_shop,The Climbing Shop,Direct retailer contact,The Climbing Shop,direct_retailer,,medium,Brand-intro route for stocked labels,Clear retailer route but named contact still missing.
+sponsor_pinnacle_sports,Pinnacle Sports,Direct retailer contact,Pinnacle Sports,direct_retailer,online@pinnaclesports.com.au,high,Brand-intro route for stocked labels,Clear retailer route.
+sponsor_wall_toys,Wall Toys,Direct retailer contact,Wall Toys,direct_retailer,,medium,Brand-intro route for stocked labels,Clear retailer route but named contact still missing.
+sponsor_friction_addiction,Friction Addiction,Direct distributor contact,Friction Addiction,distributor,sales@frictionaddiction.com.au,high,Distributed brand route via Unparallel,Useful both as sponsor and as a contact-path owner.
+sponsor_als_trade,ALS Trade,Direct distributor contact,ALS Trade,distributor,info@alstrade.com.au,high,Distributed brand route via Ocun,Useful both as sponsor and as a contact-path owner.
+sponsor_spelean,Spelean,Direct distributor contact,Spelean,distributor,sales@spelean.com.au,high,Brand route via Petzl,Strong Petzl access point.
+sponsor_southern_cross_equipment,Southern Cross Equipment,Direct distributor contact,Southern Cross Equipment,distributor,sales@southerncross.net.au,high,Brand routes via DMM and Edelrid,Strong access point for imported hardware brands.
+sponsor_scotty_dog_resoles,Scotty Dog Resoles,Direct service contact,Scotty Dog Resoles,direct_service,scott@scottydog.com.au,high,Retail referral path via K2 Base Camp,Clear direct route.
+sponsor_rubber_styx,Rubber Styx,Direct service contact,Rubber Styx,direct_service,,medium,Local direct lookup,Good fit but named email still missing.
+sponsor_sticky_joes_resoles,Sticky Joe's Resoles,Direct service contact,Sticky Joe's Resoles,direct_service,,medium,Authorised brand validation via La Sportiva,Good fit but named email still missing.
+sponsor_mammut,Mammut,Local ANZ route or direct brand contact,Mammut,brand_or_local_rep,,medium,Retail validation via Wild Earth,Media-familiar brand but local route still needs confirmation.

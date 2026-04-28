@@ -141,6 +141,15 @@ Launch mechanics:
 - comp or giveaway
 - sponsor support for the giveaway
 
+Launch-era promotion priority:
+
+- use Ballina and other field moments as the first real acquisition engine
+- have the comp and core referral mechanic live before launch, because they are part of the launch conversion system rather than later optimization
+- keep organic social and gym support ahead of paid social until the signup flow and offer are proven
+- use a simple referral prompt tied to the comp after signup rather than a complex reward system at first
+- capture ambassador and sponsor interest from the start as an optional second-step or welcome-flow layer
+- keep gym ambassador ideas later until the core loop is proven
+
 ## Monetisation Path
 
 Early monetisation tests:
@@ -164,6 +173,8 @@ Later possibilities:
 - test what people want before overbuilding
 - keep gyms as partners, not just sources
 - use the audience to learn what should come next
+- sequence promotion by stage readiness instead of trying to build every channel at once
+- keep market expansion flexible with "coming soon" positioning and let early signal decide where to lean in next
 
 ## Current Decisions
 
@@ -177,6 +188,9 @@ Later possibilities:
 - global flavour is allowed but secondary
 - scraping helpers can be used if they reduce work
 - a comp/giveaway can be part of ongoing growth
+- the current promotion system has seven connected lanes: launch and field marketing, comp and giveaway engine, referral loop, organic social, individual ambassador and sponsor-interest capture, gym partnerships, and paid social
+- ambassadors should start as a lightweight opt-in layer from day one, with deeper programs held until the core loop is proven
+- gym ambassador ideas are later-stage, while simple gym repost and distribution support can happen earlier
 - beehiiv is the publishing layer
 - GitHub Free is the private repo host
 - Neon Free is the current hosted Postgres default

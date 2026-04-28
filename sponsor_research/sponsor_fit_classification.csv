@@ -1,0 +1,75 @@
+sponsor_entity_id,normalized_name,classification_bucket,primary_audience_path,first_wave_sponsor_fit,include_in_market_map,notes
+sponsor_paddy_pallin,Paddy Pallin,retail_distributor_infrastructure,mixed_climber_and_retail,high,yes,Major retailer with strong repeat event presence and clear climber relevance.
+sponsor_happy_biner,Happy Biner,retail_distributor_infrastructure,climber,high,yes,Climbing-native retailer with strong competition relevance.
+sponsor_black_diamond,Black Diamond,consumer_facing_high_fit,climber,high,yes,Core climbing brand with event and media familiarity.
+sponsor_blue_moose_photos,Blue Moose Photos,community_service_high_fit,climber,medium,yes,Scene-native media service with local relevance but narrower sponsor scale.
+sponsor_brownes_dairy,Browne's Dairy,local_event_only_low_fit,local_event_audience,low,yes,Useful event support signal but weak climbing-newsletter alignment.
+sponsor_arcteryx,Arc'teryx,consumer_facing_high_fit,climber,medium,yes,Premium mountain brand with climbing credibility but broader category focus.
+sponsor_k2_base_camp,K2 Base Camp,retail_distributor_infrastructure,mixed_climber_and_retail,medium,yes,Useful retailer node with direct climber reach and gear-service adjacency.
+sponsor_awesome_woodys,Awesome Woodys,consumer_facing_high_fit,climber,high,yes,Australian training product brand with strong editorial fit.
+sponsor_sea_legs_brewing_co,Sea Legs Brewing Co.,local_event_only_low_fit,local_event_audience,low,yes,Good event sponsor signal but weak recurring newsletter fit.
+sponsor_rubber_six,Rubber Six,community_service_high_fit,climber,high,yes,Climbing shoe service with strong utility and repeat-use relevance.
+sponsor_szent,Szent,local_event_only_low_fit,local_event_audience,low,yes,Possible event support brand but not a strong climbing-media buyer signal.
+sponsor_xtm_performance,XTM Performance,consumer_facing_high_fit,broader_outdoor_consumer,low,yes,Consumer brand but less climbing-native than stronger gear prospects.
+sponsor_stax_climbing,Stax Climbing,industry_b2b_lower_immediate_fit,setter_gym_ops,low,yes,Important wall and hold supplier for the ecosystem map but weaker for a climber-facing newsletter.
+sponsor_pat_and_sticks,Pat & Stick's,local_event_only_low_fit,local_event_audience,low,yes,Good local activation fit but not a strong core sponsor target.
+sponsor_the_boulder_hub,The Boulder Hub,ecosystem_context_low_priority,gym_member_and_local_scene,medium,yes,Useful host and possible partner but not a top external sponsor category.
+sponsor_climbit_physio,Climbit Physio,community_service_high_fit,climber,high,yes,Excellent content and sponsor fit around injury prevention and recovery.
+sponsor_sport_climbing_australia,Sport Climbing Australia,ecosystem_context_low_priority,governing_body_and_scene,low,yes,Important ecosystem institution but not a classic sponsor buyer.
+sponsor_dlgsc,"Department of Local Government, Sport and Cultural Industries",ecosystem_context_low_priority,government_and_funding,low,yes,Funding context matters but not a meaningful newsletter sponsor target.
+sponsor_act_belong_commit,Act Belong Commit,ecosystem_context_low_priority,community_health,low,yes,Useful event-funding context but not a likely commercial sponsor lane.
+sponsor_alan_pryce_performance_coaching,Alan Pryce Performance Coaching,community_service_high_fit,climber,medium,yes,Coaching service could fit performance editorial with a smaller budget profile.
+sponsor_capture_with_fj_photography,Capture with FJ Photography,community_service_high_fit,climber,low,yes,Scene-aligned service but narrower commercial scale.
+sponsor_the_biltong_box_mandurah,The Biltong Box Mandurah,local_event_only_low_fit,local_event_audience,low,yes,Local event support brand rather than a scalable category sponsor.
+sponsor_atrium_mandurah_hotel,Atrium Mandurah Hotel,local_event_only_low_fit,local_event_audience,low,yes,Hospitality support signal with low newsletter relevance.
+sponsor_mandurah_dolphin_cruises,Mandurah Dolphin Cruises,local_event_only_low_fit,local_event_audience,low,yes,Tourism-style event partner with low core fit.
+sponsor_project_climbing,Project Climbing,community_service_high_fit,climber,medium,yes,Climbing service business with plausible training audience fit.
+sponsor_little_sammys,Little Sammys,local_event_only_low_fit,local_event_audience,low,yes,Event support signal not central to sponsor strategy.
+sponsor_rocktape,Rocktape,consumer_facing_high_fit,climber,medium,yes,Recovery category is relevant though less climbing-native than physio or resole services.
+sponsor_iris_boulders,Iris Boulders,ecosystem_context_low_priority,gym_member_and_local_scene,medium,yes,Useful venue node and possible local partner rather than a main sponsor class.
+sponsor_jibberjab_digital,Jibberjab Digital,ecosystem_context_low_priority,service_provider,low,yes,Interesting event-support signal but not a core climbing sponsor category.
+sponsor_climbing_rocks,Climbing Rocks,retail_distributor_infrastructure,climber,medium,yes,Specialist climbing retail signal worth retaining as infrastructure.
+sponsor_scarpa_australia,Scarpa Australia,consumer_facing_high_fit,climber,high,yes,Activation-heavy climbing shoe brand with repeat event evidence.
+sponsor_open_project,Open Project,community_service_high_fit,climber,low,yes,Relevant community or training adjacency but still needs clearer commercial confirmation.
+sponsor_rock_therapy_bne,Rock Therapy BNE,community_service_high_fit,climber,high,yes,Strong physio and rehab fit inside the climbing scene.
+sponsor_clif_bar_australia,Clif Bar Australia,consumer_facing_high_fit,climber,medium,yes,Nutrition brand with obvious competition and endurance crossover.
+sponsor_koga_sport,Koga Sport,retail_distributor_infrastructure,climber,low,yes,Keep as a market node until the commercial role is better confirmed.
+sponsor_nalgene_australia,Nalgene Australia,consumer_facing_high_fit,broader_outdoor_consumer,low,yes,Consumer gear brand but generic relative to stronger climbing-native options.
+sponsor_tenzing,Tenzing,consumer_facing_high_fit,climber,medium,yes,Energy and performance angle can work though it is less climbing-native than core gear brands.
+sponsor_climbing_anchors,Climbing Anchors,retail_distributor_infrastructure,mixed_climber_and_retail,high,yes,One of the strongest retailer and wholesale infrastructure nodes in the dataset.
+sponsor_la_sportiva_australia,La Sportiva Australia,consumer_facing_high_fit,climber,high,yes,Top-tier climbing shoe brand with nationwide activation evidence.
+sponsor_als_trade,ALS Trade,retail_distributor_infrastructure,retailer_and_gym_buyer,medium,yes,High-value distributor node but not a first-wave consumer sponsor.
+sponsor_friction_addiction,Friction Addiction,retail_distributor_infrastructure,retailer_and_gym_buyer,medium,yes,Distributor unlocks multiple brands and gym or setting connections.
+sponsor_spelean,Spelean,retail_distributor_infrastructure,retailer_and_gym_buyer,low,yes,Important Petzl route but more infrastructure than front-line newsletter fit.
+sponsor_southern_cross_equipment,Southern Cross Equipment,retail_distributor_infrastructure,retailer_and_gym_buyer,low,yes,Important DMM and Edelrid route but primarily infrastructure.
+sponsor_wild_earth,Wild Earth,retail_distributor_infrastructure,mixed_climber_and_retail,medium,yes,Broad outdoor retailer with enough climbing presence to matter.
+sponsor_mountain_equipment,Mountain Equipment,retail_distributor_infrastructure,mixed_climber_and_retail,medium,yes,Technical climbing retailer with strong credibility and stock connections.
+sponsor_the_climbing_shop,The Climbing Shop,retail_distributor_infrastructure,climber,medium,yes,Specialist stockist and useful gear-discovery node.
+sponsor_pinnacle_sports,Pinnacle Sports,retail_distributor_infrastructure,climber,medium,yes,Specialist retailer with strong climbing relevance and possible direct sponsor value.
+sponsor_sherpa,Sherpa,retail_distributor_infrastructure,broader_outdoor_consumer,low,yes,Useful stockist node but weaker direct fit than climbing-specialist retailers.
+sponsor_wall_toys,Wall Toys,retail_distributor_infrastructure,climber,medium,yes,Specialist retailer with visible footwear and training categories.
+sponsor_bogong_equipment,Bogong Equipment,retail_distributor_infrastructure,broader_outdoor_consumer,low,yes,Good stockist and service-partner node but not a first-wave priority.
+sponsor_summit_gear,Summit Gear,retail_distributor_infrastructure,broader_outdoor_consumer,low,yes,Useful retailer plus service-dropoff crossover node.
+sponsor_sticky_rubber_resoles,Sticky Rubber Resoles,community_service_high_fit,climber,high,yes,One of the strongest recurring-use service sponsor categories in the map.
+sponsor_scotty_dog_resoles,Scotty Dog Resoles,community_service_high_fit,climber,high,yes,Highly relevant service brand with direct climbing utility.
+sponsor_rubber_styx,Rubber Styx,community_service_high_fit,climber,high,yes,Strong Queensland scene-fit service category.
+sponsor_sticky_joes_resoles,Sticky Joe's Resoles,community_service_high_fit,climber,high,yes,Authorised resoler with strong content and service relevance.
+sponsor_climbing_resoles,Climbing Resoles,community_service_high_fit,climber,high,yes,Nationally relevant repair service with partner network.
+sponsor_ocun,Ocun,consumer_facing_high_fit,climber,medium,yes,Climbing-native brand with clear AU infrastructure and strong category fit.
+sponsor_unparallel,Unparallel,consumer_facing_high_fit,climber,medium,yes,High-fit performance shoe brand with local route via distributor.
+sponsor_petzl,Petzl,consumer_facing_high_fit,climber,medium,yes,Premium brand with scene credibility though part of a broader technical market.
+sponsor_dmm,DMM,consumer_facing_high_fit,climber,medium,yes,Strong hardware brand with climber relevance but less obvious consumer activation history so far.
+sponsor_edelrid,Edelrid,consumer_facing_high_fit,climber,medium,yes,High-fit rope and hardware brand with clear technical audience relevance.
+sponsor_evolv,Evolv,consumer_facing_high_fit,climber,medium,yes,Performance shoe brand with strong editorial and demo potential.
+sponsor_tenaya,Tenaya,consumer_facing_high_fit,climber,medium,yes,Strong performance shoe brand with likely newsletter relevance.
+sponsor_beastmaker,Beastmaker,consumer_facing_high_fit,climber,medium,yes,Training gear brand fits indoor-performance content well.
+sponsor_crux_gear,Crux Gear,consumer_facing_high_fit,climber,medium,yes,Australian training brand with clear product-content fit.
+sponsor_climbskin,Climbskin,consumer_facing_high_fit,climber,medium,yes,Skin-care category maps naturally to recurring climber needs.
+sponsor_butora,Butora,consumer_facing_high_fit,climber,medium,yes,Shoe brand with clear retailer pathway and direct climber relevance.
+sponsor_beal,Beal,consumer_facing_high_fit,climber,medium,yes,Rope and hardware brand with clear local availability and category fit.
+sponsor_tendon,Tendon,consumer_facing_high_fit,climber,medium,yes,Rope brand with scene relevance though less likely than shoes or services to sponsor early.
+sponsor_wide_boyz,Wide Boyz,consumer_facing_high_fit,climber,low,yes,Relevant training brand but weaker local commercial evidence so far.
+sponsor_redpoint_climbing,Redpoint Climbing,consumer_facing_high_fit,climber,medium,yes,Australian climbing brand with direct consumer and stockist relevance.
+sponsor_mammut,Mammut,consumer_facing_high_fit,climber,medium,yes,Strong media advertiser signal and credible technical-climbing adjacency.
+sponsor_patagonia,Patagonia,consumer_facing_high_fit,broader_outdoor_consumer,low,yes,Powerful brand but broader and less likely than climbing-native prospects for early outreach.
+sponsor_the_north_face,The North Face,consumer_facing_high_fit,broader_outdoor_consumer,low,yes,Strong brand presence but broader and less evidenced in climbing sponsorship here.

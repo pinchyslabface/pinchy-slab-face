@@ -1,0 +1,78 @@
+relationship_id,from_entity_id,relationship_type,to_entity_id,source_url,confidence,notes
+rel_als_distributes_ocun,entity_als_trade,distributes,entity_ocun,https://www.alstrade.com.au/ocun-sport.html,high,ALS Trade explicitly presents Ocun Sport within its distributed brand set.
+rel_als_distributes_singingrock,entity_als_trade,distributes,entity_singing_rock,https://www.alstrade.com.au/,high,ALS Trade explicitly presents Singing Rock Sport and Professional within its distributed brand set.
+rel_spelean_distributes_petzl,entity_spelean,distributes,entity_petzl,https://petzl.com.au/pages/contact,high,Petzl Australia contact page says Petzl products are distributed in Australia by Spelean.
+rel_southerncross_distributes_dmm,entity_southern_cross_equipment,distributes,entity_dmm,https://www.southerncross.net.au/pages/brands-we-wholesale,high,Southern Cross Equipment says it is a proud import and distributor of DMM.
+rel_southerncross_distributes_edelrid,entity_southern_cross_equipment,distributes,entity_edelrid,https://www.southerncross.net.au/pages/brands-we-wholesale,high,Southern Cross Equipment says it is a proud import and distributor of Edelrid.
+rel_friction_distributes_unparallel,entity_friction_addiction,distributes,entity_unparallel,https://www.frictionaddiction.com.au/,high,Friction Addiction lists Unparallel among its distributed brands.
+rel_friction_distributes_reset,entity_friction_addiction,distributes,entity_reset,https://www.frictionaddiction.com.au/,high,Friction Addiction lists Reset among its distributed brands.
+rel_climbinganchors_stocks_blackdiamond,entity_climbing_anchors,stocks,entity_black_diamond_au,https://www.climbinganchors.com.au/wholesale,medium,Brand menu shows Black Diamond in Climbing Anchors brand listings.
+rel_climbinganchors_stocks_butora,entity_climbing_anchors,stocks,entity_butora,https://www.climbinganchors.com.au/wholesale,medium,Brand menu shows Butora in Climbing Anchors brand listings.
+rel_climbinganchors_stocks_beal,entity_climbing_anchors,stocks,entity_beal,https://www.climbinganchors.com.au/wholesale,medium,Brand menu shows Beal in Climbing Anchors brand listings.
+rel_climbinganchors_stocks_awesomewoodys,entity_climbing_anchors,stocks,entity_awesome_woodys,https://www.climbinganchors.com.au/wholesale,medium,Brand menu shows Awesome Woodys in Climbing Anchors brand listings.
+rel_butora_au_routes_to_climbinganchors,entity_butora,official_au_store_or_route,entity_climbing_anchors,https://www.butora.com/,high,The official Butora site lists Australia customers and links directly to Climbing Anchors.
+rel_k2_stocks_lasportiva,entity_k2_base_camp,stocks,entity_la_sportiva_au,https://k2.com.au/collections/la-sportiva,high,K2 has a dedicated La Sportiva collection page.
+rel_wildearth_stocks_ocun,entity_wild_earth,stocks,entity_ocun,https://www.wildearth.com.au/brand/Ocun,high,Wild Earth has a dedicated Ocun brand page.
+rel_wildearth_stocks_wildcountry,entity_wild_earth,stocks,entity_wild_country,https://www.wildearth.com.au/brand/Wild-Country,high,Wild Earth has a dedicated Wild Country brand page.
+rel_wildearth_stocks_metolius,entity_wild_earth,stocks,entity_metolius,https://www.wildearth.com.au/buy/metolius-dynamic-pas-red-green/MT-PASDR,high,Wild Earth has a dedicated Metolius brand page.
+rel_wildearth_stocks_awesomewoodys,entity_wild_earth,stocks,entity_awesome_woodys,https://www.wildearth.com.au/brand/Awesome-Woodys,high,Wild Earth has a dedicated Awesome Woodys brand page.
+rel_theclimbingshop_stocks_butora,entity_the_climbing_shop,stocks,entity_butora,https://www.theclimbingshop.com.au/collections/butora,high,The Climbing Shop has a dedicated Butora collection.
+rel_theclimbingshop_stocks_ocun,entity_the_climbing_shop,stocks,entity_ocun,https://www.theclimbingshop.com.au/collections/ocun,high,The Climbing Shop has a dedicated Ocun collection.
+rel_theclimbingshop_stocks_petzl,entity_the_climbing_shop,stocks,entity_petzl,https://www.theclimbingshop.com.au/collections/petzl,high,The Climbing Shop has a dedicated Petzl collection.
+rel_walltoys_stocks_blackdiamond,entity_wall_toys,stocks,entity_black_diamond_au,https://www.walltoys.com.au/brand/black-diamond/,high,Wall Toys has a dedicated Black Diamond brand page.
+rel_walltoys_stocks_tenaya,entity_wall_toys,stocks,entity_tenaya,https://www.walltoys.com.au/Footwear/tenaya-oasi,high,Wall Toys has Tenaya product pages under its footwear catalog.
+rel_walltoys_stocks_beastmaker,entity_wall_toys,stocks,entity_beastmaker,https://www.walltoys.com.au/Essentials/hangboards-beastmaker-1000-hangboard,high,Wall Toys has Beastmaker product pages under training essentials.
+rel_wildearth_stocks_evolv,entity_wild_earth,stocks,entity_evolv,https://www.wildearth.com.au/buy/evolv-agro-rock-climbing-shoes/EAGRO,high,Wild Earth has a dedicated Evolv brand page.
+rel_wildearth_stocks_tenaya,entity_wild_earth,stocks,entity_tenaya,https://www.wildearth.com.au/brand/Tenaya,high,Wild Earth has a dedicated Tenaya brand page.
+rel_wildearth_stocks_climbculture,entity_wild_earth,stocks,entity_climb_culture,https://www.wildearth.com.au/brand/Climbing-Culture,high,Wild Earth has a dedicated Climb Culture brand page.
+rel_wildearth_stocks_climbinggems,entity_wild_earth,stocks,entity_climbing_gems,https://www.wildearth.com.au/brand/Climbing-Gems,high,Wild Earth has a dedicated Climbing Gems brand page.
+rel_wildearth_stocks_cruxgear,entity_wild_earth,stocks,entity_crux_gear,https://www.wildearth.com.au/brand/Crux-Gear,high,Wild Earth has a dedicated Crux Gear brand page.
+rel_wildearth_stocks_climbskin,entity_wild_earth,stocks,entity_climbskin,https://www.wildearth.com.au/brand/Climbskin,high,Wild Earth has a dedicated Climbskin brand page.
+rel_wildearth_stocks_butora,entity_wild_earth,stocks,entity_butora,https://www.wildearth.com.au/brand/Butora,high,Wild Earth has a dedicated Butora brand page.
+rel_wildearth_stocks_beal,entity_wild_earth,stocks,entity_beal,https://www.wildearth.com.au/buy/beal-karma-9.8mm-climbing-rope-60m/RC098k-60,high,Wild Earth has Beal brand and product pages with retailer contact details.
+rel_wildearth_stocks_tendon,entity_wild_earth,stocks,entity_tendon,https://www.wildearth.com.au/brand/Tendon,high,Wild Earth has a dedicated Tendon brand page.
+rel_oasis_stocks_scarpa,entity_oasis_proshop,stocks,entity_scarpa_au,https://www.oasisclimbing.com.au/proshop,high,Oasis pro shop explicitly lists Scarpa climbing shoes.
+rel_oasis_stocks_blackdiamond,entity_oasis_proshop,stocks,entity_black_diamond_au,https://www.oasisclimbing.com.au/proshop,high,Oasis pro shop explicitly lists Black Diamond across shoes harnesses hardware and consumables.
+rel_oasis_stocks_wildcountry,entity_oasis_proshop,stocks,entity_wild_country,https://www.oasisclimbing.com.au/proshop,high,Oasis pro shop explicitly lists Wild Country harnesses.
+rel_oasis_stocks_tendon,entity_oasis_proshop,stocks,entity_tendon,https://www.oasisclimbing.com.au/proshop,high,Oasis pro shop explicitly lists Tendon in hardware and rope-related gear.
+rel_oasis_stocks_petzl,entity_oasis_proshop,stocks,entity_petzl,https://www.oasisclimbing.com.au/proshop,high,Oasis pro shop explicitly lists Petzl.
+rel_oasis_stocks_dmm,entity_oasis_proshop,stocks,entity_dmm,https://www.oasisclimbing.com.au/proshop,high,Oasis pro shop explicitly lists DMM.
+rel_oasis_stocks_edelrid,entity_oasis_proshop,stocks,entity_edelrid,https://www.oasisclimbing.com.au/proshop,high,Oasis pro shop explicitly lists Edelrid.
+rel_oasis_stocks_metolius,entity_oasis_proshop,stocks,entity_metolius,https://www.oasisclimbing.com.au/proshop,high,Oasis pro shop explicitly lists Metolius accessories and consumables.
+rel_stickyrubber_authorised_lasportiva,entity_sticky_rubber_resoles,authorised_resoler_for,entity_la_sportiva_au,https://www.stickyrubberresoles.com/,high,Sticky Rubber states it is a La Sportiva authorised resoler.
+rel_stickyrubber_authorised_scarpa,entity_sticky_rubber_resoles,authorised_resoler_for,entity_scarpa_au,https://www.stickyrubberresoles.com/,high,Sticky Rubber states it is the Scarpa official resoler.
+rel_stickyjoes_authorised_lasportiva,entity_sticky_joes_resoles,authorised_resoler_for,entity_la_sportiva_au,https://stickyjoes.com.au/,high,Sticky Joe's states it is an authorised La Sportiva resoler.
+rel_summitgear_dropoff_stickyrubber,entity_summit_gear,dropoff_partner_for,entity_sticky_rubber_resoles,https://summitgear.com.au/pages/la-sportiva-shoe-resoles,high,Summit Gear states it is an official drop off point for Sticky Rubber.
+rel_summitgear_dropoff_lasportiva,entity_summit_gear,dropoff_partner_for,entity_la_sportiva_au,https://summitgear.com.au/pages/la-sportiva-shoe-resoles,medium,Summit Gear page frames the drop-off as official for La Sportiva resoles through Sticky Rubber.
+rel_summitgear_dropoff_scarpa,entity_summit_gear,dropoff_partner_for,entity_scarpa_au,https://summitgear.com.au/pages/la-sportiva-shoe-resoles,medium,Summit Gear page says it is now a Scarpa drop-off point through Sticky Rubber.
+rel_k2_refers_stickyrubber,entity_k2_base_camp,refers_resole_to,entity_sticky_rubber_resoles,https://k2.com.au/pages/climbing-shoe-resoles,high,K2 lists Sticky Rubber as its official La Sportiva and Scarpa resoler option.
+rel_k2_refers_scottydog,entity_k2_base_camp,refers_resole_to,entity_scotty_dog_resoles,https://k2.com.au/pages/climbing-shoe-resoles,high,K2 lists Scotty Dog Resoles as a resoling option.
+rel_k2_dropoff_stickyrubber,entity_k2_base_camp,dropoff_partner_for,entity_sticky_rubber_resoles,https://www.stickyrubberresoles.com/climbing-shoe-resoles-sticky-rubber-resoles-sydney-drop-off,high,Sticky Rubber drop-off page lists K2 Base Camp Brisbane as a store drop-off point.
+rel_mountainequipment_dropoff_stickyrubber,entity_mountain_equipment,dropoff_partner_for,entity_sticky_rubber_resoles,https://www.stickyrubberresoles.com/climbing-shoe-resoles-sticky-rubber-resoles-sydney-drop-off,high,Sticky Rubber drop-off page lists Mountain Equipment Sydney City and Chatswood as store drop-off points.
+rel_bogong_dropoff_stickyrubber,entity_bogong_equipment,dropoff_partner_for,entity_sticky_rubber_resoles,https://www.stickyrubberresoles.com/climbing-shoe-resoles-sticky-rubber-resoles-sydney-drop-off,high,Sticky Rubber drop-off page lists Bogong Equipment Melbourne as a store drop-off point.
+rel_mountainequipment_dropoff_climbingresoles,entity_mountain_equipment,dropoff_partner_for,entity_climbing_resoles,https://mountainequipment.com/blogs/mountain-equipment-blog/we-are-now-a-drop-off-location-for-climbing-resoles-australia,high,Mountain Equipment states it is a drop-off location for Climbing Resoles Australia.
+rel_climbinganchors_refers_climbingresoles,entity_climbing_anchors,refers_resole_to,entity_climbing_resoles,https://www.climbinganchors.com.au/buying/how-to-guides/when-to-resole-climbing-shoes/,high,Climbing Anchors resole guide explicitly lists climbingresoles.com.au among recommended resolers.
+rel_climbinganchors_refers_stickyjoes,entity_climbing_anchors,refers_resole_to,entity_sticky_joes_resoles,https://www.climbinganchors.com.au/buying/how-to-guides/when-to-resole-climbing-shoes/,high,Climbing Anchors resole guide explicitly lists stickyjoes.com.au among recommended resolers.
+rel_climbinganchors_refers_scottydog,entity_climbing_anchors,refers_resole_to,entity_scotty_dog_resoles,https://www.climbinganchors.com.au/buying/how-to-guides/when-to-resole-climbing-shoes/,high,Climbing Anchors resole guide explicitly lists scottydog.com.au among recommended resolers.
+rel_9degrees_hosts_climbinganchors_mini_store,entity_climbing_anchors_mini_store,located_in,entity_climbing_anchors,User-provided Urban Climb social evidence,low,Mini-store concept appears in user-provided social evidence and should be verified later.
+rel_mountainequipment_stocks_beastmaker,entity_mountain_equipment,stocks,entity_beastmaker,https://mountainequipment.com/collections/climb,high,Mountain Equipment climb collection includes Beastmaker products.
+rel_mountainequipment_stocks_betastick,entity_mountain_equipment,stocks,entity_betastick,https://mountainequipment.com/collections/brands,high,Mountain Equipment brands collection lists Betastick.
+rel_mountainequipment_stocks_blackdiamond,entity_mountain_equipment,stocks,entity_black_diamond_au,https://mountainequipment.com/collections/brands,high,Mountain Equipment brands collection lists Black Diamond.
+rel_mountainequipment_stocks_dmm,entity_mountain_equipment,stocks,entity_dmm,https://mountainequipment.com/collections/brands,high,Mountain Equipment brands collection lists DMM.
+rel_mountainequipment_stocks_edelrid,entity_mountain_equipment,stocks,entity_edelrid,https://mountainequipment.com/collections/brands,high,Mountain Equipment brands collection lists Edelrid.
+rel_mountainequipment_stocks_metolius,entity_mountain_equipment,stocks,entity_metolius,https://mountainequipment.com/collections/brands/climb,high,Mountain Equipment climb-filtered brands/product listing includes Metolius.
+rel_mountainequipment_stocks_clif,entity_mountain_equipment,stocks,entity_clif_bar_australia,https://mountainequipment.com/collections/brands,medium,Mountain Equipment brands collection lists CLIF; useful as a retail distribution signal.
+rel_climbinganchors_stocks_petzl,entity_climbing_anchors,stocks,entity_petzl,https://www.climbinganchors.com.au/petzl/,high,Climbing Anchors has a dedicated Petzl brand page.
+rel_climbinganchors_stocks_tendon,entity_climbing_anchors,stocks,entity_tendon,https://www.climbinganchors.com.au/tendon/,high,Climbing Anchors has a dedicated Tendon brand page.
+rel_climbinganchors_stocks_beal_brandpage,entity_climbing_anchors,stocks,entity_beal,https://www.climbinganchors.com.au/beal/,high,Climbing Anchors has a dedicated Beal brand page.
+rel_pinnacle_stocks_blackdiamond,entity_pinnacle_sports,stocks,entity_black_diamond_au,https://www.pinnaclesports.com.au/brand/black-diamond/,high,Pinnacle Sports has a dedicated Black Diamond brand page.
+rel_pinnacle_stocks_ocun,entity_pinnacle_sports,stocks,entity_ocun,https://www.pinnaclesports.com.au/brand/ocun/,high,Pinnacle Sports has a dedicated Ocun brand page.
+rel_pinnacle_stocks_edelrid,entity_pinnacle_sports,stocks,entity_edelrid,https://www.pinnaclesports.com.au/brand/edelrid/,high,Pinnacle Sports has a dedicated Edelrid brand page.
+rel_sherpa_stocks_beal,entity_sherpa,stocks,entity_beal,https://www.sherpa.com.au/climb/,medium,Sherpa climb category filters list Beal.
+rel_sherpa_stocks_blackdiamond,entity_sherpa,stocks,entity_black_diamond_au,https://www.sherpa.com.au/climb/,medium,Sherpa climb category filters list Black Diamond.
+rel_sherpa_stocks_petzl,entity_sherpa,stocks,entity_petzl,https://www.sherpa.com.au/climb/,medium,Sherpa climb category filters list Petzl.
+rel_sherpa_stocks_scarpa,entity_sherpa,stocks,entity_scarpa_au,https://www.sherpa.com.au/climb/,medium,Sherpa climb category filters list Scarpa.
+rel_sherpa_stocks_wideboyz,entity_sherpa,stocks,entity_wide_boyz,https://www.sherpa.com.au/climb/,medium,Sherpa climb category filters list Wide Boyz.
+rel_sherpa_stocks_axis,entity_sherpa,stocks,entity_axis,https://www.sherpa.com.au/climb/,medium,Sherpa climb category filters list Axis.
+rel_sherpa_stocks_onsightphoto,entity_sherpa,stocks,entity_onsight_photography,https://www.sherpa.com.au/climb/,medium,Sherpa climb category filters list Onsight Photography.
+rel_redpoint_has_stockists,entity_redpoint_climbing,stocked_by_network,entity_redpoint_climbing,https://www.redpointclimbing.com.au/pages/redpoint-climbing-stockists,high,Redpoint Climbing states its products are stocked at select climbing gyms bouldering gyms and climbing retailers across Australia.

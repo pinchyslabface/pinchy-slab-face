@@ -88,3 +88,14 @@ The app reads the current repo docs directly and gives you these views:
 - WBS
 
 The repo docs are still the source of truth. The app is the readable local surface on top.
+
+The app also exposes:
+
+- `/health` for a simple readiness check
+- `/api/state` for a structured JSON snapshot of the current planning state
+
+Current rule:
+
+- use the browser app for viewing, navigating, and copying handoff packets
+- use repo doc updates as the safe write path
+- do not treat the browser app as the source of truth for direct editing yet

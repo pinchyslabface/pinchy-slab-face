@@ -68,6 +68,7 @@ PBO gives the project a lightweight way to:
 - short plain-English summaries for anything that Josiah should be able to pick up later
 - initiative-level ingest notes that let a fresh Codex chat continue the work quickly
 - domains, handles, email addresses, and brand-protection decisions should be tracked in `DOMAIN_AND_EMAIL_SETUP.md` rather than duplicated in the queue
+- AI-assisted social research workflow details should live in the tech and research docs, while PBO tracks the ranked next pass, owner, and blockers
 
 ## Initial PBO Population
 
@@ -192,6 +193,12 @@ The team is just Josiah and Mike, so lane ownership should stay simple.
 - sponsorships and monetisation
 - domains and account setup
 - project management and orchestration
+
+Cross-lane note:
+
+- AI-assisted social research for gyms, events, state bodies, and sponsors sits across tech stack/workflow and sponsorships/monetisation
+- keep the queue item singular when possible so one person is clearly driving the next research pass
+- store the operating procedure in `TECH_ROUTE.md` and `sponsor_research/COMP_RESEARCH_SYSTEM.md`, not in duplicated queue prose
 
 ## Suggested Project Management Chat
 

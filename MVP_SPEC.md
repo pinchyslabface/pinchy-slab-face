@@ -88,12 +88,11 @@ Optional recurring content to test later:
 
 1. User lands on the signup page.
 2. User enters email.
-3. Optional: user chooses home city or region.
-4. Optional: user chooses climbing level band.
-5. Optional: user chooses primary interest.
-6. Optional: user chooses secondary interest.
-7. User gets a welcome email.
-8. User receives the first weekly issue.
+3. User gets a clear "you're in" confirmation and comp entry message.
+4. User is prompted to share through the referral mechanic.
+5. Optional second step: user shares extra profile data such as home city, climbing level, interests, and whether they want to hear about ambassador, street team, or sponsor opportunities.
+6. User gets a welcome email.
+7. User receives the first weekly issue.
 
 ## Welcome Email
 
@@ -102,6 +101,8 @@ The welcome email should:
 - confirm they are subscribed
 - explain what they will receive
 - set expectations on frequency
+- reinforce the comp and referral mechanic
+- mention optional ways to get more involved later
 - invite them to reply with event tips
 
 ## Event Collection Flow
@@ -135,6 +136,8 @@ Subscriber record:
 - climbing level band
 - primary interest
 - secondary interest
+- ambassador or street-team interest
+- sponsor or partner interest
 - age band or role if useful
 - signup source or QR / UTM metadata
 
@@ -154,12 +157,13 @@ Event record:
 
 ## Early Growth Channels
 
+- comp and giveaway signups
+- referral loop tied to the comp
 - gym reposts
 - direct outreach
 - posters and QR codes in gyms
 - Instagram content
-- referrals from climbers
-- launch comp / giveaway signups
+- optional ambassador and sponsor-interest capture
 - event-day QR cards
 
 ## First Monetisation Tests
@@ -186,9 +190,12 @@ We are not avoiding community content or global flavour. We are just treating th
 Good early signals:
 
 - people sign up without being chased too hard
+- the comp meaningfully improves conversion
+- some subscribers refer others quickly
 - open rates stay healthy
 - subscribers reply with event tips
 - gyms are willing to reshare
+- some people raise their hand for deeper involvement
 - the weekly workflow feels repeatable
 
 ## Operating Rule

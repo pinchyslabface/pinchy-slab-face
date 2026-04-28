@@ -18,6 +18,7 @@ For initiative handoffs, use the copy/paste ingest packet described in `PBO_APP_
 Store reusable initiative handoff packets in `initiative_handoffs/`.
 For tech implementation work, let the PBO queue show the current status and handoff, then update the tech docs before starting the next build step.
 For launch-ready tech decisions, decide what is needed for the intake -> review -> send loop first, then defer everything else until after the first issue ships.
+For AI-assisted social research work, keep the operating workflow in the tech docs and research runbooks, and let PBO track only ownership, priority, blockers, and the next pass.
 
 ## What Gets Updated First
 
@@ -36,6 +37,7 @@ Examples:
 - active build sequencing -> `PBO_DASHBOARD.md` and `PBO_PLAN.md`
 - first PBO population -> `PBO_PLAN.md`, `PBO_DASHBOARD.md`, `PBO_APP_SPEC.md`, and `THREAD_HANDOFF.md`
 - launch-ready minimum decisions -> `TECH_ROUTE.md` and `STACK_DECISION.md`
+- AI-assisted social research tooling -> `TECH_ROUTE.md`, `SOCIAL_HANDLE_PLAN.md`, and `sponsor_research/COMP_RESEARCH_SYSTEM.md`
 
 ## What Counts As A Decision
 
@@ -76,6 +78,7 @@ Keep those details in the lane-specific docs so the master plan stays readable.
 - write handoff metadata in plain English so a non-technical reader can pick it up
 - separate assumptions from confirmed decisions
 - prefer one clear source of truth over multiple duplicated notes
+- keep AI research outputs reviewable by preserving source links, screenshots, or copied evidence notes
 
 ## Two-Person Rule
 
