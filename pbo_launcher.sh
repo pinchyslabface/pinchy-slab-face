@@ -33,12 +33,8 @@ while nc -z 127.0.0.1 "$PORT" 2>/dev/null; do
 done
 
 mkdir -p logs
-if command -v setsid >/dev/null 2>&1; then
-  setsid "$PWD/venv-pbo/bin/python3" "$PWD/pbo_app/app.py" --port "$PORT" > "$PWD/logs/pbo.log" 2>&1 < /dev/null &
-else
-  nohup "$PWD/venv-pbo/bin/python3" "$PWD/pbo_app/app.py" --port "$PORT" > "$PWD/logs/pbo.log" 2>&1 < /dev/null &
-fi
-SERVER_PID=$!
+: > "$PWD/logs/pbo.log"
+SERVER_PID=$("$PWD/venv-pbo/bin/python3" "$PWD/pbo_app/launch.py" --root "$PWD" --port "$PORT" --log "$PWD/logs/pbo.log")
 echo "$SERVER_PID" > "$PID_FILE"
 echo "$PORT" > "$PORT_FILE"
 
@@ -57,6 +53,12 @@ done
 
 if [ "$STARTED" = false ]; then
   echo "WARNING: PBO server did not respond within 10 seconds. Check logs/pbo.log"
+fi
+
+sleep 1
+if ! kill -0 "$SERVER_PID" 2>/dev/null; then
+  echo "ERROR: PBO server exited shortly after startup. Check logs/pbo.log"
+  exit 1
 fi
 
 echo "PSF PBO at http://localhost:$PORT"

@@ -7,6 +7,7 @@ This page is the quick map for the PSF repo.
 - [`MASTER_PLAN.md`](./MASTER_PLAN.md) - top-level PSF direction and decision log
 - [`PBO_PLAN.md`](./PBO_PLAN.md) - project management and orchestration
 - [`run_pbo`](./run_pbo) - local launcher for the PSF planning app
+- [`pbo.command`](./pbo.command) - macOS double-click / Terminal launcher for the PSF planning app
 - [`stop_pbo`](./stop_pbo) - stop the local PSF planning app
 
 ## Boundary / Framework Docs
@@ -21,6 +22,7 @@ This page is the quick map for the PSF repo.
 - [`PBO_INITIAL_INGEST.md`](./PBO_INITIAL_INGEST.md) - first seeded PBO plan and queue
 - [`initiative_handoffs/`](./initiative_handoffs) - copy/paste packets for picking up real initiatives in a fresh chat
 - [`initiative_handoffs/basic-tech-setup-working.md`](./initiative_handoffs/basic-tech-setup-working.md) - pickup packet for the tech stack / workflow chat
+- [`initiative_handoffs/event-tracking-tooling.md`](./initiative_handoffs/event-tracking-tooling.md) - pickup packet for building the event monitoring, parsing, validation, and weekly export tooling
 - [`initiative_handoffs/launch-promotion-system.md`](./initiative_handoffs/launch-promotion-system.md) - pickup packet for turning launch promotion into executable work
 - [`PSF_CHAT_GUIDE.md`](./PSF_CHAT_GUIDE.md) - which chat handles which lane
 - [`CHAT_PROMPTS.md`](./CHAT_PROMPTS.md) - starter prompts for each chat lane
@@ -40,6 +42,8 @@ This page is the quick map for the PSF repo.
 - [`TECH_ROUTE.md`](./TECH_ROUTE.md) - stack direction and workflow shape
 - [`STACK_DECISION.md`](./STACK_DECISION.md) - Beehiiv vs Wix vs BYO recommendation
 - [`psf-dashboard/`](./psf-dashboard) - current dashboard scaffold folder
+- [`EVENT_TRACKING_TOOLING_PLAN.md`](./EVENT_TRACKING_TOOLING_PLAN.md) - tooling lane for keeping up with gym and association events
+- [`event_intel/source_snapshots/`](./event_intel/source_snapshots/) - raw and extracted public web source snapshots for event-intelligence review
 - [`sponsor_research/COMP_RESEARCH_SYSTEM.md`](./sponsor_research/COMP_RESEARCH_SYSTEM.md) - AI-assisted host, event, and sponsor discovery workflow
 - [`sponsor_research/COMP_DATA_DICTIONARY.md`](./sponsor_research/COMP_DATA_DICTIONARY.md) - labels and field rules for the research datasets
 

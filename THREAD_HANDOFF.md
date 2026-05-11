@@ -46,6 +46,14 @@ For project management, the current working model is:
 - the handoff packet should be a short copy/paste block that links the repo docs and the open questions
 - reusable initiative packets should live in `initiative_handoffs/`
 - the dashboard and initiatives pages should expose a visible copy button for that packet
+- event tracking tooling is now captured as a dedicated lane in `EVENT_TRACKING_TOOLING_PLAN.md`
+- the event tracking pickup packet lives in `initiative_handoffs/event-tracking-tooling.md`
+- the first event monitoring tool is `sponsor_research/build_event_monitor_queue.mjs`, which generates `sponsor_research/event_monitor_queue.csv`
+- the first public web collection tool is `sponsor_research/collect_web_sources.mjs`, which writes `sponsor_research/source_snapshots.csv` and raw/text snapshots under `event_intel/source_snapshots/`
+- the first candidate parsing tool is `sponsor_research/parse_event_candidates.mjs`, which writes review-only candidates to `sponsor_research/event_candidates.csv`
+- the first validation overlay tool is `sponsor_research/validate_event_candidates.mjs`, which writes review-priority scoring to `sponsor_research/event_candidate_validation.csv`
+- the first human review helper is `sponsor_research/review_event_candidates.mjs`, which writes `sponsor_research/event_candidate_review_queue.csv`, `sponsor_research/event_candidate_reviews.csv`, and optionally `sponsor_research/reviewed_events_staging.csv`
+- the first weekly export helper is `sponsor_research/export_weekly_event_views.mjs`, which writes `sponsor_research/weekly_event_export.csv` and `sponsor_research/weekly_event_export_summary.csv` from manually approved staging rows
 - the first PBO ingest is captured in `PBO_INITIAL_INGEST.md`
 - the first PBO ingest should populate the project snapshot, queue, backlog, initiatives, milestones, handoff packet, and ingest prompt before deeper work starts
 
@@ -68,7 +76,9 @@ The email list is the main asset. The website and richer database are supporting
 3. Use `SOCIAL_HANDLE_PLAN.md` to secure the Tier 1 public handles and the first research handles so brand protection and event discovery accounts are no longer loose ends
 4. Use `initiative_handoffs/basic-tech-setup-working.md` to pick up the tech lane, with its split between parked step-by-step tasks and clarify-first initiatives
 5. Use `initiative_handoffs/first-market-and-signup-flow.md` to pick up the market and signup lane, or `initiative_handoffs/launch-promotion-system.md` to turn the launch promotion system into execution work
-6. Refine from real use instead of adding more planning layers
+6. Use `initiative_handoffs/event-tracking-tooling.md` to continue the event intelligence tooling lane if the next focus is finding, validating, parsing, and exporting events for weekly sends
+7. Use the sponsor research docs to turn the growing sponsor database into a first-wave launch-support shortlist and outreach motion
+8. Refine from real use instead of adding more planning layers
 
 ## Assumptions
 
@@ -77,6 +87,8 @@ The email list is the main asset. The website and richer database are supporting
 - The first audience segment is indoor climbers who want to know what is on this week
 - Manual and semi-manual curation is acceptable for the early stage
 - The current working team is just Josiah and Mike unless a later doc says otherwise
+- the launch comp should attract real climbers rather than broad generic comp-chaser traffic
+- gyms should be treated as ecosystem partners first, not the first paying sponsor lane
 
 ## Open Questions
 
@@ -84,6 +96,7 @@ The email list is the main asset. The website and richer database are supporting
 - Which content mix will best drive opens and retention?
 - Which brand name will we use publicly: Pinchy Slab Face, a newsletter name, or both?
 - How much paid social should happen before the organic, referral, and gym loops are proven?
+- What is the minimum viable launch sponsor package that is credible before audience scale exists?
 - Which parts of PBO should stay as docs first versus be turned into tooling later?
 - What is the right subscriber schema and Beehiiv field mapping for segmented sending without overcomplicating launch?
 - How should Beehiiv segmentation, webhooks, and content assembly integrate with the Postgres operating model?
@@ -94,6 +107,7 @@ The email list is the main asset. The website and richer database are supporting
 - If the scope expands too early, the project may stall
 - If the first niche is too broad, the messaging may lose clarity
 - If promotion is treated like too many equal-priority channels at once, the team may spread effort too thin before the core signup loop works
+- If the comp is too broad or the prizes are not climbing-native enough, PSF may attract noisy low-fit subscribers that weaken the audience asset
 - If PBO becomes heavy or duplicated, the team will spend more time managing the system than moving the project forward
 
 ## Recommended Next Thread Prompt

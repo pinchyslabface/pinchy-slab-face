@@ -1,0 +1,36 @@
+sponsor_entity_id,normalized_name,launch_giveaway_fit,street_team_product_fit,psf_merch_or_package_support_fit,long_term_paid_sponsor_fit,angle_overlap_strength,priority_use_case,notes
+sponsor_la_sportiva_australia,La Sportiva Australia,high,high,medium,high,high,foundational_multi_angle,Strong activation brand that can plausibly support giveaways athlete-facing product seeding and long-term sponsorship once audience traction is proven.
+sponsor_scarpa_australia,Scarpa Australia,high,high,medium,high,high,foundational_multi_angle,Shoe brand with strong youth and demo-night relevance and likely strong credibility with a Ballina youth-title audience.
+sponsor_black_diamond,Black Diamond,high,medium,medium,high,high,foundational_multi_angle,Premium climbing gear brand with event and media familiarity and good giveaway plus long-term sponsor potential.
+sponsor_sticky_rubber_resoles,Sticky Rubber Resoles,medium,medium,low,medium,medium,community_utility_partner,Best suited to practical climber utility sponsorship and service support rather than merch or youth seeding.
+sponsor_climbing_resoles,Climbing Resoles,medium,medium,low,medium,medium,community_utility_partner,Good service partner for practical climber value and recurring content.
+sponsor_climbit_physio,Climbit Physio,low,medium,low,medium,medium,community_utility_partner,Better for credibility recovery content and youth-performance association than physical package product.
+sponsor_awesome_woodys,Awesome Woodys,high,high,low,medium,high,product_seed_partner,Very strong fit for giveaways street team packs and youth-training identity.
+sponsor_rhino_skin_solutions,Rhino Skin Solutions,high,high,low,medium,high,product_seed_partner,Excellent for consumable care packs athlete kits and youth-title giveaways with direct sponsorship contact.
+sponsor_climbskin,Climbskin,high,high,low,medium,high,product_seed_partner,Strong repeat-use product for street team packs and launch giveaway bundles.
+sponsor_unparallel,Unparallel,medium,high,low,medium,medium,product_seed_partner,Shoe support can be meaningful for climbers or ambassadors but less scalable for broad giveaway volume.
+sponsor_ocun,Ocun,medium,medium,low,medium,medium,gear_brand_partner,Good gear-brand fit with possible giveaways and longer-term brand support via distributor.
+sponsor_evolv,Evolv,medium,high,low,medium,medium,product_seed_partner,Shoe category makes more sense for athlete support and selective seeding than broad giveaways.
+sponsor_tenaya,Tenaya,medium,high,low,medium,medium,product_seed_partner,Performance shoe brand is better for selected climbers than mass giveaway use.
+sponsor_lattice_training,Lattice Training,medium,high,low,high,high,foundational_multi_angle,Strong fit for athlete cohort credibility and long-term paid sponsor logic even without physical product depth.
+sponsor_beastmaker,Beastmaker,medium,high,low,medium,medium,product_seed_partner,Training products suit selected athlete and street-team support better than broad launch giveaways.
+sponsor_crux_gear,Crux Gear,high,high,low,medium,high,product_seed_partner,Portable training products are ideal for youth athletes street teams and social proof.
+sponsor_redpoint_climbing,Redpoint Climbing,high,high,low,medium,high,product_seed_partner,Australian brand with approachable consumer products suitable for giveaways and athlete seeding.
+sponsor_friction_labs,Friction Labs,high,high,low,medium,high,consumables_partner,Chalk and hand-care are ideal for giveaway packs and sponsored climber kits.
+sponsor_chalk_cartel,Chalk Cartel,high,high,low,medium,high,consumables_partner,Very strong fit for youth comp packs social seeding and community-supported giveaways.
+sponsor_reset,Reset,high,high,low,medium,high,consumables_partner,Local chalk and accessory brand is very well suited to repeat pack inclusion and athlete seeding.
+sponsor_paddy_pallin,Paddy Pallin,medium,medium,high,medium,high,retail_bundle_partner,Strong candidate for broader package support including vouchers outdoor basics apparel and possible merch/logistics help.
+sponsor_climbing_anchors,Climbing Anchors,high,high,medium,medium,high,retail_bundle_partner,Excellent specialist retail partner for product bundles intro paths and potentially youth-focused support packs.
+sponsor_happy_biner,Happy Biner,high,medium,medium,low,medium,retail_bundle_partner,Good for prizes and retail bundle support but weaker long-term paid sponsor logic than bigger category brands.
+sponsor_k2_base_camp,K2 Base Camp,medium,medium,high,medium,high,retail_bundle_partner,Good fit for mixed retail bundles apparel accessory support and possible help on physical package economics.
+sponsor_the_climbing_shop,The Climbing Shop,medium,medium,medium,low,medium,retail_bundle_partner,Specialist retailer with product-access value more than major long-term paid sponsor upside.
+sponsor_pinnacle_sports,Pinnacle Sports,medium,medium,medium,low,medium,retail_bundle_partner,Useful retailer for product support and possible Brisbane or youth-scene linkage.
+sponsor_friction_addiction,Friction Addiction,medium,high,medium,medium,high,distribution_bundle_partner,Distributor access can unlock multiple product lines for packs athlete support and later sponsorship.
+sponsor_als_trade,ALS Trade,low,medium,low,medium,medium,distribution_intro_partner,Better as a brand-access node than a consumer-facing pack sponsor.
+sponsor_spelean,Spelean,low,low,low,low,low,infrastructure_only,Important route into Petzl but not a natural first product-support partner.
+sponsor_southern_cross_equipment,Southern Cross Equipment,low,low,low,low,low,infrastructure_only,Primarily a hardware distribution route not a natural PSF activation partner.
+sponsor_scotty_dog_resoles,Scotty Dog Resoles,medium,medium,low,low,low,community_utility_partner,Useful service inclusion and athlete utility but weaker scaled sponsorship case.
+sponsor_rubber_styx,Rubber Styx,medium,medium,low,low,low,community_utility_partner,Local service fit with strong practical value.
+sponsor_sticky_joes_resoles,Sticky Joe's Resoles,medium,medium,low,low,low,community_utility_partner,Useful practical service inclusion for climber-facing kits.
+sponsor_mammut,Mammut,low,low,medium,medium,medium,premium_adjacent_brand,More relevant as a longer-term premium paid brand or apparel-aligned partner than for early product seeding.
+sponsor_getya,Getya,medium,medium,low,low,low,consumables_partner,Relevant chalk inclusion candidate but lower-signal than stronger chalk brands.

@@ -79,6 +79,7 @@ Keep those details in the lane-specific docs so the master plan stays readable.
 - separate assumptions from confirmed decisions
 - prefer one clear source of truth over multiple duplicated notes
 - keep AI research outputs reviewable by preserving source links, screenshots, or copied evidence notes
+- rewrite awkward titles before saving them if they sound like system labels instead of normal English
 
 ## Two-Person Rule
 

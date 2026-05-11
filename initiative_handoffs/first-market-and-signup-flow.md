@@ -31,6 +31,12 @@ What to do first:
 Good outcome:
 - A fresh chat can clearly say what Ballina is for, what Melbourne is for, where a signup lands, what fields are collected, and what still needs to be decided before launch.
 
+Update this next if a decision is made:
+- [MASTER_PLAN.md](/Users/Mike/dev/Pinchy%20Slab%20Face/MASTER_PLAN.md) if the first newsletter market rule changes
+- [EMAIL_LIST_PLAN.md](/Users/Mike/dev/Pinchy%20Slab%20Face/EMAIL_LIST_PLAN.md) for signup field and list-flow decisions
+- [LAUNCH_PLAN.md](/Users/Mike/dev/Pinchy%20Slab%20Face/LAUNCH_PLAN.md) if the Ballina signup path changes
+- [PBO_INITIAL_INGEST.md](/Users/Mike/dev/Pinchy%20Slab%20Face/PBO_INITIAL_INGEST.md) if the initiative sequence or handoff state changes
+
 Keep in mind:
 - Write for a non-technical reader.
 - Do not drift into deep implementation details.

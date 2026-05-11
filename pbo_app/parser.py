@@ -44,6 +44,14 @@ def _lines(path: Path) -> list[str]:
     return _read(path).splitlines()
 
 
+def extract_section_bullets(text: str, heading: str, stop_headings: list[str]) -> list[str]:
+    pattern = rf"{re.escape(heading)}\n(.*?)(?=\n(?:{'|'.join(re.escape(item) for item in stop_headings)})|\Z)"
+    match = re.search(pattern, text, re.S)
+    if not match:
+        return []
+    return [line[2:].strip() for line in match.group(1).splitlines() if line.startswith("- ")]
+
+
 def extract_bullets(lines: Iterable[str], heading: str) -> list[str]:
     items: list[str] = []
     start = False
@@ -254,17 +262,33 @@ def parse_suggested_next_chats(path: Path) -> list[str]:
 
 
 def parse_handoff_files(folder: Path) -> list[dict[str, str]]:
-    items: list[dict[str, str]] = []
+    items: list[dict[str, str | list[str]]] = []
     for path in sorted(folder.glob("*.md")):
         title = path.stem.replace("-", " ")
         packet = _read(path)
         first_title_match = re.search(r"Title:\n- (.+)", packet)
         lane_match = re.search(r"Best lane for this work:\n- (.+)", packet)
+        why_match = re.search(r"Why it matters:\n- (.+)", packet)
+        first_step_match = re.search(r"What to do first:\n- (.+)", packet)
+        good_outcome = extract_section_bullets(
+            packet,
+            "Good outcome:",
+            ["Keep in mind:", "Update this next if a decision is made:", "Repo docs:"],
+        )
+        update_next = extract_section_bullets(
+            packet,
+            "Update this next if a decision is made:",
+            ["Keep in mind:", "Repo docs:"],
+        )
         items.append(
             {
                 "file_name": path.name,
                 "title": first_title_match.group(1).strip() if first_title_match else title.title(),
                 "lane": lane_match.group(1).strip() if lane_match else "",
+                "why_it_matters": why_match.group(1).strip() if why_match else "",
+                "what_to_do_first": first_step_match.group(1).strip() if first_step_match else "",
+                "good_outcome": good_outcome[0] if good_outcome else "",
+                "update_next": update_next,
                 "packet": packet,
             }
         )

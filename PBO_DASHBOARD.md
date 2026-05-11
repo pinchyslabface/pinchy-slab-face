@@ -20,6 +20,12 @@ For the concrete app shape, see `PBO_APP_SPEC.md`.
 - what changed this week
 - what handoff the next chat should inherit
 
+The dashboard should make the hierarchy obvious:
+
+- milestone = the checkpoint
+- initiative = the workstream
+- task = the next piece of work
+
 ## Core Tabs
 
 Keep the familiar TBO-style tab set:
@@ -61,11 +67,16 @@ If we later add more views, they should sit beside these rather than replacing t
 - waiting
 - done
 
+Rule:
+
+- queue cards should read like plain-English work, not database records
+
 ### 3. Lane View
 
 - strategy
 - tech
 - content
+- event intelligence
 - marketing
 - sponsorships
 - domains
@@ -77,6 +88,7 @@ If we later add more views, they should sit beside these rather than replacing t
 - what is still unresolved
 - who should look at it next
 - what file should be updated next
+- what a good outcome looks like
 
 ### 5. Weekly Check-In
 

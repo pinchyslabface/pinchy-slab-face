@@ -76,3 +76,11 @@ rel_sherpa_stocks_wideboyz,entity_sherpa,stocks,entity_wide_boyz,https://www.she
 rel_sherpa_stocks_axis,entity_sherpa,stocks,entity_axis,https://www.sherpa.com.au/climb/,medium,Sherpa climb category filters list Axis.
 rel_sherpa_stocks_onsightphoto,entity_sherpa,stocks,entity_onsight_photography,https://www.sherpa.com.au/climb/,medium,Sherpa climb category filters list Onsight Photography.
 rel_redpoint_has_stockists,entity_redpoint_climbing,stocked_by_network,entity_redpoint_climbing,https://www.redpointclimbing.com.au/pages/redpoint-climbing-stockists,high,Redpoint Climbing states its products are stocked at select climbing gyms bouldering gyms and climbing retailers across Australia.
+rel_wildearth_stocks_frictionlabs,entity_wild_earth,stocks,entity_friction_labs,https://www.wildearth.com.au/brand/FrictionLabs,high,Wild Earth has a dedicated Friction Labs brand page.
+rel_wildearth_stocks_chalkcartel,entity_wild_earth,stocks,entity_chalk_cartel,https://www.wildearth.com.au/brand/Chalk-Cartel,high,Wild Earth has a dedicated Chalk Cartel brand page.
+rel_wildearth_stocks_rhino,entity_wild_earth,stocks,entity_rhino_skin_solutions,https://www.wildearth.com.au/buy/rhino-split-salve-stick/RHINOSPLIT005,high,Wild Earth has dedicated Rhino Skin Solutions product and brand coverage.
+rel_wildearth_stocks_getya,entity_wild_earth,stocks,entity_getya,https://www.wildearth.com.au/brand/Getya,high,Wild Earth has a dedicated Getya brand page.
+rel_climbinganchors_stocks_frictionlabs,entity_climbing_anchors,stocks,entity_friction_labs,https://www.climbinganchors.com.au/friction-labs/,high,Climbing Anchors has a dedicated Friction Labs brand page.
+rel_climbinganchors_stocks_reset,entity_climbing_anchors,stocks,entity_reset,https://www.climbinganchors.com.au/reset/,high,Climbing Anchors has a dedicated Reset brand page.
+rel_climbinganchors_stocks_rhino,entity_climbing_anchors,stocks,entity_rhino_skin_solutions,https://www.climbinganchors.com.au/training/recovery/skin-care/,medium,Climbing Anchors skin-care category prominently includes Rhino Skin products.
+rel_climbinganchors_stocks_lattice,entity_climbing_anchors,stocks,entity_lattice_training,https://www.climbinganchors.com.au/lattice/,high,Climbing Anchors has a dedicated Lattice brand page.

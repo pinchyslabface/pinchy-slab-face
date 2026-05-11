@@ -46,8 +46,10 @@ The project is still centered on:
 ### Top Priorities
 
 - stabilize the PBO foundation so the project has a clean weekly rhythm
-- complete Milestone 1: launch through first newsletter send
+- complete Milestone 1: get ready to launch and send the first newsletter
 - keep the launch promo plan, signup flow, and first-send path explicit enough to execute
+- build the event tracking tooling lane far enough that weekly-send event discovery is repeatable and handoff-safe
+- turn the new sponsor research base into a usable launch sponsor shortlist and first outreach motion
 
 ### Blocked
 
@@ -63,9 +65,10 @@ The project is still centered on:
 - strategy: confirm the first launch sequence and what counts as "ready enough"
 - tech: use the launch-ready minimum in `TECH_ROUTE.md` and wire the intake -> review -> send loop to the weekly workflow
 - content: shape the first repeatable newsletter cadence without overcomplicating it
+- event intelligence: use `initiative_handoffs/event-tracking-tooling.md` to build the source snapshot and validation path for weekly-send events
 - marketing: use Ballina and QR signup as the first growth sequence, without treating Ballina as the default first newsletter market
 - launch ops: get the signup flow, launch assets, and first-send path ready for real use
-- sponsorships: keep early monetisation lightweight and behind audience growth
+- sponsorships: use the sponsor database to build the first product-support and giveaway-support outreach motion without treating gyms as the first paying sponsor lane
 - domains: keep the completed domain and Fastmail setup documented, then finish social handle reservations, Beehiiv custom-domain wiring, and any later .au or reserve-domain decisions
 
 ### Decisions Made
@@ -101,8 +104,8 @@ The project is still centered on:
 
 - status: now
 - owner: Mike
-- why this matters: the project needs one clear milestone that carries launch promo through first send
-- next action: use Milestone 1 as the main frame for launch, signup, send, and review work
+- why this matters: the project needs one clear checkpoint that carries launch work through the first real send
+- next action: use Milestone 1 as the main frame for launch, signup, first send, and review work
 - blockers: none
 - dependencies: the initiatives under Milestone 1 need to stay explicit and plain English
 
@@ -144,16 +147,36 @@ The project is still centered on:
 - blockers: none
 - dependencies: the master plan, positioning docs, and launch direction
 
-### 7. Promotion and signup mechanics
+### 7. Build the event tracking tooling for weekly sends
+
+- status: next
+- owner: Mike
+- why this matters: PSF needs a repeatable way to find, validate, parse, and export climbing events without relying on memory or one-off browsing
+- next action: build browser-assisted Instagram and Facebook review queues for event sources that need manual social checking
+- blockers: none
+- dependencies: `EVENT_TRACKING_TOOLING_PLAN.md`, `sponsor_research/COMP_RESEARCH_SYSTEM.md`, `sponsor_research/hosts.csv`, `sponsor_research/host_update_channels.csv`, and `sponsor_research/event_monitor_queue.csv`
+- handoff note: the monitoring queue, public web snapshot script, heuristic candidate parser, validation overlay, human review helper, and weekly export helper now exist; weekly export is currently blocked by no manually approved rows, and the next tooling step is social review queue/capture support
+
+### 8. Promotion and signup mechanics
 
 - status: next
 - owner: Mike
 - why this matters: the project needs a real-world path to list growth, not just a product concept
-- next action: make the QR flow, comp mechanic, referral prompt, optional second-step profile capture, gym re-share pack, and launch messaging simple enough to execute
+- next action: make the QR flow, comp mechanic, referral prompt, optional second-step profile capture, gym re-share pack, brand system, and launch messaging simple enough to execute while protecting list quality
 - blockers: none
 - dependencies: launch plan, first-market sequence, and first-send path
 
-### 8. Finish the basic setup needed for launch
+### 9. Build the first sponsor shortlist and outreach motion
+
+- status: next
+- owner: Mike
+- why this matters: the launch comp and referral thesis work much better if PSF can prove early sponsor appetite through product support, voucher support, or selective launch cash support
+- next action: turn the sponsor research base into a short list of first-wave launch targets, contact paths, and a simple foundation-support outreach angle
+- blockers: none
+- dependencies: `sponsor_research/COMP_RESEARCH_SYSTEM.md`, `sponsor_research/SPONSOR_TARGET_SHORTLIST.md`, `sponsor_research/SPONSORSHIP_ANGLE_FRAMEWORK.md`, and the launch promotion plan
+- handoff note: gyms are partner-distribution nodes, not the first paying sponsor lane; prioritize climbing-native brands, retailers, distributors, and service providers that can support the comp and perk pool
+
+### 10. Finish the basic setup needed for launch
 
 - status: next
 - owner: Mike
@@ -181,7 +204,7 @@ The project is still centered on:
 
 ### Later
 
-### 9. Lightweight public archive
+### 11. Lightweight public archive
 
 - status: later
 - owner: Mike
@@ -190,12 +213,12 @@ The project is still centered on:
 - blockers: it is deliberately deferred
 - dependencies: traction and a working event store
 
-### 10. Early monetisation tests
+### 12. Early monetisation tests
 
 - status: later
 - owner: Mike
-- why this matters: sponsorship and featured placements are part of the long-term model, but not the first bottleneck
-- next action: keep the tests lightweight and behind audience formation
+- why this matters: sponsorship and featured placements are part of the long-term model, but the launch should first prove product-support appetite and audience quality before mature inventory selling
+- next action: keep the tests lightweight, use the sponsor database for the first product-support outreach, and delay heavier commercial packaging until traction exists
 - blockers: audience traction needs to exist first
 - dependencies: launch, list growth, and repeatable sends
 
@@ -260,18 +283,28 @@ The plan should stay this simple unless a real dependency forces more detail.
 - outcome: a simple working setup for signup, curation, review, and sending
 - done looks like: the default setup is clear, working, and no longer being re-debated
 - first step: confirm the Beehiiv plus Postgres plus manual review path as the working default
-- depends on: setup and ownership polish
-- unlocks: first market and signup flow, newsletter shape and first send path
+- depends on: finish the basic setup needed for launch
+- unlocks: choose the first newsletter market and make signup clear, define the first newsletter and how we send it
 
 #### Plan the first launch push
 
 - best lane: marketing chat
 - why this exists: the project needs a simple way to turn Ballina attention into real subscribers
-- outcome: the QR flow, comp mechanic, sponsor support, referral basics, optional ambassador and sponsor-interest capture, organic support, and gym re-share asks are clear enough to run in the real world
+- outcome: the QR flow, comp mechanic, sponsor support, referral basics, optional ambassador and sponsor-interest capture, organic support, gym re-share asks, and basic brand system are clear enough to run in the real world
 - done looks like: the launch plan is clear enough to run without more back-and-forth, and the team knows which promotion lanes matter now versus later
-- first step: turn the Ballina plan into a short execution list with the QR, comp, referral, organic, optional interest-capture, and gym-support actions
-- depends on: first market and signup flow
+- first step: turn the Ballina plan into a short execution list with the QR, comp, referral, organic, optional interest-capture, gym-support, and brand-system actions
+- depends on: choose the first newsletter market and make signup clear
 - unlocks: real-world launch execution and signup collection
+
+#### Build the first sponsor shortlist and outreach motion
+
+- best lane: sponsorships / promotions chat
+- why this exists: the launch comp and referral loop are stronger if PSF can secure early product-support, voucher-support, or selective launch-cash partners from climbing-native brands
+- outcome: a credible first-wave sponsor list, contact-path map, and lightweight outreach angle for foundation-style launch support
+- done looks like: PSF knows who to ask first, why they are a fit, what the first ask is, and how this differs from later paid sponsorship
+- first step: turn the current sponsor database into a prioritized launch-support list with simple asks and contact paths
+- depends on: plan the first launch push
+- unlocks: stronger comp economics, better launch perks, and a more credible sponsorability test
 
 #### Choose the first newsletter market and make signup clear
 
@@ -280,8 +313,8 @@ The plan should stay this simple unless a real dependency forces more detail.
 - outcome: the likely first newsletter market, the multi-city signup logic, and the signup path are clear enough to use
 - done looks like: Melbourne is treated as the default first send market unless another city clearly moves faster, and the signup fields and list entry path are settled enough to launch
 - first step: turn the current market assumptions into a short launch sequence and signup flow check, with Ballina framed as the first marketing push rather than the default send market
-- depends on: MVP workflow and stack lock
-- unlocks: launch promo plan and first list capture
+- depends on: get the basic tech setup working
+- unlocks: plan the first launch push and first list capture
 
 #### Define the first newsletter and how we send it
 
@@ -290,8 +323,18 @@ The plan should stay this simple unless a real dependency forces more detail.
 - outcome: the first newsletter can be put together, checked, and sent without confusion
 - done looks like: the first issue structure, review step, and send path are obvious
 - first step: define the minimum review and publish sequence for issue one
-- depends on: MVP workflow and stack lock, first market and signup flow
+- depends on: get the basic tech setup working, choose the first newsletter market and make signup clear
 - unlocks: first real send and launch review
+
+#### Build the event tracking tooling for weekly sends
+
+- best lane: tech stack and workflow chat
+- why this exists: weekly sends depend on fresh, validated event data from scattered gyms, associations, social posts, ticketing pages, and direct submissions
+- outcome: a conservative event intelligence pipeline that can find, validate, parse, and export events for newsletter use
+- done looks like: the monitoring queue runs, source snapshots detect changed public web pages, event candidates are parsed separately from reviewed events, validation scores are visible, human review decisions are recorded, and weekly-send exports only use reviewed rows
+- first step: build browser-assisted Instagram and Facebook review workflows as described in `initiative_handoffs/event-tracking-tooling.md`
+- depends on: get the basic tech setup working, define the first newsletter and how we send it
+- unlocks: a repeatable event discovery and review workflow for weekly sends
 
 #### Review the launch and choose the next move
 
@@ -300,7 +343,7 @@ The plan should stay this simple unless a real dependency forces more detail.
 - outcome: the team can review signup signal, launch response, and what the next city or sequence should be
 - done looks like: the first launch cycle has been reviewed and the next move is clearer
 - first step: define what the team will review after Ballina and after the first send
-- depends on: launch promo plan, newsletter shape and first send path
+- depends on: plan the first launch push, define the first newsletter and how we send it
 - unlocks: the next milestone and the next queue reshuffle
 
 ### Supporting initiative
@@ -409,6 +452,13 @@ What is still open:
 
 What to do first:
 - Read `MASTER_PLAN.md`, `THREAD_HANDOFF.md`, `PBO_PLAN.md`, `PBO_APP_SPEC.md`, and `PBO_INITIAL_INGEST.md`, then confirm Milestone 1, make sure the launch promo and first send paths are explicit, and test one real handoff.
+
+Good outcome:
+- The next chat can clearly say whether Milestone 1 is the right checkpoint, whether the initiative order still makes sense, and what should be picked up next.
+
+Update this next if a decision is made:
+- [PBO_INITIAL_INGEST.md](/Users/Mike/dev/Pinchy%20Slab%20Face/PBO_INITIAL_INGEST.md)
+- [THREAD_HANDOFF.md](/Users/Mike/dev/Pinchy%20Slab%20Face/THREAD_HANDOFF.md)
 
 Repo docs:
 - [MASTER_PLAN.md](/Users/Mike/dev/Pinchy%20Slab%20Face/MASTER_PLAN.md)

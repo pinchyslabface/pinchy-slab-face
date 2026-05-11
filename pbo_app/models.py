@@ -22,6 +22,10 @@ class HandoffFile:
     title: str
     lane: str
     packet: str
+    why_it_matters: str
+    what_to_do_first: str
+    good_outcome: str
+    update_next: list[str] = field(default_factory=list)
 
 
 @dataclass

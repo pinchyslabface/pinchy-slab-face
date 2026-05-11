@@ -23,6 +23,10 @@ That makes it possible to:
   Shared host universe. This is the join layer for future gym CRM work and the base for national gym coverage.
 - `host_review_queue.csv`
   Ranked next-pass queue for event and sponsor research.
+- `host_update_channels.csv`
+  Known monitoring channels for each host, including websites, social profiles, event calendars, and ticketing paths.
+- `event_monitor_queue.csv`
+  Generated weekly monitoring queue for deciding which host channels should be checked first.
 - `events.csv`
   Master event index. One row per comp or event.
 - `event_sponsors.csv`
@@ -33,6 +37,46 @@ That makes it possible to:
   Overlay that separates strong climber-facing sponsor prospects from infrastructure nodes, B2B map entities, and low-fit local-only supporters.
 - `sponsor_contact_paths.csv`
   Operational contact-path overlay that records the best Australian route to each priority sponsor, whether that route is a brand team, distributor, retailer, or service operator.
+- `sponsor_market_tags.csv`
+  Tagging overlay for endemic vs adjacent brands and for noting whether a sponsor has proven climbing-scene spend, media familiarity, local-only event history, or infrastructure relevance.
+- `sponsor_segment_views.csv`
+  Ready-to-use filtered CSV slices derived from the tag layer for endemic proven spenders, adjacent proven spenders, local-only event brands, and industry-only nodes.
+- `SPONSOR_FILTERED_VIEWS.md`
+  Human-readable view of the main sponsor slices and when to use each one.
+- `sponsorship_angle_fit.csv`
+  Operational table that scores sponsors across the main PSF sponsorship motions: launch giveaway product, street team support, PSF merch or package support, and long-term paid sponsorship.
+- `SPONSORSHIP_ANGLE_FRAMEWORK.md`
+  Human-readable framework for how the different sponsorship asks overlap and which brands look foundational across multiple angles.
+- `build_event_monitor_queue.mjs`
+  Script that reads `hosts.csv` and `host_update_channels.csv`, scores the known update channels, and writes `event_monitor_queue.csv`.
+- `collect_web_sources.mjs`
+  Script that reads `event_monitor_queue.csv`, fetches public web sources, stores raw HTML and extracted text under `event_intel/source_snapshots/`, and records snapshot status in `source_snapshots.csv`.
+- `source_snapshots.csv`
+  Snapshot index for fetched public web sources, including status code, hashes, change state, file paths, and errors.
+- `parse_event_candidates.mjs`
+  Heuristic parser that reads fetched source snapshots and writes review-only event/activity candidates to `event_candidates.csv`.
+- `event_candidates.csv`
+  Candidate queue for possible events and activities. These rows are not validated events and must not be treated as publish-ready.
+- `validate_event_candidates.mjs`
+  Review overlay script that scores candidate completeness, evidence strength, likely duplicates, and noisy generic rows.
+- `event_candidate_validation.csv`
+  Validation overlay for `event_candidates.csv`. This helps prioritize human review but does not make any event publish-ready by itself.
+- `review_event_candidates.mjs`
+  Human-review workflow helper that writes a prioritized review queue, initializes a separate review-decision file, and can stage approved rows without touching raw parser output.
+- `event_candidate_review_queue.csv`
+  Ranked review queue for Mike or Josiah. Use this to decide which candidates to inspect first.
+- `event_candidate_reviews.csv`
+  Human decision file. Fill this in during review; do not edit raw candidate rows to make review decisions.
+- `reviewed_events_staging.csv`
+  Optional staging output for rows that have been manually marked `approved` in `event_candidate_reviews.csv`. This is not newsletter-ready copy.
+- `export_weekly_event_views.mjs`
+  Weekly export helper that reads manually approved staging rows and writes city/date-window export views without generating newsletter copy.
+- `weekly_event_export.csv`
+  Weekly-send candidate export for reviewed staging rows in the selected date and city/state window.
+- `weekly_event_export_summary.csv`
+  Export status summary, including whether the current blocker is lack of manually approved reviewed rows.
+- `csv_utils.mjs`
+  Shared CSV parser and writer used by the event-intelligence scripts.
 
 ## Entity Model
 
@@ -184,6 +228,59 @@ Examples:
 - `DMM -> Southern Cross Equipment`
 - `Edelrid -> Southern Cross Equipment`
 - `Butora -> Climbing Anchors`
+
+### 4C. Sponsor Market Tags
+
+Use `sponsor_market_tags.csv` to tag where a sponsor sits relative to the climbing market.
+
+This is useful when a sponsor is not climbing-native but has still shown clear evidence of targeting climbers.
+
+Recommended tags to maintain:
+
+- `endemicity_tag`
+- `scene_spend_tag`
+- `adjacency_tag`
+
+Example interpretation:
+
+- `climbing_native`
+- `adjacent_but_core_outdoor`
+- `adjacent_non_endemic`
+- `adjacent_scene_service`
+- `scene_operator`
+
+And scene-spend examples:
+
+- `proven_scene_spender`
+- `media_familiar`
+- `local_event_only`
+- `industry_only`
+- `ecosystem_only`
+- `direct_climber_fit`
+
+Important rule:
+
+- adjacent brands should stay visible when there is evidence they already spend in the climbing scene
+- local event-only adjacencies should not crowd the first-wave sponsor pool
+- use these tags to separate non-endemic but proven spenders from one-off local hospitality supporters
+
+### 4D. Sponsorship Angle Fit
+
+Use `sponsorship_angle_fit.csv` to score sponsors against the actual PSF sponsorship motions.
+
+Recommended angles:
+
+- `launch_giveaway_fit`
+- `street_team_product_fit`
+- `psf_merch_or_package_support_fit`
+- `long_term_paid_sponsor_fit`
+- `angle_overlap_strength`
+
+Important principle:
+
+- the best foundational sponsors are often the ones that can help across multiple motions
+- product support and long-term paid sponsorship should not be treated as fully separate universes
+- some retailers and distributors may be especially valuable because they can help build mixed bundles even if they are not the ideal long-term headline sponsor
 
 ## Coverage Standard
 

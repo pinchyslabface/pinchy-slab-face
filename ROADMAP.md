@@ -56,6 +56,7 @@ Recommended default:
 - collect events from Instagram, email, websites, WhatsApp, and direct submissions
 - normalize into a simple Postgres-backed event store
 - keep the review workflow lightweight and repeatable
+- maintain a source monitoring queue so high-priority gyms and sport-climbing associations are checked on a clear rhythm
 
 ## Next
 

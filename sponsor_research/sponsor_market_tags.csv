@@ -1,0 +1,81 @@
+sponsor_entity_id,normalized_name,endemicity_tag,scene_spend_tag,adjacency_tag,notes
+sponsor_paddy_pallin,Paddy Pallin,adjacent_but_core_outdoor,proven_scene_spender,retail_infrastructure,Outdoor retailer with repeated climbing-event support and strong scene relevance.
+sponsor_happy_biner,Happy Biner,climbing_native,proven_scene_spender,retail_infrastructure,Climbing-specialist retailer with repeat comp sponsorship evidence.
+sponsor_black_diamond,Black Diamond,climbing_native,proven_scene_spender,media_familiar,Core climbing brand with event and media-history evidence.
+sponsor_blue_moose_photos,Blue Moose Photos,adjacent_scene_service,proven_scene_spender,local_scene_service,Climbing-adjacent media service seen repeatedly in event support.
+sponsor_brownes_dairy,Browne's Dairy,adjacent_non_endemic,local_event_only,food_beverage,Local event-support brand rather than a category-native climber sponsor.
+sponsor_arcteryx,Arc'teryx,adjacent_but_core_outdoor,media_familiar,apparel_outdoor,Mountain brand with climbing credibility and media-surface history.
+sponsor_k2_base_camp,K2 Base Camp,adjacent_but_core_outdoor,proven_scene_spender,retail_infrastructure,Technical retailer with climbing relevance and event-support signal.
+sponsor_awesome_woodys,Awesome Woodys,climbing_native,direct_climber_fit,training_performance,Australian climbing training brand.
+sponsor_sea_legs_brewing_co,Sea Legs Brewing Co.,adjacent_non_endemic,proven_scene_spender,food_beverage,Local brewery with repeated gym-event support evidence.
+sponsor_rubber_six,Rubber Six,climbing_native,direct_climber_fit,service_repair,Climbing shoe repair category with clear climber utility.
+sponsor_szent,Szent,adjacent_non_endemic,local_event_only,food_beverage,Potential lifestyle partner but weak scene evidence so far.
+sponsor_xtm_performance,XTM Performance,adjacent_but_core_outdoor,local_event_only,apparel_outdoor,Broader outdoor apparel with limited direct climbing signal.
+sponsor_stax_climbing,Stax Climbing,climbing_native,industry_only,b2b_setting,Climbing-industry brand best tracked as setter and gym infrastructure.
+sponsor_pat_and_sticks,Pat & Stick's,adjacent_non_endemic,local_event_only,food_beverage,Local event hospitality style support.
+sponsor_the_boulder_hub,The Boulder Hub,scene_operator,local_scene_spender,gym_operator,Useful host and partner context rather than classic sponsor target.
+sponsor_climbit_physio,Climbit Physio,adjacent_scene_service,proven_scene_spender,recovery_wellness,High-fit physio and recovery service for climbers.
+sponsor_sport_climbing_australia,Sport Climbing Australia,scene_operator,ecosystem_only,governing_body,Important ecosystem institution rather than advertiser.
+sponsor_dlgsc,"Department of Local Government, Sport and Cultural Industries",adjacent_non_endemic,ecosystem_only,government_funding,Funding context rather than sponsor lane.
+sponsor_act_belong_commit,Act Belong Commit,adjacent_non_endemic,ecosystem_only,community_campaign,Campaign partner rather than commercial climber sponsor.
+sponsor_alan_pryce_performance_coaching,Alan Pryce Performance Coaching,adjacent_scene_service,local_scene_spender,coaching_performance,Performance coaching with climber relevance.
+sponsor_capture_with_fj_photography,Capture with FJ Photography,adjacent_scene_service,local_scene_spender,local_scene_service,Photography partner with event support evidence.
+sponsor_the_biltong_box_mandurah,The Biltong Box Mandurah,adjacent_non_endemic,local_event_only,food_beverage,Local event support only.
+sponsor_atrium_mandurah_hotel,Atrium Mandurah Hotel,adjacent_non_endemic,local_event_only,travel_hospitality,Hospitality tie-in around destination events.
+sponsor_mandurah_dolphin_cruises,Mandurah Dolphin Cruises,adjacent_non_endemic,local_event_only,travel_hospitality,Tourism-style local event partner.
+sponsor_project_climbing,Project Climbing,adjacent_scene_service,local_scene_spender,coaching_performance,Climbing service business with likely coaching or skills fit.
+sponsor_little_sammys,Little Sammys,adjacent_non_endemic,local_event_only,food_beverage,Local event support only.
+sponsor_rocktape,Rocktape,adjacent_scene_service,proven_scene_spender,recovery_wellness,Recovery product with credible climber crossover.
+sponsor_iris_boulders,Iris Boulders,scene_operator,local_scene_spender,gym_operator,Venue node with local scene importance.
+sponsor_jibberjab_digital,Jibberjab Digital,adjacent_non_endemic,local_event_only,creative_service,Agency-style support signal not core to sponsor thesis.
+sponsor_climbing_rocks,Climbing Rocks,climbing_native,local_scene_spender,retail_infrastructure,Climbing retailer signal worth keeping in map.
+sponsor_scarpa_australia,Scarpa Australia,climbing_native,proven_scene_spender,activation_brand,Strong activation and demo-night evidence.
+sponsor_open_project,Open Project,adjacent_scene_service,local_scene_spender,community_training,Relevant community or training adjacency.
+sponsor_rock_therapy_bne,Rock Therapy BNE,adjacent_scene_service,proven_scene_spender,recovery_wellness,Strong climbing-rehab fit.
+sponsor_clif_bar_australia,Clif Bar Australia,adjacent_non_endemic,proven_scene_spender,nutrition_endurance,Food and nutrition brand with real climbing-scene crossover.
+sponsor_koga_sport,Koga Sport,adjacent_scene_service,local_scene_spender,retail_infrastructure,Needs clearer entity confirmation but belongs in adjacent scene-commercial layer.
+sponsor_nalgene_australia,Nalgene Australia,adjacent_but_core_outdoor,proven_scene_spender,outdoor_accessories,Utility outdoor brand seen in climbing event context.
+sponsor_tenzing,Tenzing,adjacent_non_endemic,proven_scene_spender,energy_drink,Strong adjacent lifestyle and performance category with climbing-event relevance.
+sponsor_climbing_anchors,Climbing Anchors,climbing_native,proven_scene_spender,retail_infrastructure,Top specialist retailer and wholesale node in the scene.
+sponsor_la_sportiva_australia,La Sportiva Australia,climbing_native,proven_scene_spender,activation_brand,Top climbing activation and shoe-demo brand in current data.
+sponsor_als_trade,ALS Trade,climbing_native,industry_only,distribution_infrastructure,Distributor route into category-native brands.
+sponsor_friction_addiction,Friction Addiction,climbing_native,industry_only,distribution_infrastructure,Distributor and infrastructure node with strong brand access value.
+sponsor_spelean,Spelean,adjacent_scene_service,industry_only,distribution_infrastructure,Technical distribution route into Petzl and climbing-adjacent gear.
+sponsor_southern_cross_equipment,Southern Cross Equipment,adjacent_scene_service,industry_only,distribution_infrastructure,Hardware distribution node into DMM and Edelrid.
+sponsor_wild_earth,Wild Earth,adjacent_but_core_outdoor,media_familiar,retail_infrastructure,Outdoor retailer with meaningful climbing catalog and scene relevance.
+sponsor_mountain_equipment,Mountain Equipment,adjacent_but_core_outdoor,media_familiar,retail_infrastructure,Technical outdoor retailer with strong climbing presence.
+sponsor_the_climbing_shop,The Climbing Shop,climbing_native,direct_climber_fit,retail_infrastructure,Specialist climbing retailer with strong brand visibility.
+sponsor_pinnacle_sports,Pinnacle Sports,climbing_native,direct_climber_fit,retail_infrastructure,Specialist climbing retailer and service operator.
+sponsor_sherpa,Sherpa,adjacent_but_core_outdoor,direct_climber_fit,retail_infrastructure,Outdoor retailer with enough climbing-specific stock to matter.
+sponsor_wall_toys,Wall Toys,climbing_native,direct_climber_fit,retail_infrastructure,Climbing specialist retailer with training and hardware depth.
+sponsor_bogong_equipment,Bogong Equipment,adjacent_but_core_outdoor,media_familiar,retail_infrastructure,Technical retailer with scene and media visibility.
+sponsor_summit_gear,Summit Gear,adjacent_but_core_outdoor,media_familiar,retail_infrastructure,Technical retailer with media and resole-dropoff crossover.
+sponsor_sticky_rubber_resoles,Sticky Rubber Resoles,climbing_native,direct_climber_fit,service_repair,Official authorized resole service with strong climber utility.
+sponsor_scotty_dog_resoles,Scotty Dog Resoles,climbing_native,direct_climber_fit,service_repair,Longstanding resole service with direct scene fit.
+sponsor_rubber_styx,Rubber Styx,climbing_native,direct_climber_fit,service_repair,Local climbing resole brand with strong utility.
+sponsor_sticky_joes_resoles,Sticky Joe's Resoles,climbing_native,direct_climber_fit,service_repair,Authorized climbing resole service.
+sponsor_climbing_resoles,Climbing Resoles,climbing_native,direct_climber_fit,service_repair,National repair service with agent network.
+sponsor_ocun,Ocun,climbing_native,direct_climber_fit,gear_brand,Climbing-native gear brand with clear AU route.
+sponsor_unparallel,Unparallel,climbing_native,direct_climber_fit,shoe_brand,Performance shoe brand with distributor-backed AU route.
+sponsor_petzl,Petzl,climbing_native,media_familiar,gear_brand,Major technical climbing brand with distributor route and retail presence.
+sponsor_dmm,DMM,climbing_native,direct_climber_fit,gear_brand,Technical climbing hardware brand with AU distribution route.
+sponsor_edelrid,Edelrid,climbing_native,direct_climber_fit,gear_brand,Climbing hardware and rope brand with AU distribution route.
+sponsor_evolv,Evolv,climbing_native,direct_climber_fit,shoe_brand,Climbing shoe brand with resolved AU distributor path.
+sponsor_tenaya,Tenaya,climbing_native,direct_climber_fit,shoe_brand,Performance shoe brand with direct brand contact and AU retail presence.
+sponsor_beastmaker,Beastmaker,climbing_native,direct_climber_fit,training_performance,Training-board brand with clear indoor-climber fit.
+sponsor_crux_gear,Crux Gear,climbing_native,direct_climber_fit,training_performance,Australian training product brand.
+sponsor_climbskin,Climbskin,climbing_native,direct_climber_fit,recovery_wellness,Climbing skin-care brand with strong newsletter relevance.
+sponsor_butora,Butora,climbing_native,direct_climber_fit,shoe_brand,Climbing shoe brand with AU retailer route.
+sponsor_beal,Beal,climbing_native,direct_climber_fit,gear_brand,Climbing rope and hardware brand with AU retail presence.
+sponsor_tendon,Tendon,climbing_native,direct_climber_fit,gear_brand,Climbing rope brand with AU retail presence.
+sponsor_wide_boyz,Wide Boyz,climbing_native,direct_climber_fit,training_performance,Training-adjacent climbing brand.
+sponsor_redpoint_climbing,Redpoint Climbing,climbing_native,direct_climber_fit,gear_brand,Australian climbing brand with direct consumer relevance.
+sponsor_mammut,Mammut,adjacent_but_core_outdoor,media_familiar,apparel_outdoor,Technical mountain brand with climbing-media history and ANZ route.
+sponsor_patagonia,Patagonia,adjacent_but_core_outdoor,media_familiar,apparel_outdoor,Outdoor brand with climbing credibility and media presence.
+sponsor_the_north_face,The North Face,adjacent_but_core_outdoor,media_familiar,apparel_outdoor,Outdoor brand with climbing adjacency and media presence.
+sponsor_rhino_skin_solutions,Rhino Skin Solutions,climbing_native,direct_climber_fit,recovery_wellness,Climbing-specific skin-care brand with direct sponsorship contact.
+sponsor_friction_labs,Friction Labs,climbing_native,direct_climber_fit,consumables_chalk,Premium climbing chalk and hand-care brand with AU specialist retail presence.
+sponsor_chalk_cartel,Chalk Cartel,climbing_native,direct_climber_fit,consumables_chalk,Climber-led chalk brand with athlete dealer and event-support language.
+sponsor_reset,Reset,climbing_native,direct_climber_fit,consumables_chalk,Climbing-native accessories and chalk brand with AU distributor route.
+sponsor_lattice_training,Lattice Training,climbing_native,direct_climber_fit,training_performance,High-fit training and coaching brand with indoor-climber relevance.
+sponsor_getya,Getya,adjacent_scene_service,direct_climber_fit,consumables_chalk,Lower-signal chalk brand still worth tracking in consumables lane.

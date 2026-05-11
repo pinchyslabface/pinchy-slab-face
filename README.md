@@ -64,6 +64,12 @@ Use:
 ./run_pbo
 ```
 
+or on macOS:
+
+```bash
+./pbo.command
+```
+
 That launcher:
 
 - creates or reuses `venv-pbo`

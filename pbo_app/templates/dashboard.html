@@ -27,10 +27,26 @@
     <div class="panel-body stack">
       {% for handoff in handoff_files %}
       <div class="packet-box">
+        <div class="panel-body" style="padding-bottom:0;">
+          <h3 style="margin:0 0 8px;">{{ handoff.title }}</h3>
+          <div class="queue-meta">
+            {% if handoff.lane %}<span class="pill">{{ handoff.lane }}</span>{% endif %}
+          </div>
+          {% if handoff.why_it_matters %}<div><strong>Why it matters:</strong> {{ handoff.why_it_matters }}</div>{% endif %}
+          {% if handoff.what_to_do_first %}<div style="margin-top:8px;"><strong>What to do first:</strong> {{ handoff.what_to_do_first }}</div>{% endif %}
+          {% if handoff.good_outcome %}<div style="margin-top:8px;"><strong>Good outcome:</strong> {{ handoff.good_outcome }}</div>{% endif %}
+          {% if handoff.update_next %}
+          <div style="margin-top:8px;">
+            <strong>Update this next:</strong>
+            <ul class="list">
+              {% for item in handoff.update_next %}<li>{{ item }}</li>{% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        </div>
         <pre>{{ handoff.packet }}</pre>
         <div class="packet-actions">
           <button type="button" onclick='copyPacket({{ handoff.packet|tojson }})'>Copy handoff packet</button>
-          {% if handoff.lane %}<span class="pill">{{ handoff.lane }}</span>{% endif %}
           <a class="btn secondary" href="/handoffs/{{ handoff.file_name }}" target="_blank">Open file</a>
         </div>
       </div>
@@ -43,6 +59,7 @@
   <section class="panel">
     <div class="panel-header"><strong>Suggested Next Chats</strong></div>
     <div class="panel-body">
+      <div class="small" style="margin-bottom:10px;">Use the right chat for the right layer of work. The PBO decides sequence; the lane chat does the deeper work.</div>
       <ul class="list">
         {% for item in suggested_next_chats %}<li>{{ item }}</li>{% endfor %}
       </ul>

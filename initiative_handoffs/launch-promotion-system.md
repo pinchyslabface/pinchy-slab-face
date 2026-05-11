@@ -17,17 +17,21 @@ What is already decided:
 - The comp and core referral mechanic should be in place before launch, because they are part of the launch conversion system.
 - Ambassador and sponsor-interest capture should exist from the start as a lightweight optional layer, not as a large standalone program before traction exists.
 - Gym ambassador ideas should stay later.
+- The launch growth loop should optimize for qualified climber signups rather than generic giveaway volume.
+- Gyms are ecosystem partners and distribution allies, not the first paying sponsor lane.
+- The first sponsorability test should focus on climbing-native brands, retailers, distributors, and service providers that can support the comp and perk pool.
 - Ballina at Youth Nationals in mid-May is the first public launch moment.
 - Ballina is a launch marketing moment, not automatically the first active newsletter market.
 - Melbourne is still the default first newsletter market unless another city clearly moves faster.
 - The near-term promotion priority order is field marketing first, then comp and giveaway setup, then signup clarity and referral basics, then organic support, then lightweight interest capture, then gym support, with paid social later as a controlled test.
-- The first asset set should stay lean: signup page, giveaway hook, QR flow, referral explanation, organic launch pack, optional interest-capture step, and gym re-share pack.
+- The first asset set should stay lean: signup page, giveaway hook, QR flow, referral explanation, basic brand system, organic launch pack, optional interest-capture step, gym re-share pack, and a first-pass sponsor shortlist.
 
 What is still open:
 - What the exact launch checklist should be for each promotion lane.
 - Which tasks Mike should own directly versus which Josiah should own.
 - What the first referral messaging and reward copy should say.
 - What the first gym outreach and re-share asks should look like.
+- What the first sponsor outreach package and outreach sequence should look like.
 - What the optional ambassador and sponsor-interest capture should ask without making the flow heavy.
 - What should be prepared before Ballina versus immediately after it.
 - What should stay parked until the first launch signal is reviewed.
@@ -37,6 +41,11 @@ What to do first:
 
 Good outcome:
 - A fresh chat can clearly say what the launch promotion system is, what gets done before Ballina, what happens at Ballina, what happens right after Ballina, what Mike should drive, what Josiah should drive, and what should wait until the core signup loop is proven.
+
+Update this next if a decision is made:
+- [LAUNCH_PLAN.md](/Users/Mike/dev/Pinchy%20Slab%20Face/LAUNCH_PLAN.md)
+- [PBO_INITIAL_INGEST.md](/Users/Mike/dev/Pinchy%20Slab%20Face/PBO_INITIAL_INGEST.md)
+- [THREAD_HANDOFF.md](/Users/Mike/dev/Pinchy%20Slab%20Face/THREAD_HANDOFF.md) if the recommended next lane changes
 
 Keep in mind:
 - Keep the plan realistic for a two-person team.

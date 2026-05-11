@@ -1,0 +1,2 @@
+export_run_at,export_window_start,export_window_end,city_filter,state_filter,approved_staging_rows,exported_rows,undated_rows_excluded,status,next_action
+2026-04-28T11:07:44.991Z,2026-04-28,2026-05-12,,,0,0,0,no_manually_approved_rows_yet,Use event_candidate_review_queue.csv to approve real events before exporting weekly views.

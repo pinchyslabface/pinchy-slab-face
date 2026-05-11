@@ -1,0 +1,43 @@
+ask_type,priority_rank,normalized_name,why_this_fit,best_au_contact_path,contact_email,angle_overlap_strength,foundation_signal
+launch_giveaway_product,1,Rhino Skin Solutions,Direct sponsorship contact and ideal recurring-use skin-care inclusion for launch packs,Direct marketing and sponsorship contact,Justin@rhinoskinsolutions.com,high,high
+launch_giveaway_product,2,Climbskin,High-utility skin-care product with repeat-use relevance and easy pack inclusion,Direct brand contact,info@climb-skin.com,high,medium
+launch_giveaway_product,3,Friction Labs,Premium chalk and hand-care with strong specialist-retail validation,Official contact form,,high,medium
+launch_giveaway_product,4,Chalk Cartel,Climber-led chalk brand with explicit event-support language and good youth-pack fit,Official brand contact form,,high,medium
+launch_giveaway_product,5,Reset,Local chalk and accessory brand with clear AU distributor route and pack suitability,Australian distributor,sales@frictionaddiction.com.au,high,medium
+launch_giveaway_product,6,Awesome Woodys,Training-brand product with strong giveaway and community identity value,Direct brand contact,info@awesomewoodys.com,high,medium
+launch_giveaway_product,7,Crux Gear,Portable training products suit launch bundles and social proof,Direct brand contact,,high,medium
+launch_giveaway_product,8,Climbing Anchors,Retail bundle partner that can help build mixed prize or giveaway packs,Direct retailer or wholesale contact,sales@climbinganchors.com,high,high
+street_team_product_support,1,Scarpa Australia,High youth-athlete credibility and strong selected-climber shoe support logic,Official global brand contact form,,high,high
+street_team_product_support,2,La Sportiva Australia,Strong athlete-facing product support logic plus pathway-event relevance,Australian distributor,sales@intertrek.com.au,high,high
+street_team_product_support,3,Rhino Skin Solutions,Consumable care product ideal for repeat athlete use and direct sponsorship discussion,Direct marketing and sponsorship contact,Justin@rhinoskinsolutions.com,high,high
+street_team_product_support,4,Friction Labs,Chalk and hand-care are ideal repeat-use athlete-support items,Official contact form,,high,medium
+street_team_product_support,5,Chalk Cartel,Strong youth-team and social-seeding fit through consumable product support,Official brand contact form,,high,medium
+street_team_product_support,6,Reset,Australian climbing-native accessories and chalk fit naturally into athlete support packs,Australian distributor,sales@frictionaddiction.com.au,high,medium
+street_team_product_support,7,Awesome Woodys,Training-focused brand maps well to athlete identity and social content,Direct brand contact,info@awesomewoodys.com,high,medium
+street_team_product_support,8,Lattice Training,High credibility with serious youth climbers even if support is more programmatic than physical,Direct brand contact,contact@latticetraining.com,high,high
+street_team_product_support,9,Unparallel,Selective shoe seeding for sponsored climbers is plausible through distributor route,Australian distributor,sales@frictionaddiction.com.au,medium,medium
+street_team_product_support,10,Evolv,Selective shoe support fits athlete cohort better than broad giveaways,Australian distributor,,medium,medium
+psf_merch_or_package_support,1,Climbing Anchors,Best specialist retail partner for mixed bundles product access and package-building support,Direct retailer or wholesale contact,sales@climbinganchors.com,high,high
+psf_merch_or_package_support,2,Paddy Pallin,Strong broader-outdoor retailer for vouchers apparel accessory access and package economics,Direct retailer contact,,high,high
+psf_merch_or_package_support,3,K2 Base Camp,Good fit for mixed bundles apparel support and possibly physical-package economics,Direct retailer contact,info@k2.com.au,high,medium
+psf_merch_or_package_support,4,Happy Biner,Climbing-native retailer with clear product-bundle and prize-support logic,Direct retailer contact,,medium,medium
+psf_merch_or_package_support,5,The Climbing Shop,Specialist retailer with good product-access value even if long-term paid upside is lower,Direct retailer contact,,medium,low
+psf_merch_or_package_support,6,Pinnacle Sports,Useful retailer partner for product support and possible Brisbane-youth linkage,Direct retailer contact,online@pinnaclesports.com.au,medium,low
+psf_merch_or_package_support,7,Friction Addiction,Distributor can unlock multiple product lines for mixed support packs,Direct distributor contact,sales@frictionaddiction.com.au,high,medium
+psf_merch_or_package_support,8,Mammut,Premium adjacent brand more useful here as apparel-or-package halo than early consumable support,Australia and New Zealand distributor,,medium,medium
+long_term_paid_sponsor,1,La Sportiva Australia,Strongest combination of activation proof category fit and national relevance,Australian distributor,sales@intertrek.com.au,high,high
+long_term_paid_sponsor,2,Scarpa Australia,Very strong category fit and youth-athlete credibility with clear long-term upside,Official global brand contact form,,high,high
+long_term_paid_sponsor,3,Black Diamond,Premium category leader with repeat scene signal and strong media familiarity,Exclusive Australian distributor,info@blackdiamondequipment.com.au,high,high
+long_term_paid_sponsor,4,Lattice Training,Excellent fit for an ambitious indoor-performance audience and likely strong brand-intellectual alignment,Direct brand contact,contact@latticetraining.com,high,high
+long_term_paid_sponsor,5,Rhino Skin Solutions,Direct sponsorship contact and highly relevant recurring-use brand for climbers,Direct marketing and sponsorship contact,Justin@rhinoskinsolutions.com,high,high
+long_term_paid_sponsor,6,Climbing Anchors,Specialist retailer with scene credibility and strong commercial relevance,Direct retailer or wholesale contact,sales@climbinganchors.com,high,high
+long_term_paid_sponsor,7,Paddy Pallin,Adjacent but proven scene spender with stronger commercial scale than most local partners,Direct retailer contact,,high,high
+long_term_paid_sponsor,8,Friction Labs,Premium category brand with clear specialist-retail validation and good media fit,Official contact form,,high,medium
+long_term_paid_sponsor,9,Chalk Cartel,Category-native chalk brand with community and event-support language,Official brand contact form,,high,medium
+long_term_paid_sponsor,10,Unparallel,Strong category fit and good distributor-backed path though still more niche than top shoe brands,Australian distributor,sales@frictionaddiction.com.au,medium,medium
+foundational_multi_angle_sponsors,1,La Sportiva Australia,Can credibly support launch product athlete relevance and long-term paid partnership,Australian distributor,sales@intertrek.com.au,high,high
+foundational_multi_angle_sponsors,2,Scarpa Australia,Strong youth-title relevance and plausible crossover between seeding and long-term sponsorship,Official global brand contact form,,high,high
+foundational_multi_angle_sponsors,3,Black Diamond,Can operate across giveaways brand halo and long-term paid sponsorship,Exclusive Australian distributor,info@blackdiamondequipment.com.au,high,high
+foundational_multi_angle_sponsors,4,Lattice Training,Excellent cross-over between youth-performance credibility and longer-term sponsor logic,Direct brand contact,contact@latticetraining.com,high,high
+foundational_multi_angle_sponsors,5,Rhino Skin Solutions,Direct sponsorship contact and strong fit across giveaways athlete support and ongoing sponsor storytelling,Direct marketing and sponsorship contact,Justin@rhinoskinsolutions.com,high,high
+foundational_multi_angle_sponsors,6,Climbing Anchors,Useful as sponsor retailer bundle-builder and brand-intro node all at once,Direct retailer or wholesale contact,sales@climbinganchors.com,high,high

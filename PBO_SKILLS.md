@@ -55,6 +55,10 @@ Behavior:
 - create an initiative ingest prompt when the work is large enough to need a fresh Codex chat
 - include the copy/paste ingest packet when the work is being handed to a fresh chat
 - favor a visible copy button and readable packet over hidden or technical handoff details
+- rewrite titles into normal English if they sound too system-like
+- prefer verb-led titles when the work is actionable
+- make sure each item answers: what is it, why does it matter, what happens next, and what is blocking it
+- when creating a handoff, include what a good outcome looks like and which doc should probably be updated next
 
 Preferred outcomes:
 
@@ -73,6 +77,27 @@ Use it only if we later want a polished slide-style summary of the project state
 
 For now, it stays a reference idea rather than an active workflow.
 
+### 4. Future: `psf-event-watch`
+
+This is the likely future skill for event-source monitoring and newsletter event capture.
+
+Use it when the goal is to:
+
+- refresh the event monitoring queue
+- decide which gyms and associations should be checked first
+- review a known source for new events
+- turn confirmed public event details into structured event rows
+- preserve source URLs, uncertainty, and review status
+
+Behavior:
+
+- start from `EVENT_TRACKING_TOOLING_PLAN.md`
+- check `sponsor_research/hosts.csv`
+- check `sponsor_research/host_update_channels.csv`
+- run or update `sponsor_research/build_event_monitor_queue.mjs`
+- update `sponsor_research/events.csv` only when event evidence is clear enough to preserve
+- keep Instagram and Facebook review human-assisted unless a later tool makes that reliable
+
 ## Installed Skill Paths
 
 These are the runnable local skill folders currently in the Codex skills area:
@@ -90,6 +115,8 @@ These are the runnable local skill folders currently in the Codex skills area:
 - keep the two-person operating model visible in the behavior
 - prefer language Josiah can understand without explanation
 - when the output is for handoff, make it usable as a fresh-chat starter
+- use the smallest work shape that can hold the decision cleanly
+- keep milestone, initiative, and task descriptions easy enough to skim in one pass
 
 ## Practical Rule
 

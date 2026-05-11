@@ -149,6 +149,8 @@ Launch-era promotion priority:
 - use a simple referral prompt tied to the comp after signup rather than a complex reward system at first
 - capture ambassador and sponsor interest from the start as an optional second-step or welcome-flow layer
 - keep gym ambassador ideas later until the core loop is proven
+- treat qualified climber growth as more important than raw comp-chaser volume
+- keep the launch brand system strong enough that the project feels genuinely worth sharing, not just worth entering
 
 ## Monetisation Path
 
@@ -158,6 +160,11 @@ Early monetisation tests:
 - featured event
 - gym shout-out
 - giveaway sponsor
+
+Early sponsorability rule:
+
+- the first sponsor lane is climbing-native brands, retailers, distributors, and service providers that can support the comp and perk pool
+- gyms should be treated as ecosystem partners first, not as the first paying sponsor customers
 
 Later possibilities:
 
@@ -191,6 +198,9 @@ Later possibilities:
 - the current promotion system has seven connected lanes: launch and field marketing, comp and giveaway engine, referral loop, organic social, individual ambassador and sponsor-interest capture, gym partnerships, and paid social
 - ambassadors should start as a lightweight opt-in layer from day one, with deeper programs held until the core loop is proven
 - gym ambassador ideas are later-stage, while simple gym repost and distribution support can happen earlier
+- the launch growth loop should optimize for qualified climber signups rather than raw giveaway volume
+- the long-term audience asset is a high-density database of indoor climbers with useful profile data, not just a large generic email list
+- the first sponsorability proof should come from climbing-relevant product, voucher, and perk support rather than trying to sell mature media inventory too early
 - beehiiv is the publishing layer
 - GitHub Free is the private repo host
 - Neon Free is the current hosted Postgres default

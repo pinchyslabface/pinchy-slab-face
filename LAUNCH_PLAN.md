@@ -81,6 +81,24 @@ This is the main growth flywheel.
 
 Paid social is only valuable if it feeds this loop rather than buying isolated subscribers.
 
+## Growth Quality Rule
+
+The launch goal is not just to maximize raw signup volume.
+
+The launch goal is to grow the biggest useful climbing audience possible without polluting the list with irrelevant comp-only subscribers.
+
+That means:
+
+- prizes should stay climbing-native
+- the comp should attract people who actually care about climbing
+- the referral loop should optimize for qualified growth, not just viral volume
+- "coming soon" market signups are still valuable signal when they come from real climbers in unexpected geographies
+- list cleaning should be thoughtful rather than overly aggressive, because quantity still matters for market proof and later monetisation
+
+The long-term asset is not just a newsletter list.
+
+It is a trusted, high-density database of indoor climbers with progressively richer profile data.
+
 ## Channel Roles
 
 ### 1. Launch And Field Marketing
@@ -181,12 +199,17 @@ We are building a list of people and brands who raise their hand early.
 
 Gyms matter early, but mainly as trust anchors, event sources, and distribution helpers.
 
+Gyms are not the first sponsor customer.
+
+The working thesis is that gyms should see PSF as a net positive for the scene and for attendance, not as a media seller trying to invoice them from day one.
+
 At launch, gym partnerships should emphasize:
 
 - fair inclusion
 - event submission and update flow
 - permission to share PSF materials
 - simple re-share asks
+- quid-pro-quo support where it helps both sides without turning gyms into the first paying sponsor lane
 
 This is more important right now than building a complicated partner tier model.
 
@@ -217,6 +240,28 @@ The broader five-lane architecture is directionally right, but for the current s
 - gym ambassador ideas should wait until later
 - paid social should wait until the message, offer, and landing flow are strong enough to deserve spend
 
+## Early Sponsorability Thesis
+
+The first real sponsor target is not gyms.
+
+The first real sponsor target is climbing-native brands, retailers, distributors, and service providers that can support the launch prize and perk pool.
+
+Early sponsorability should be treated as:
+
+- foundation support for a climbing-native community project
+- relevant product seeding and prize support
+- launch visibility and goodwill
+- a way to participate in the flywheel before full media scale is proven
+
+This means the most realistic early asks are:
+
+- giveaway product
+- vouchers or subscriber offers
+- street-team or supporter-pack product support
+- selective launch cash support only where it helps the comp or launch reach
+
+Longer-term paid sponsorship remains the higher-value lane once traction exists.
+
 ## Launch Assets
 
 The minimum promotion asset set for launch is:
@@ -225,9 +270,11 @@ The minimum promotion asset set for launch is:
 - one giveaway hook and rules summary
 - one QR flow for Ballina
 - one referral explanation and share prompt
+- one lightweight brand system that makes PSF feel worth sharing
 - one short organic content pack
 - one optional interest-capture step or form for ambassadors and sponsors
 - one gym re-share pack
+- one sponsor shortlist and first-pass outreach angle
 
 If an asset does not help one of those jobs, it is probably not launch-critical.
 

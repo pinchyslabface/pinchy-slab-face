@@ -40,6 +40,26 @@ Every record should be readable as a quick summary:
 - who is responsible?
 - what is blocking it?
 
+If a field does not help answer those questions, it should stay secondary.
+
+## Core Concepts
+
+The app should make the hierarchy obvious in plain English:
+
+```text
+Project
+  -> Milestone
+      -> Initiative
+          -> Task
+```
+
+Use short helper text so a new user can tell the difference:
+
+- milestone: the checkpoint we are trying to reach
+- initiative: the stream of work that helps reach it
+- task: the next concrete piece of work
+- backlog item: an idea that is not ready yet
+
 ## Core Tabs
 
 Keep these tabs as the baseline app shell:
@@ -84,6 +104,7 @@ Shows:
 Purpose:
 
 - show the active queue by status
+- make the next work easy to spot
 
 Shows:
 
@@ -112,31 +133,31 @@ Shows:
 
 Purpose:
 
-- show the active streams of work
+- show the active streams of work in plain English
 
 Shows:
 
 - initiative title
 - owner
-- status
-- health
-- progress
-- linked tasks
+- why it matters
+- what happens next
+- blockers
 - linked milestones
+- linked tasks when task tracking is in use
 
 ### Milestones
 
 Purpose:
 
-- show delivery checkpoints and target dates
+- show delivery checkpoints and what success looks like
 
 Shows:
 
 - milestone title
 - owner
-- target date
-- health
-- progress
+- what this means
+- why it matters
+- target date when useful
 - linked initiatives
 
 ### Project Status
@@ -158,7 +179,7 @@ Shows:
 
 Purpose:
 
-- show the ordered work breakdown
+- show the ordered task breakdown when the work is detailed enough to need it
 
 Shows:
 
@@ -220,6 +241,8 @@ That ingest prompt should include:
 - what is already decided
 - what is still open
 - the next question to answer
+- what a good outcome looks like
+- which doc should probably be updated next
 - any relevant repo docs
 
 Use this at the initiative level by default. Use it at milestone level only when the checkpoint is broad enough to need a bigger handoff.
@@ -252,6 +275,12 @@ What is still open:
 - ...
 
 What to do first:
+- ...
+
+Good outcome:
+- ...
+
+Update this next if a decision is made:
 - ...
 
 Repo docs:

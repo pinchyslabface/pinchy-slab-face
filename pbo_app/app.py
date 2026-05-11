@@ -3,8 +3,10 @@ from __future__ import annotations
 
 import argparse
 import json
+import signal
 import sys
 from pathlib import Path
+from wsgiref.simple_server import make_server
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
@@ -97,7 +99,15 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--port", type=int, default=5040)
     args = parser.parse_args()
-    app.run(host="127.0.0.1", port=args.port, debug=False)
+    httpd = make_server("127.0.0.1", args.port, app)
+
+    def shutdown_handler(signum, frame):  # type: ignore[unused-argument]
+        httpd.server_close()
+        raise SystemExit(0)
+
+    signal.signal(signal.SIGTERM, shutdown_handler)
+    signal.signal(signal.SIGINT, shutdown_handler)
+    httpd.serve_forever()
 
 
 if __name__ == "__main__":

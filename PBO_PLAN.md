@@ -49,6 +49,8 @@ PBO gives the project a lightweight way to:
 - keep the planning layer useful even if only one person updates it
 - write everything so a non-technical reader can follow it
 - use plain words first, then add detail only when needed
+- if a title sounds like framework language instead of normal English, rewrite it
+- if a work item is actionable, prefer a verb-led title
 
 ## What PBO Should Track
 
@@ -69,6 +71,38 @@ PBO gives the project a lightweight way to:
 - initiative-level ingest notes that let a fresh Codex chat continue the work quickly
 - domains, handles, email addresses, and brand-protection decisions should be tracked in `DOMAIN_AND_EMAIL_SETUP.md` rather than duplicated in the queue
 - AI-assisted social research workflow details should live in the tech and research docs, while PBO tracks the ranked next pass, owner, and blockers
+
+## Core Concepts
+
+PBO should use simple work shapes that a non-technical reader can understand quickly.
+
+Project
+
+- the whole PSF effort
+
+Milestone
+
+- a clear checkpoint the project is trying to reach
+- example: `Get ready to launch and send the first newsletter`
+
+Initiative
+
+- a bounded stream of work inside a milestone
+- example: `Plan the first launch push`
+
+Task
+
+- one concrete piece of work that someone can actually do next
+- example: `Write the Ballina QR card copy`
+
+Backlog item
+
+- an idea or note that is not ready to become active work yet
+
+Use the smallest shape that can hold the work cleanly.
+If it is one next action, it is usually a task.
+If it needs several related tasks, it is usually an initiative.
+If it is a bigger checkpoint across several initiatives, it is usually a milestone.
 
 ## Initial PBO Population
 
@@ -107,6 +141,15 @@ The useful behavior we want from the PSF planning layer is:
 If a future tool is built around PBO, this is the interface it should support.
 For the current repo, the readable version of that interface lives in `PBO_DASHBOARD.md`.
 The app-shaped version lives in `PBO_APP_SPEC.md`.
+
+Plain-English reading rule:
+
+- the board is for active items and sequencing
+- initiatives are for active workstreams
+- milestones are for delivery checkpoints
+- WBS is for the ordered task-level breakdown
+- project status is for the current snapshot
+- backlog is for parked ideas
 
 ## Preferred Views
 
@@ -189,6 +232,7 @@ The team is just Josiah and Mike, so lane ownership should stay simple.
 - master strategy
 - tech stack and workflow
 - content and editorial structure
+- event intelligence and weekly send tooling
 - marketing and launch
 - sponsorships and monetisation
 - domains and account setup
@@ -285,6 +329,8 @@ It should tell the next chat:
 - what has already been decided
 - what is still open
 - what to look at first
+- what a good outcome looks like
+- which doc should probably be updated next
 
 Do not make this overly technical. Josiah should be able to understand it without translation.
 Prefer a copy button plus a visible packet over hidden metadata.
@@ -311,6 +357,12 @@ What is still open:
 - ...
 
 What to do first:
+- ...
+
+Good outcome:
+- ...
+
+Update this next if a decision is made:
 - ...
 
 Repo docs:
@@ -438,6 +490,17 @@ For most real work, use this order:
 5. come back to the orchestration chat when the queue or milestone order needs to change
 
 That keeps the plan stable without making every chat into a PBO session.
+
+## Plain-English Quality Check
+
+Before saving a milestone, initiative, task, or handoff:
+
+1. would Josiah understand the title without translation?
+2. does it say what the work actually is?
+3. if it is actionable, does the title sound like a thing someone can do?
+4. does the note say what should happen next?
+
+If not, simplify it before saving it.
 
 ## Practical Rule
 
