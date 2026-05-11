@@ -34,6 +34,15 @@ The project is still centered on:
 - manual plus semi-manual curation
 - city-first audience growth
 
+Immediate pivot:
+
+- use the Ballina trip as a soft MVP launch
+- prioritize flyers or cards with a QR code
+- send the QR to a Beehiiv landing page
+- bias the landing page toward the state team cohort
+- keep the public promise broader than state teams and say PSF is coming soon
+- defer richer launch mechanics unless they are ready without slowing the QR signup path
+
 ## Project Snapshot
 
 - purpose: become the most trusted indoor climbing scene inbox and community layer
@@ -45,11 +54,11 @@ The project is still centered on:
 
 ### Top Priorities
 
-- stabilize the PBO foundation so the project has a clean weekly rhythm
-- complete Milestone 1: get ready to launch and send the first newsletter
-- keep the launch promo plan, signup flow, and first-send path explicit enough to execute
-- build the event tracking tooling lane far enough that weekly-send event discovery is repeatable and handoff-safe
-- turn the new sponsor research base into a usable launch sponsor shortlist and first outreach motion
+- get the Ballina soft launch assets ready this week
+- publish a Beehiiv landing page for QR signups
+- prepare the flyer or card copy and QR code
+- set up the coming-soon welcome email
+- review signup signal after Ballina before expanding the launch loop
 
 ### Blocked
 
@@ -66,9 +75,9 @@ The project is still centered on:
 - tech: use the launch-ready minimum in `TECH_ROUTE.md` and wire the intake -> review -> send loop to the weekly workflow
 - content: shape the first repeatable newsletter cadence without overcomplicating it
 - event intelligence: use `initiative_handoffs/event-tracking-tooling.md` to build the source snapshot and validation path for weekly-send events
-- marketing: use Ballina and QR signup as the first growth sequence, without treating Ballina as the default first newsletter market
-- launch ops: get the signup flow, launch assets, and first-send path ready for real use
-- sponsorships: use the sponsor database to build the first product-support and giveaway-support outreach motion without treating gyms as the first paying sponsor lane
+- marketing: make the Ballina flyer, QR, and Beehiiv page the first growth sequence, without treating Ballina as the default first newsletter market
+- launch ops: get the Beehiiv landing page, QR code, flyer/card, and welcome email ready for real use
+- sponsorships: pause heavy sponsor packaging until the soft launch path is live; use sponsor support only if it does not delay the QR signup path
 - domains: keep the completed domain and Fastmail setup documented, then finish social handle reservations, Beehiiv custom-domain wiring, and any later .au or reserve-domain decisions
 
 ### Decisions Made
@@ -123,7 +132,7 @@ The project is still centered on:
 - status: now
 - owner: Mike
 - why this matters: the project needs a clear path from today into first signups, first issue, and first learnings
-- next action: turn Ballina, the active-market assumption, and the launch-era promotion system into a simple sequence of work, with the comp and core referral mechanic in place before launch, optional ambassador and sponsor-interest capture live early, and paid testing held back
+- next action: turn Ballina into a soft launch sequence: Beehiiv landing page, state-team-cohort copy, QR flyer/card, welcome email, and post-trip signup review; keep comp, referral, and sponsor mechanics optional unless they are ready immediately
 - blockers: none
 - dependencies: roadmap, launch, and strategy docs
 
@@ -162,7 +171,7 @@ The project is still centered on:
 - status: next
 - owner: Mike
 - why this matters: the project needs a real-world path to list growth, not just a product concept
-- next action: make the QR flow, comp mechanic, referral prompt, optional second-step profile capture, gym re-share pack, brand system, and launch messaging simple enough to execute while protecting list quality
+- next action: make the QR flow, Beehiiv page, flyer copy, and welcome email simple enough to execute before Ballina while protecting list quality
 - blockers: none
 - dependencies: launch plan, first-market sequence, and first-send path
 

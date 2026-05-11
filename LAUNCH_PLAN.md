@@ -6,6 +6,32 @@ Ballina at Youth Nationals in mid-May is the first public launch moment.
 
 This is a launch marketing moment rather than the default first newsletter market.
 
+## Immediate Soft Launch Pivot
+
+Because the Ballina trip is now close, the launch should be cut down to the simplest credible version:
+
+- flyer or card with QR code
+- Beehiiv landing page for signups
+- state-team-cohort messaging for the QR path
+- general PSF "coming soon" positioning
+- welcome email that confirms what people joined and what happens next
+- manual review of signup signal after the trip
+
+This means the first Ballina goal is not to prove the whole newsletter operation.
+
+The first Ballina goal is to collect qualified early subscribers from real climbing families, athletes, coaches, and supporters, then learn which state and role segments show the strongest pull.
+
+For this soft launch, defer anything that slows down the QR-to-signup path:
+
+- full custom website
+- full event database flow
+- complex referral rewards
+- sponsor package polish
+- paid social tests
+- broad gym partner materials
+
+Keep the comp or giveaway optional. If it is not ready quickly, do not let it block the flyer and landing page.
+
 The working assumption is:
 
 - use Ballina to drive signups and early signal
@@ -15,6 +41,12 @@ The working assumption is:
 ## Goal
 
 Use the event to convert real-world interest into email signups quickly.
+
+For the soft launch, the signup path should answer only three questions:
+
+- what is PSF?
+- why should this person join now?
+- what will happen after they join?
 
 ## Promotion System
 
@@ -41,13 +73,15 @@ These lanes are not equally urgent right now.
 For launch readiness, the working order is:
 
 1. launch and field marketing
-2. comp and giveaway setup
-3. signup clarity and referral basics
-4. organic social and community proof
-5. lightweight ambassador and sponsor-interest capture
-6. gym re-share support
-7. paid social testing
-8. broader ambassador or gym ambassador programs later
+2. Beehiiv signup clarity
+3. QR flyer/card production
+4. welcome email and post-signup confirmation
+5. lightweight ambassador, team, or sponsor-interest capture
+6. comp, giveaway, or referral basics if ready
+7. organic social and community proof
+8. gym re-share support
+9. paid social testing
+10. broader ambassador or gym ambassador programs later
 
 This keeps PSF focused on the channels that match the current stage:
 
@@ -113,6 +147,15 @@ Core mechanics:
 - on-site CTA and giveaway hook
 - simple city-aware signup flow
 - clear explanation of what people get and when
+
+Soft launch version:
+
+- one QR destination
+- one flyer/card design
+- one short handout script
+- one Beehiiv signup page
+- one welcome email
+- one manual export/review after Ballina
 
 ### 2. Comp And Giveaway Engine
 

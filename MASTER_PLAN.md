@@ -132,6 +132,17 @@ The first real launch moment is Ballina at Youth Nationals in mid-May.
 
 This is a launch marketing moment, not necessarily the first full newsletter market.
 
+Because the Ballina trip is now close, the immediate launch mode is a soft MVP:
+
+- flyers or cards handed out in person
+- QR code to a Beehiiv landing page
+- state-team-cohort copy for the QR path
+- broader PSF "coming soon" value proposition
+- email signup and simple welcome flow
+- post-trip review of signup signal
+
+This soft MVP should take priority over richer launch mechanics that are not ready yet.
+
 Melbourne remains the most likely first market for the actual newsletter send, while the wider multi-city structure stays in place from day one.
 
 Launch mechanics:
@@ -140,6 +151,11 @@ Launch mechanics:
 - on-site signup
 - comp or giveaway
 - sponsor support for the giveaway
+
+Soft launch rule:
+
+- the QR flyer and Beehiiv signup path are the must-have pieces
+- the comp, referral loop, sponsor support, and fuller partner materials are useful only if they can be added without delaying the signup path
 
 Launch-era promotion priority:
 

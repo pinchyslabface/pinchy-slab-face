@@ -59,6 +59,22 @@ For project management, the current working model is:
 
 The email list is the main asset. The website and richer database are supporting tools, not the first product.
 
+## Current Pivot
+
+Because the Ballina trip is this week, PSF is now cutting the first public moment down to a soft MVP launch:
+
+- flyer or card handouts
+- QR code to Beehiiv
+- state-team-cohort landing page copy
+- broader PSF "coming soon" value proposition
+- minimal signup fields
+- welcome email
+- manual review of signup signal after the trip
+
+This replaces the fuller launch loop as the immediate focus.
+
+The comp, referral loop, sponsor packaging, gym partner pack, paid social, and custom web work are still useful, but they should not block the Ballina QR signup path.
+
 ## Decisions Already Made
 
 - Start with content-first distribution, not a full platform
@@ -71,14 +87,13 @@ The email list is the main asset. The website and richer database are supporting
 
 ## Recommended Immediate Focus
 
-1. Pressure-test Milestone 1: get ready to launch and send the first newsletter
-2. Use the Milestone 1 review checklist in `PBO_INITIAL_INGEST.md` to spot gaps in launch, promo, signup, send, and review readiness
-3. Use `SOCIAL_HANDLE_PLAN.md` to secure the Tier 1 public handles and the first research handles so brand protection and event discovery accounts are no longer loose ends
-4. Use `initiative_handoffs/basic-tech-setup-working.md` to pick up the tech lane, with its split between parked step-by-step tasks and clarify-first initiatives
-5. Use `initiative_handoffs/first-market-and-signup-flow.md` to pick up the market and signup lane, or `initiative_handoffs/launch-promotion-system.md` to turn the launch promotion system into execution work
-6. Use `initiative_handoffs/event-tracking-tooling.md` to continue the event intelligence tooling lane if the next focus is finding, validating, parsing, and exporting events for weekly sends
-7. Use the sponsor research docs to turn the growing sponsor database into a first-wave launch-support shortlist and outreach motion
-8. Refine from real use instead of adding more planning layers
+1. Create the Beehiiv Ballina soft launch landing page
+2. Lock the QR flyer/card copy and print-ready asset
+3. Set the QR URL with clear source tracking where practical
+4. Prepare the coming-soon welcome email
+5. Use `initiative_handoffs/first-market-and-signup-flow.md` if a fresh chat needs to continue the signup path
+6. After Ballina, review signups by source, state, and role before deciding the next market and first-send priority
+7. Refine from real use instead of adding more planning layers
 
 ## Assumptions
 

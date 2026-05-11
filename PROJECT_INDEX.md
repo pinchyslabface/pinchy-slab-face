@@ -35,6 +35,7 @@ This page is the quick map for the PSF repo.
 - [`ROADMAP.md`](./ROADMAP.md) - now / next / later plan
 - [`BACKLOG.md`](./BACKLOG.md) - parked ideas
 - [`LAUNCH_PLAN.md`](./LAUNCH_PLAN.md) - Ballina launch moment and signup mechanics
+- [`BALLINA_SOFT_LAUNCH_PLAN.md`](./BALLINA_SOFT_LAUNCH_PLAN.md) - immediate flyer, QR, Beehiiv landing page, and welcome-email checklist
 - [`PBO_PLAN.md`](./PBO_PLAN.md) - project management and orchestration
 
 ## Tech Docs

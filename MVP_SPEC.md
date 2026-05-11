@@ -48,6 +48,12 @@ Launch tactic:
 - enable city-specific signups and "coming soon" availability for other cities
 - treat Ballina as the first live launch moment rather than the full market definition
 
+Soft launch adjustment:
+
+- Ballina can use one state-team-cohort QR path even if the first full newsletter market is still undecided
+- the page should say PSF is coming soon rather than pretending the full weekly product is already live
+- signup signal from Ballina should help decide which state, city, and role groups deserve the next push
+
 ## Core Product
 
 The MVP is not a website.
@@ -64,6 +70,11 @@ The MVP is:
 Simple version:
 
 - never miss what’s on in local climbing
+
+Soft launch version:
+
+- the indoor climbing scene email for comps, gyms, events, and community updates
+- coming soon
 
 ## First Newsletter Format
 
@@ -93,6 +104,17 @@ Optional recurring content to test later:
 5. Optional second step: user shares extra profile data such as home city, climbing level, interests, and whether they want to hear about ambassador, street team, or sponsor opportunities.
 6. User gets a welcome email.
 7. User receives the first weekly issue.
+
+Ballina minimum:
+
+1. User scans the QR code on a flyer or card.
+2. User lands on a Beehiiv page.
+3. User enters email.
+4. User optionally selects home state or role if those fields are ready.
+5. User gets a "you're in" confirmation.
+6. User receives a coming-soon welcome email.
+
+The Ballina version does not need referral rewards, custom website pages, or a full profile capture before the trip.
 
 ## Welcome Email
 
@@ -197,6 +219,14 @@ Good early signals:
 - gyms are willing to reshare
 - some people raise their hand for deeper involvement
 - the weekly workflow feels repeatable
+
+Ballina soft launch signals:
+
+- QR scans turn into email signups
+- state-team families and supporters understand the pitch quickly
+- enough people identify their state or role to guide the next market decision
+- people reply to the welcome email or offer event tips
+- the team can explain PSF in one sentence without reworking the concept on the spot
 
 ## Operating Rule
 
