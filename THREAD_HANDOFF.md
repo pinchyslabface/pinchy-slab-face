@@ -87,13 +87,14 @@ The comp, referral loop, sponsor packaging, gym partner pack, paid social, and c
 
 ## Recommended Immediate Focus
 
-1. Create the Beehiiv Ballina soft launch landing page
-2. Lock the QR flyer/card copy and print-ready asset
-3. Set the QR URL with clear source tracking where practical
-4. Prepare the coming-soon welcome email
-5. Use `initiative_handoffs/first-market-and-signup-flow.md` if a fresh chat needs to continue the signup path
-6. After Ballina, review signups by source, state, and role before deciding the next market and first-send priority
-7. Refine from real use instead of adding more planning layers
+1. Josiah creates the Beehiiv Ballina soft launch landing page
+2. Josiah sets the signup form, confirmation message, and coming-soon welcome email
+3. Josiah sends Mike the final landing page URL
+4. Mike locks the QR flyer/card copy and print-ready asset
+5. Mike generates the QR URL with clear source tracking where practical
+6. Use `initiative_handoffs/first-market-and-signup-flow.md` if a fresh chat needs to continue the signup path
+7. After Ballina, review signups by source, state, and role before deciding the next market and first-send priority
+8. Refine from real use instead of adding more planning layers
 
 ## Assumptions
 

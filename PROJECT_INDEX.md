@@ -32,6 +32,7 @@ This page is the quick map for the PSF repo.
 - [`MVP_SPEC.md`](./MVP_SPEC.md) - product definition and MVP shape
 - [`POSITIONING.md`](./POSITIONING.md) - public promise, internal goal, and content hierarchy
 - [`EMAIL_LIST_PLAN.md`](./EMAIL_LIST_PLAN.md) - audience and list strategy
+- [`UTM_CONVENTIONS.md`](./UTM_CONVENTIONS.md) - tracking rules for signup links, QR codes, social, ads, posters, flyers, and partners
 - [`ROADMAP.md`](./ROADMAP.md) - now / next / later plan
 - [`BACKLOG.md`](./BACKLOG.md) - parked ideas
 - [`LAUNCH_PLAN.md`](./LAUNCH_PLAN.md) - Ballina launch moment and signup mechanics

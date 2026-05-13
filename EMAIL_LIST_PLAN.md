@@ -55,13 +55,13 @@ This page should be biased to the state team cohort, but it should not make PSF 
 
 Working promise:
 
-- "The indoor climbing scene email for comps, gyms, events, and community updates. Coming soon."
+- "Pinchy Slab Face is coming soon. Everything indoor climbing. Every week. Every comp. Every reset. Every event worth knowing about."
 
 State-team-cohort angle:
 
 - stay in the loop across the climbing scene
 - hear when the first PSF emails go live
-- help shape what climbers, parents, coaches, and supporters want from the newsletter
+- get first access to planned climbing giveaways, perks, and free stuff
 
 Minimum signup fields:
 

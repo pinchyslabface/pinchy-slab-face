@@ -6,9 +6,34 @@ Use Ballina as a soft MVP launch, not a full product launch.
 
 The immediate goal is to collect qualified early subscribers from the Youth Nationals / state team cohort and learn where the strongest next signal is.
 
+## Owner Split
+
+Josiah owns:
+
+- Beehiiv landing page setup
+- Beehiiv signup form fields
+- Beehiiv confirmation message
+- Beehiiv welcome email draft or automation
+- final landing page URL for the QR code
+
+Mike owns:
+
+- final flyer or card copy
+- QR code generation once Josiah provides the URL
+- print-ready flyer/card asset
+- post-trip signup review and project docs
+
+Shared decision:
+
+- whether to include optional state and role fields on the first form or collect them after signup
+
 ## Must-Have Assets
 
 ### 1. Beehiiv Landing Page
+
+Owner:
+
+- Josiah
 
 Purpose:
 
@@ -20,13 +45,23 @@ Working headline:
 
 - Pinchy Slab Face is coming soon
 
-Working subhead:
+Working lead line:
 
-- The indoor climbing scene email for comps, gyms, events, and community updates.
+- Everything indoor climbing. Every week.
+
+Supporting copy:
+
+- Every comp. Every reset. Every event worth knowing about.
+- The who's who and what's what of your local climbing scene, straight to your inbox.
+- Plus: we're working on climbing giveaways, perks, and free stuff for early subscribers.
+
+Button:
+
+- Get on the list
 
 State-team-cohort angle:
 
-- Join early and help shape what climbers, parents, coaches, and supporters want from PSF.
+- The comp-heavy copy should feel especially relevant to climbers, parents, coaches, and supporters at Ballina, while still keeping PSF broad enough for the wider indoor climbing scene.
 
 Required field:
 
@@ -41,7 +76,19 @@ Confirmation message:
 
 - You're in. We'll send a short welcome note and let you know when PSF goes live.
 
+Setup notes for Josiah:
+
+- keep the page to one clear pitch and one signup action
+- use the broader PSF coming-soon promise, not a state-team-only promise
+- if custom fields are slow to configure, launch with email only
+- send Mike the final live URL before QR generation
+- test the page on phone before the QR is printed
+
 ### 2. QR Flyer Or Card
+
+Owner:
+
+- Mike, after Josiah provides the landing page URL
 
 Purpose:
 
@@ -51,9 +98,9 @@ Purpose:
 Front copy:
 
 - Pinchy Slab Face
-- Indoor climbing news, comps, events, and community updates.
-- Coming soon.
-- Scan to join early.
+- Everything indoor climbing. Every week.
+- Every comp. Every reset. Every event worth knowing about.
+- Scan to get on the list.
 
 Optional small line:
 
@@ -62,9 +109,14 @@ Optional small line:
 Back or footer:
 
 - First emails coming soon.
-- Join early and help shape what PSF covers.
+- Climbing giveaways, perks, and free stuff for early subscribers are in the works.
 
 ### 3. Welcome Email
+
+Owner:
+
+- Josiah drafts in Beehiiv
+- Mike can review copy if needed
 
 Subject:
 

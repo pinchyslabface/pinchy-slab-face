@@ -1,7 +1,7 @@
 export function PsfTabs() {
   return (
     <nav aria-label="PSF dashboard tabs">
-      <a href="/">Dashboard</a>
+      <a href="/dashboard">Dashboard</a>
       <a href="/board">Board</a>
       <a href="/backlog">Backlog</a>
       <a href="/initiatives">Initiatives</a>

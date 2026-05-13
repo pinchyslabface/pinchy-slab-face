@@ -55,7 +55,7 @@ Immediate pivot:
 ### Top Priorities
 
 - get the Ballina soft launch assets ready this week
-- publish a Beehiiv landing page for QR signups
+- Josiah publishes a Beehiiv landing page for QR signups
 - prepare the flyer or card copy and QR code
 - set up the coming-soon welcome email
 - review signup signal after Ballina before expanding the launch loop
@@ -76,7 +76,7 @@ Immediate pivot:
 - content: shape the first repeatable newsletter cadence without overcomplicating it
 - event intelligence: use `initiative_handoffs/event-tracking-tooling.md` to build the source snapshot and validation path for weekly-send events
 - marketing: make the Ballina flyer, QR, and Beehiiv page the first growth sequence, without treating Ballina as the default first newsletter market
-- launch ops: get the Beehiiv landing page, QR code, flyer/card, and welcome email ready for real use
+- launch ops: Josiah owns the Beehiiv landing page and welcome email setup; Mike owns the flyer/card, QR generation, and post-trip review
 - sponsorships: pause heavy sponsor packaging until the soft launch path is live; use sponsor support only if it does not delay the QR signup path
 - domains: keep the completed domain and Fastmail setup documented, then finish social handle reservations, Beehiiv custom-domain wiring, and any later .au or reserve-domain decisions
 
@@ -132,7 +132,7 @@ Immediate pivot:
 - status: now
 - owner: Mike
 - why this matters: the project needs a clear path from today into first signups, first issue, and first learnings
-- next action: turn Ballina into a soft launch sequence: Beehiiv landing page, state-team-cohort copy, QR flyer/card, welcome email, and post-trip signup review; keep comp, referral, and sponsor mechanics optional unless they are ready immediately
+- next action: coordinate the Ballina soft launch sequence: Josiah sets up the Beehiiv landing page, signup fields, confirmation, and welcome email; Mike prepares the QR flyer/card and post-trip signup review
 - blockers: none
 - dependencies: roadmap, launch, and strategy docs
 
@@ -169,9 +169,9 @@ Immediate pivot:
 ### 8. Promotion and signup mechanics
 
 - status: next
-- owner: Mike
+- owner: Mike and Josiah
 - why this matters: the project needs a real-world path to list growth, not just a product concept
-- next action: make the QR flow, Beehiiv page, flyer copy, and welcome email simple enough to execute before Ballina while protecting list quality
+- next action: Josiah gets the Beehiiv page live and sends Mike the final URL; Mike turns that URL into the QR flyer/card and keeps the handout copy simple
 - blockers: none
 - dependencies: launch plan, first-market sequence, and first-send path
 

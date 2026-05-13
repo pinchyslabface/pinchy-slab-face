@@ -186,6 +186,82 @@ For now, the main goal is simply to know these exist and note where they may mat
 7. Learn what automations can do.
 8. Learn the basics of API and webhooks only after the above makes sense.
 
+## Ballina Soft Launch Setup
+
+Josiah owns the Beehiiv setup for the Ballina QR path.
+
+The goal is to get one simple landing page live before the trip.
+
+### Page Job
+
+- collect early signups
+- explain PSF as a coming-soon indoor climbing scene email
+- speak naturally to climbers, parents, coaches, and supporters from the state team / Youth Nationals context
+- give Mike one final URL for QR generation
+
+### Recommended Page Copy
+
+Headline:
+
+- Pinchy Slab Face is coming soon
+
+Lead line:
+
+- Everything indoor climbing. Every week.
+
+Body:
+
+- Every comp. Every reset. Every event worth knowing about.
+- The who's who and what's what of your local climbing scene, straight to your inbox.
+- Plus: we're working on climbing giveaways, perks, and free stuff for early subscribers.
+
+Button:
+
+- Get on the list
+
+Confirmation:
+
+- You're in. We'll send a short welcome note and let you know when PSF goes live.
+
+### Signup Fields
+
+Required:
+
+- email
+
+Optional if fast:
+
+- home state or region
+- role: climber, parent, coach, setter, gym, brand, supporter
+
+If optional fields slow setup down, launch with email only and ask for the extra context in the welcome email.
+
+### Welcome Email
+
+Subject:
+
+- You're on the Pinchy Slab Face list
+
+Body should:
+
+- thank them for joining
+- say PSF is coming soon
+- explain that it will cover indoor climbing comps, gyms, events, and community updates
+- ask them to reply with what would make the email useful
+- mention that early Ballina signups will help shape the first version
+
+Reply prompt:
+
+- What would make this email genuinely useful for you or your climber?
+
+### Done Looks Like
+
+- landing page is live
+- signup works on a phone
+- confirmation message is correct
+- welcome email is ready or manually sendable
+- final URL is sent to Mike for QR generation
+
 ## Good Output From Josiah
 
 A very useful outcome would be for Josiah to produce short notes answering:

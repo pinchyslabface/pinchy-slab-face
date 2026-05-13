@@ -73,8 +73,10 @@ Simple version:
 
 Soft launch version:
 
-- the indoor climbing scene email for comps, gyms, events, and community updates
-- coming soon
+- Pinchy Slab Face is coming soon
+- everything indoor climbing, every week
+- every comp, every reset, every event worth knowing about
+- the who's who and what's what of your local climbing scene, straight to your inbox
 
 ## First Newsletter Format
 
